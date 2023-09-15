@@ -33,7 +33,7 @@ server:
 # 日志配置
 logging:
   level:
-    com.hk: debug
+    com.example.lyc.springboot.demo: debug
     org.springframework: warn
     io.swagger: debug
     org.springdoc: debug
