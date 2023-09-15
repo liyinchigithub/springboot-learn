@@ -54,3 +54,11 @@ lyc.springboot.demo
 ├── lyc-springboot-demo-data-jpa -- Spring Boot Data JPA
 ├── lyc-springboot-demo-data-ldap -- Spring Boot Data LDAP
 ├── lyc-springboot-demo-data-mongodb -- Spring Boot Data MongoDB
+
+
+# 常用命令
+mvn clean package -Dmaven.test.skip=true
+mvn clean package -Dmaven.test.skip=true -Pprod
+mvn clean package -Dmaven.test.skip=true -Pdev
+mvn clean package -Dmaven.test.skip=true -Ptest
+mvn clean install
