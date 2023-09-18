@@ -3,7 +3,6 @@ package com.example.lyc.springboot.demo.commons.api;
 public class JsonResult<T> {
     private T data;// 返回数据
     private String code;//  状态码
-    private String url;// 跳转地址
     private String msg;//提示信息
 
     /**

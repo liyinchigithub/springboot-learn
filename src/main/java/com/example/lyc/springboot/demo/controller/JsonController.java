@@ -17,7 +17,7 @@ import java.util.Map;
 @Slf4j
 @RestController
 @RequestMapping("/v1")
-@Schema(name="", description="")
+@Schema(name="JsonController", description="JsonController")
 @Tag(name = "JsonController tags")
 public class JsonController {
     @Value("${microservice.url.orderUrl}")
