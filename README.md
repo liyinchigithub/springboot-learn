@@ -1,4 +1,4 @@
-#   lyc.springboot.demo
+# lyc.springboot.demo
 
 ## 项目介绍
 
@@ -36,29 +36,118 @@ SpringBoot学习项目
 
 ## 项目分层
 
+* common
+* service
+* controller
+* dao
+* mapper
+* entity
+* dto
+* service
+* config
+* utils
+* exception
+* listener
+* constant
+* api
+
+## 项目依赖
+pom.xml
+
+
+
+## 项目启动
+
+
+
+### 开发模式启动项目
+
+```bash
+mvn spring-boot:run
+```
+
+###  打jar包
+
+```bash
+mvn clean package -Dmaven.test.skip=true
+```
+
+生成jar包在target目录下
+>target/lyc.springboot.demo-0.0.1-SNAPSHOT.jar
+
+
+### 打包运行
+
+```bash
+java -jar lyc.springboot.demo.jar
+```
+
 
 
 ## 项目结构
 
-
 ```
 lyc.springboot.demo
-├── lyc-springboot-demo-actuator -- Spring Boot Actuator
-├── lyc-springboot-demo-admin -- Spring Boot Admin
-├── lyc-springboot-demo-aop -- Spring Boot AOP
-├── lyc-springboot-demo-cache -- Spring Boot Cache
-├── lyc-springboot-demo-data-cassandra -- Spring Boot Data Cassandra
-├── lyc-springboot-demo-data-couchbase -- Spring Boot Data Couchbase
-├── lyc-springboot-demo-data-elasticsearch -- Spring Boot Data Elasticsearch
-├── lyc-springboot-demo-data-jdbc -- Spring Boot Data JDBC
-├── lyc-springboot-demo-data-jpa -- Spring Boot Data JPA
-├── lyc-springboot-demo-data-ldap -- Spring Boot Data LDAP
-├── lyc-springboot-demo-data-mongodb -- Spring Boot Data MongoDB
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── lyc
+│   │   │           └── springboot
+│   │           └── demo
+│   │               └── common
+│   │                   └── api
+│   │                   └── config
+│   │                   └── constant
+│   │                   └── exception
+│   │                   └── utils
+│   │               └── config
+│   │               └── controller
+│   │               └── dao
+│   │               └── dto
+│   │               └── entity
+│   │               └── mapper
+│   │               └── service
+│   │               └── service.impl
+│   │   └── resources
+│   │       └── application.yml
+│   └── test
+│       └── java
+│           └── com
+│               └── lyc
+│                   └── springboot
+│                       └── demo
+│                           └── LycApplicationTests.java
+└── README.md
 
+```
 
 # 常用命令
+
+```
 mvn clean package -Dmaven.test.skip=true
-mvn clean package -Dmaven.test.skip=true -Pprod
-mvn clean package -Dmaven.test.skip=true -Pdev
-mvn clean package -Dmaven.test.skip=true -Ptest
 mvn clean install
+
+
+# 切换环境
+
+>src/main/resources/application.yml
+
+```yaml
+# 开发环境
+spring:
+  profiles:
+    active:
+      - dev
+
+# 产线环境
+spring:
+  profiles:
+    active:
+      - prod
+```   
+
+# swagger
+
+http://localhost:8088/swagger-ui.html

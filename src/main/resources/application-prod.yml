@@ -1,14 +1,6 @@
-# 项目
+
 app:
   id: platform
-  name: 平台项目
-  version: 1.0.0
-
-  # 指定环境
-spring:
-  profiles:
-    active:
-      - dev
 apollo:
   # 就是apollo config server的地址
   meta: http://meta.apollo.xxx.cn
@@ -23,7 +15,7 @@ apollo:
 # 开发环境配置
 server:
   # 服务器的HTTP端口，默认为80
-  port: 8088
+  port: 8888
   servlet:
     # 应用的访问路径
     context-path: /

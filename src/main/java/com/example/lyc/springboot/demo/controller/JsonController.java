@@ -2,12 +2,13 @@ package com.example.lyc.springboot.demo.controller;
 
 import com.example.lyc.springboot.demo.config.MicroServiceUrl;
 import com.example.lyc.springboot.demo.entity.User;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Value;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,6 +17,8 @@ import java.util.Map;
 @Slf4j
 @RestController
 @RequestMapping("/v1")
+@Schema(name="", description="")
+@Tag(name = "JsonController tags")
 public class JsonController {
     @Value("${microservice.url.orderUrl}")
     String orderUrl;// orderUrl变量值 就是application.yml的url.orderUrl值
@@ -24,9 +27,9 @@ public class JsonController {
     @Autowired
     MicroServiceUrl MicroServiceUrl; // 注入配置类
 
-
     @GetMapping("/user")
     @ResponseBody
+    @Operation(summary = "获取用户信息", description = "获取用户信息")
     public User getUser() {
         user.setId(1);
         user.setUserName("李银池");
@@ -37,8 +40,15 @@ public class JsonController {
         return user;
     }
 
+    /***
+     * @Description: list
+     * @Author: liyinchi
+     * @Date: 2023/9/18 11:17
+     * @return map
+     */
     @GetMapping("/list")
     @ResponseBody
+    @Operation(summary = "获取用户列表", description = "获取用户列表")
     public List<User> getUserList() {
         List<User> userList = new ArrayList<>();
         User user1 = new User(1, "李银池", "123456");
@@ -51,8 +61,15 @@ public class JsonController {
         return userList;
     }
 
+    /***
+     * @Description: map
+     * @Author: liyinchi
+     * @Date: 2023/9/18 11:17
+     * @return map
+     */
     @GetMapping("/map")
     @ResponseBody
+    @Operation(summary = "获取用户信息", description = "获取用户信息")
     public Map<String, Object> getMap() {
         Map<String, Object> map = new HashMap<>(3);
         User user = new User(1, "李银池", "123456");
@@ -66,8 +83,15 @@ public class JsonController {
         return map;
     }
 
+    /***
+     * @Description: 读取application.yml配置文件参数
+     * @Author: liyinchi
+     * @Date: 2023/9/18 11:17
+     * @return map
+     */
     @GetMapping("/getYMLConfig")
     @ResponseBody
+    @Operation(summary = "获取配置文件参数", description = "获取配置文件参数")
     public Map<String,Object> getYMLConfig() {
         Map<String,Object> orderUrlList = new HashMap();
         orderUrlList.put("microservice url orderUrl",orderUrl);
@@ -75,8 +99,15 @@ public class JsonController {
         return orderUrlList;
     }
 
+    /***
+     * @Description: 读取application.yml配置文件参数
+     * @Author: liyinchi
+     * @Date: 2023/9/18 11:17
+     * @return map
+     */
     @GetMapping("/getYMLConfigClass")
     @ResponseBody
+    @Operation(summary = "获取配置文件参数", description = "获取配置文件参数")
     public Map<String,Object> getYMLConfigClass() {
         Map<String,Object> orderUrlList = new HashMap();
         orderUrlList.put("orderUrl",MicroServiceUrl.getOrderUrl());
@@ -86,5 +117,19 @@ public class JsonController {
         return orderUrlList;
     }
 
+    /***
+     * @Description: 获取请求体
+     * @Date: 20239/18 14:00
+     * @param User user
+     * @return map
+     */
+    @PostMapping("/addUser")
+    @ResponseBody
+    @Operation(summary = "获取请求体", description = "获取请求体")
+    public Map<String,Object> getUser(@RequestBody @Parameter User user) { // 获取请求体
+        Map<String,Object> map = new HashMap();
+        map.put("user",user);
+        return map;
+    }
 
 }
