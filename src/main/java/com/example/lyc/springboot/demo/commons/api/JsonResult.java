@@ -1,9 +1,10 @@
 package com.example.lyc.springboot.demo.commons.api;
 
 public class JsonResult<T> {
-    private T data;
-    private String code;
-    private String msg;
+    private T data;// 返回数据
+    private String code;//  状态码
+    private String url;// 跳转地址
+    private String msg;//提示信息
 
     /**
      * 若没有数据返回，默认状态码为0，提示信息为：操作成功！

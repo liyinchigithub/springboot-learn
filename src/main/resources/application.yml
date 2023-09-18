@@ -30,6 +30,25 @@ server:
       # Tomcat启动初始化的线程数，默认值10
       min-spare: 100
 
+# 配置微服务的地址
+microservice:
+  url:
+    # 订单微服务的地址
+    orderUrl: http://localhost:8002
+    # 用户微服务的地址
+    userUrl: http://localhost:8001
+    # 支付微服务的地址
+    payUrl: http://localhost:8003
+    # 购物车微服务的地址
+    shoppingUrl: http://localhost:8004
+
+# 配置文件上传大小限制
+file:
+  maxSize: 1024MB
+# 配置文件上传路径
+filePath: /home/lyc/upload/
+
+
 # 日志配置
 logging:
   level:
