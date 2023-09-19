@@ -1,5 +1,8 @@
 package com.example.lyc.springboot.demo.commons.api;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class JsonResult<T> {
     private T data;// 返回数据
     private String code;//  状态码
