@@ -1,5 +1,11 @@
 # lyc.springboot.demo
 
+## 版本
+
+* jdk 17
+* Spring Boot 3.1.2
+* Mybatis plus 3.5.3.2
+
 ## 项目介绍
 
 SpringBoot学习项目
@@ -57,8 +63,6 @@ pom.xml
 
 
 ## 项目启动
-
-
 
 ### 开发模式启动项目
 
@@ -151,3 +155,55 @@ spring:
 # swagger
 
 http://localhost:8088/swagger-ui.html
+
+
+# 全局异常处理
+
+>com.lyc.springboot.demo.common.exception.GlobalExceptionHandler
+
+## 枚举异常处理
+>com.lyc.springboot.demo.common.exception.BusinesusinessMsgEnums
+
+## 处理所有不可知的异常
+>com.lyc.springboot.demo.common.exception.GlobalExceptionHandler
+
+## 处理空指针异常
+
+## 处理数组越界异常
+
+## 处理其他异常
+
+## 处理自定义异常
+
+# 全局返回结果处理
+
+>com.lyc.springboot.demo.common.config.ResultConfig
+
+## 处理成功返回结果
+
+
+## 处理失败返回结果
+
+
+# 统一日志处理
+
+>com.lyc.springboot.demo.common.config.LogAspect
+
+## 处理日志切面
+
+## 处理日志切面
+
+
+
+# 常见问题
+
+1.端口占用
+
+mac 查看进程占用
+```bash
+
+lsof -i:8088
+kill -s 9 进程号
+
+```
+

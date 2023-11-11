@@ -49,11 +49,12 @@ public class GlobalExceptionHandler {
      * @return
      */
     @ExceptionHandler(Exception.class)
-    @ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
+    //@ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
     public JsonResult handleUnexpectedServer(Exception ex) {
-        log.error("系统异常：", ex);
+        log.error("系统异常1111：", ex);
         return new JsonResult("500", "系统发生异常，请联系管理员");
     }
+
 
 
 }

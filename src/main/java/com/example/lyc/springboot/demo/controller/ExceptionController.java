@@ -6,10 +6,9 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.platform.commons.logging.Logger;
 import org.junit.platform.commons.logging.LoggerFactory;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import com.example.lyc.springboot.demo.exception.BusinessErrorException;
+import com.example.lyc.springboot.demo.exception.BusinessMsgEnum;
 
 @Slf4j
 @RestController
@@ -19,13 +18,30 @@ import org.springframework.web.bind.annotation.RestController;
 public class ExceptionController {
     private static final Logger logger = LoggerFactory.getLogger(ExceptionController.class);
 
-    @PostMapping("/test")
-    public JsonResult test(@RequestParam("userName") String userName,
-                           @RequestParam("password") String password) {
+    @PostMapping("/nullPointException")
+    public JsonResult test(@RequestBody String userName,
+                           @RequestBody String password) {
         // 日志
         log.info("name：{}", userName);
         log.info("pass：{}", password);
+        throw new NullPointerException("空指针异常");
+        //return new JsonResult();
+    }
+
+    @GetMapping("/business")
+    public JsonResult testException() {
+        try {
+            int i = 1 / 0;
+        } catch (Exception e) {
+            throw new BusinessErrorException(BusinessMsgEnum.UNEXPECTED_EXCEPTION);
+        }
         return new JsonResult();
     }
 
 }
+
+
+
+
+
+

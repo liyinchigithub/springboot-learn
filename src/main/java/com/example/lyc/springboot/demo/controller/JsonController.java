@@ -1,5 +1,6 @@
 package com.example.lyc.springboot.demo.controller;
 
+import com.example.lyc.springboot.demo.commons.api.JsonResult;
 import com.example.lyc.springboot.demo.config.MicroServiceUrl;
 import com.example.lyc.springboot.demo.entity.User;
 import io.swagger.v3.oas.annotations.Operation;
@@ -26,11 +27,14 @@ public class JsonController {
     private User user;// 注入
     @Autowired
     MicroServiceUrl MicroServiceUrl; // 注入配置类
+    @Autowired
+    JsonResult jsonResult; // 注入配置类
 
     @GetMapping("/user")
     @ResponseBody
     @Operation(summary = "获取用户信息", description = "获取用户信息")
     public User getUser() {
+        // TODO rom 查询数据库表
         user.setId(1);
         user.setUserName("李银池");
         user.setPassword("123456");
@@ -50,6 +54,7 @@ public class JsonController {
     @ResponseBody
     @Operation(summary = "获取用户列表", description = "获取用户列表")
     public List<User> getUserList() {
+        // TODO rom 查询数据库表
         List<User> userList = new ArrayList<>();
         User user1 = new User(1, "李银池", "123456");
         User user2 = new User(2, "王哈哈", "123456");
@@ -71,6 +76,7 @@ public class JsonController {
     @ResponseBody
     @Operation(summary = "获取用户信息", description = "获取用户信息")
     public Map<String, Object> getMap() {
+        // TODO rom 查询数据库表
         Map<String, Object> map = new HashMap<>(3);
         User user = new User(1, "李银池", "123456");
         map.put("作者信息", user);
@@ -96,7 +102,8 @@ public class JsonController {
         Map<String,Object> orderUrlList = new HashMap();
         orderUrlList.put("microservice url orderUrl",orderUrl);
         log.info("orderUrl:{}", orderUrl);
-        return orderUrlList;
+        // 返回
+        return (Map<String, Object>) new JsonResult(orderUrlList);
     }
 
     /***
@@ -119,14 +126,14 @@ public class JsonController {
 
     /***
      * @Description: 获取请求体
-     * @Date: 20239/18 14:00
-     * @param User user
+     * @Date: 2023/9/18 14:00
      * @return map
      */
     @PostMapping("/addUser")
     @ResponseBody
     @Operation(summary = "获取请求体", description = "获取请求体")
     public Map<String,Object> getUser(@RequestBody @Parameter User user) { // 获取请求体
+        // TODO rom 插入数据库表
         Map<String,Object> map = new HashMap();
         map.put("user",user);
         return map;
