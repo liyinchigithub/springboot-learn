@@ -55,7 +55,9 @@ SpringBoot学习项目
 * exception
 * listener
 * constant
-* api
+* api、
+
+User实体类 -> UserController -> UserService -> UserServiceImpl -> UserMapper -> UserMapper.xml
 
 ## 项目依赖
 pom.xml
