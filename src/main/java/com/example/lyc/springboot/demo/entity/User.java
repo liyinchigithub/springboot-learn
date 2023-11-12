@@ -20,6 +20,6 @@ public class User {
     @Schema(name = "password", description = "密码")
     private String password;
 
-    /* 省略get、set和带参构造方法 */
+    /* 省略get、set和带参构造方法、无参构造函数 */
 
 }
