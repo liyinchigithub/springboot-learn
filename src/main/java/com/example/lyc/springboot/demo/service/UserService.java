@@ -1,38 +1,21 @@
 package com.example.lyc.springboot.demo.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import com.example.lyc.springboot.demo.entity.User;
-import com.example.lyc.springboot.demo.mapper.UserMapper;
 
 import java.util.List;
 
 /**
- *  用户服务
- *  即在Service层中，调用数据对象UserMapper中的方法，实现对数据库的操作
- *  **/
-@Service
-public class UserService {
-    @Autowired
-    private UserMapper userMapper;
+ * 服务接口，定义了业务方法
+ * UserService是一个服务接口，它的方法代表了你的应用程序中的业务操作
+ */
+public interface UserService {
+    List<User> getAllUsers();
 
-    public List<User> getAllUsers() {
-        return userMapper.findAllUsers();
-    }
+    User getUserById(int id);
 
-    public User getUserById(int id) {
-        return userMapper.findUserById(id);
-    }
+    void addUser(User user);
 
-    public void addUser(User user) {
-        userMapper.insertUser(user);
-    }
+    void updateUser(User user);
 
-    public void updateUser(User user) {
-        userMapper.updateUser(user);
-    }
-
-    public void deleteUser(int id) {
-        userMapper.deleteUser(id);
-    }
+    void deleteUser(int id);
 }

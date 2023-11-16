@@ -1,15 +1,13 @@
 # lyc.springboot.demo
 
-## 版本
+这是一个SpringBoot学习项目
 
+## 版本
 * jdk 17
 * Spring Boot 3.1.2
 * Mybatis plus 3.5.3.2
 
-## 项目介绍
-
-SpringBoot学习项目
-
+## 技术栈
 * Mybatis
 * Mybatis-Plus
 * Swagger2
@@ -18,6 +16,7 @@ SpringBoot学习项目
 * Druid
 * Redis
 * RabbitMQ
+* tomcat
 * Spring Security
 * Spring Boot Admin
 * Spring Boot Actuator
@@ -39,54 +38,6 @@ SpringBoot学习项目
 * Spring Boot Data Redis
 * Spring Boot Data Cassandra
 * Spring Boot Data Couchbase
-
-## 项目分层
-
-* common
-* service
-* controller
-* dao
-* mapper
-* entity
-* dto
-* service
-* config
-* utils
-* exception
-* listener
-* constant
-* api、
-
-User实体类 -> UserController -> UserService -> UserServiceImpl -> UserMapper -> UserMapper.xml
-
-## 项目依赖
-pom.xml
-
-
-
-## 项目启动
-
-### 开发模式启动项目
-
-```bash
-mvn spring-boot:run
-```
-
-###  打jar包
-
-```bash
-mvn clean package -Dmaven.test.skip=true
-```
-
-生成jar包在target目录下
->target/lyc.springboot.demo-0.0.1-SNAPSHOT.jar
-
-
-### 打包运行
-
-```bash
-java -jar lyc.springboot.demo.jar
-```
 
 
 
@@ -129,47 +80,103 @@ lyc.springboot.demo
 
 ```
 
-# 常用命令
+##  项目结构
+* common
+* service层 
+  * 用于通用业务逻辑
+* controller层
+  * 用于对外暴露接口
+* dao层
+  * 用于数据库操作
+* entity层 
+  * 实体类
+* mapper层 
+  * 用于数据库操作
+* service.impl层 
+  * service接口实现类
+* dto层
+  *  用于数据传输
+* config
+  *  用于配置文件
+* utils类
+  *  工具类
+* exception类
+  *  异常类
 
-```
-mvn clean package -Dmaven.test.skip=true
-mvn clean install
+User实体类 -> UserController -> interface UserService -> class UserServiceImpl -> UserMapper -> UserMapper.xml
 
+## 项目依赖
+pom.xml
 
-# 切换环境
+## 项目配置
 
+* 数据库配置
+>application.properties
+
+* 切换环境
 >src/main/resources/application.yml
 
+开发环境
 ```yaml
-# 开发环境
 spring:
   profiles:
     active:
       - dev
+```  
 
-# 产线环境
+产线环境
+```yaml
 spring:
   profiles:
     active:
       - prod
-```   
+```
 
-# swagger
+## 启动
+* dev
+```bash
+mvn spring-boot:run
+```
 
-http://localhost:8088/swagger-ui.html
+##  打jar包
+
+```bash
+mvn clean package -Dmaven.test.skip=true
+```
+* 生成jar包在target目录下
+>target/lyc.springboot.demo-0.0.1-SNAPSHOT.jar
+
+## 运行jar包
+
+```bash
+java -jar lyc.springboot.demo.jar
+```
 
 
-# 全局异常处理
+# 常用命令
+
+```bash
+mvn clean package -Dmaven.test.skip=true
+mvn clean install
+```
+
+# swagger接口文档
+
+>http://localhost:8088/swagger-ui.html
+
+# 全局处理
+
+##  处理全局异常
 
 >com.lyc.springboot.demo.common.exception.GlobalExceptionHandler
 
-## 枚举异常处理
+##  枚举异常处理
 >com.lyc.springboot.demo.common.exception.BusinesusinessMsgEnums
 
-## 处理所有不可知的异常
+##  处理所有不可知的异常
 >com.lyc.springboot.demo.common.exception.GlobalExceptionHandler
 
-## 处理空指针异常
+##  处理空指针异常
 
 ## 处理数组越界异常
 
@@ -183,9 +190,7 @@ http://localhost:8088/swagger-ui.html
 
 ## 处理成功返回结果
 
-
 ## 处理失败返回结果
-
 
 # 统一日志处理
 
@@ -193,7 +198,6 @@ http://localhost:8088/swagger-ui.html
 
 ## 处理日志切面
 
-## 处理日志切面
 
 
 
@@ -208,4 +212,8 @@ lsof -i:8088
 kill -s 9 进程号
 
 ```
+
+2. 
+
+3. 
 

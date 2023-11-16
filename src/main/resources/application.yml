@@ -1,7 +1,7 @@
 # 项目
 app:
-  id: platform
-  name: 平台项目
+  id: lyc.springboot.demo
+  name: learning springboot
   version: 1.0.0
 
   # 指定环境
