@@ -6,6 +6,10 @@ import java.util.List;
 
 /**
  * 定义接口（即数据库访问对象）
+ * 层级：接口层
+ * 作用：定义接口，供外部调用
+ * 通常
+ *
  * */
 public interface UserMapper {
     List<User> findAllUsers(); // 返回 list对象
