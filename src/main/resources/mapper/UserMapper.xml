@@ -9,10 +9,10 @@
         SELECT * FROM User
     </select>
     <insert id="insertUser" parameterType="com.example.lyc.springboot.demo.entity.User">
-        INSERT INTO User (username, password) VALUES (#{username}, #{password})
+        INSERT INTO User (userName, password) VALUES (#{userName}, #{password})
     </insert>
     <update id="updateUser" parameterType="com.example.lyc.springboot.demo.entity.User">
-        UPDATE User SET username = #{username}, password = #{password} WHERE id = #{id}
+        UPDATE User SET username = #{userName}, password = #{password} WHERE id = #{id}
     </update>
     <delete id="deleteUser" parameterType="int">
         DELETE FROM User WHERE id = #{id}

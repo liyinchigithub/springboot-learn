@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class UserDTO {
     private int id;
-    private String username;
-//    private String password;
+    private String userName;
+    private String password;
     // 自动生成getter和setter方法
 }

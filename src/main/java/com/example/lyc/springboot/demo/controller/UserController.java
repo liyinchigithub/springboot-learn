@@ -35,19 +35,19 @@ public class UserController {
         return convertToDto(user);
     }
 
-    @PostMapping("/")
+    @PostMapping("/addUser")
     public void addUser(@RequestBody UserDTO userDto) {
         User user = convertToEntity(userDto);
         userService.addUser(user);
     }
 
-    @PutMapping("/")
+    @PutMapping("/updateUser")
     public void updateUser(@RequestBody UserDTO userDto) {
         User user = convertToEntity(userDto);
         userService.updateUser(user);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/deleteUser/{id}")
     public void deleteUser(@PathVariable int id) {
         userService.deleteUser(id);
     }
@@ -56,16 +56,16 @@ public class UserController {
     private UserDTO convertToDto(User user) {
         UserDTO userDto = new UserDTO();
         userDto.setId(user.getId());
-        userDto.setUsername(user.getUserName());
-//        userDto.setPassword(user.getPassword());
+        userDto.setUserName(user.getUserName());
+        userDto.setPassword(user.getPassword());
         return userDto;
     }
 
     private User convertToEntity(UserDTO userDto) {
         User user = new User();
         user.setId(userDto.getId());
-        user.setUserName(userDto.getUsername());
-//        user.setPassword(userDto.getPassword());
+        user.setUserName(userDto.getUserName());
+        user.setPassword(userDto.getPassword());
         return user;
     }
 }
