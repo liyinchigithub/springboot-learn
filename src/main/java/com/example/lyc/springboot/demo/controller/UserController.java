@@ -1,5 +1,6 @@
 package com.example.lyc.springboot.demo.controller;
 
+import com.example.lyc.springboot.demo.dto.DeleteUserRequestDTO;
 import com.example.lyc.springboot.demo.dto.UserDTO;
 import com.example.lyc.springboot.demo.entity.User;
 import com.example.lyc.springboot.demo.service.UserService;
@@ -23,35 +24,39 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/")
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<UserDTO> getAllUsers() {
         List<User> users = userService.getAllUsers();
         return users.stream().map(this::convertToDto).collect(Collectors.toList());
     }
 
-    @GetMapping("/{id}")
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public UserDTO getUserById(@PathVariable int id) {
         User user = userService.getUserById(id);
         return convertToDto(user);
     }
 
-    @PostMapping("/addUser")
+    @RequestMapping(value = "/addUser", method = RequestMethod.POST)
     public void addUser(@RequestBody UserDTO userDto) {
         User user = convertToEntity(userDto);
         userService.addUser(user);
     }
 
-    @PutMapping("/updateUser")
+    @RequestMapping(value = "/updateUser", method = RequestMethod.PUT)
     public void updateUser(@RequestBody UserDTO userDto) {
         User user = convertToEntity(userDto);
         userService.updateUser(user);
     }
 
-    @DeleteMapping("/deleteUser/{id}")
-    public void deleteUser(@PathVariable int id) {
-        userService.deleteUser(id);
+    @RequestMapping(value = "/deleteUser", method = RequestMethod.DELETE)
+    public void deleteUser(@RequestBody DeleteUserRequestDTO request) {
+        userService.deleteUser(request.getId());
     }
 
+    @RequestMapping(value = "/deleteUserPath/{id}", method = RequestMethod.DELETE)
+    public void deleteUserPath(@PathVariable int id) { // id在URI中
+        userService.deleteUser(id);
+    }
 
     private UserDTO convertToDto(User user) {
         UserDTO userDto = new UserDTO();
