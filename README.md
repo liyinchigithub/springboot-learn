@@ -188,6 +188,7 @@ mvn clean install
 
 > http://localhost:8088/swagger-ui/index.html?urls.primaryName=public#/
 
+<img width="1429" alt="image" src="https://github.com/liyinchigithub/lyc.springboot.demo/assets/19643260/eea042be-b835-4434-be4a-c98930333e07">
 
 
 # 全局处理
