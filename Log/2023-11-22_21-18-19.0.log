@@ -1,0 +1,11 @@
+21:18:19.295 [Thread-23] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+21:18:19.296 [Thread-23] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+21:18:19.299 [Thread-23] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+21:18:19.306 [Thread-23] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+21:18:19.493 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 47262 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+21:18:19.493 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+21:18:19.493 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+21:18:19.974 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+21:18:19.974 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:18:19.974 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+21:18:19.994 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext

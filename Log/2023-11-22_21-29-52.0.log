@@ -1,0 +1,73 @@
+21:29:52.306 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve class com.example.lyc.springboot.demo.dto.UserDTO
+21:29:52.314 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.349 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.375 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve com.example.lyc.springboot.demo.commons.api.BaseResponse<java.lang.String>
+21:29:52.381 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.383 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.386 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.393 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve class com.example.lyc.springboot.demo.dto.UserDTO
+21:29:52.395 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.396 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.401 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve com.example.lyc.springboot.demo.commons.api.BaseResponse<java.lang.String>
+21:29:52.404 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.406 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.408 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.416 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve class java.lang.String
+21:29:52.419 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve class java.lang.String
+21:29:52.421 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve com.example.lyc.springboot.demo.commons.api.BaseResponse<java.lang.String>
+21:29:52.423 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.424 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.425 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.431 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve class com.example.lyc.springboot.demo.entity.User
+21:29:52.438 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.466 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.467 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.470 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve java.util.Map<java.lang.String, java.lang.Object>
+21:29:52.471 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.Object]
+21:29:52.474 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve int
+21:29:52.477 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve com.example.lyc.springboot.demo.commons.api.BaseResponse<com.example.lyc.springboot.demo.dto.UserDTO>
+21:29:52.479 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.480 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.482 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class com.example.lyc.springboot.demo.dto.UserDTO]
+21:29:52.495 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve int
+21:29:52.497 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve com.example.lyc.springboot.demo.commons.api.BaseResponse<com.example.lyc.springboot.demo.dto.UserDTO>
+21:29:52.500 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.501 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.503 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class com.example.lyc.springboot.demo.dto.UserDTO]
+21:29:52.511 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve com.example.lyc.springboot.demo.commons.api.BaseResponse<java.util.List<com.example.lyc.springboot.demo.dto.UserDTO>>
+21:29:52.512 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.514 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.516 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [collection type; class java.util.List, contains [simple type, class com.example.lyc.springboot.demo.dto.UserDTO]]
+21:29:52.516 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class com.example.lyc.springboot.demo.dto.UserDTO]
+21:29:52.592 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve class com.example.lyc.springboot.demo.entity.User
+21:29:52.603 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.610 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.616 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.636 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve java.util.Map<java.lang.String, java.lang.Object>
+21:29:52.637 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.Object]
+21:29:52.643 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve java.util.List<com.example.lyc.springboot.demo.entity.User>
+21:29:52.644 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class com.example.lyc.springboot.demo.entity.User]
+21:29:52.645 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.647 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.649 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.658 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve java.util.Map<java.lang.String, java.lang.Object>
+21:29:52.658 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.Object]
+21:29:52.664 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve java.util.Map<java.lang.String, java.lang.Object>
+21:29:52.665 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.Object]
+21:29:52.671 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve class com.example.lyc.springboot.demo.dto.DeleteUserRequestDTO
+21:29:52.673 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.678 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve com.example.lyc.springboot.demo.commons.api.BaseResponse<java.lang.String>
+21:29:52.681 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.686 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.688 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.694 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve int
+21:29:52.697 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve com.example.lyc.springboot.demo.commons.api.BaseResponse<java.lang.String>
+21:29:52.700 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.702 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.703 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.708 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve int
+21:29:52.711 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve com.example.lyc.springboot.demo.commons.api.BaseResponse<java.lang.String>
+21:29:52.714 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class int]
+21:29:52.717 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.719 [http-nio-8088-exec-8] DEBUG i.s.v.c.c.ModelConverterContextImpl - resolve [simple type, class java.lang.String]
+21:29:52.726 [http-nio-8088-exec-8] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 519 ms

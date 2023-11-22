@@ -1,0 +1,6 @@
+21:14:38.126 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+21:14:38.129 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:14:38.129 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+21:14:38.224 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:14:38.326 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+21:14:38.860 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath

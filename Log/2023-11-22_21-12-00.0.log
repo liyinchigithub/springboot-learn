@@ -1,0 +1,2 @@
+21:12:00.017 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+21:12:00.033 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.681 seconds (process running for 1647.246)

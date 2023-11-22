@@ -1,0 +1,56 @@
+21:19:06.289 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+21:19:06.290 [Thread-31] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+21:19:06.291 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+21:19:06.297 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+21:19:06.411 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 47262 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+21:19:06.411 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+21:19:06.411 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+21:19:06.746 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+21:19:06.747 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:19:06.747 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+21:19:06.767 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:19:06.778 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+21:19:06.781 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/controller/UserController.class]: Failed to instantiate [com.example.lyc.springboot.demo.controller.UserController]: Constructor threw exception
+21:19:06.782 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+21:19:06.806 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/controller/UserController.class]: Failed to instantiate [com.example.lyc.springboot.demo.controller.UserController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.lyc.springboot.demo.controller.UserController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on tokens, delete these tokens
+	The annotation @RequestBody is disallowed for this location
+
+	at com.example.lyc.springboot.demo.controller.UserController.<init>(UserController.java:132)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 24 common frames omitted

@@ -60,6 +60,7 @@ lyc.springboot.demo
 │   │                   └── exception
 │   │                   └── utils
 │   │               └── config
+│   │               └── Log
 │   │               └── controller
 │   │               └── dao
 │   │               └── dto
@@ -185,6 +186,10 @@ mvn clean install
 
 >http://localhost:8088/swagger-ui.html
 
+> http://localhost:8088/swagger-ui/index.html?urls.primaryName=public#/
+
+
+
 # 全局处理
 
 ##  处理全局异常
@@ -217,7 +222,9 @@ mvn clean install
 
 >com.lyc.springboot.demo.common.config.LogAspect
 
-## 处理日志切面
+
+
+
 
 
 
@@ -234,7 +241,5 @@ kill -s 9 进程号
 
 ```
 
-2. 
 
-3. 
 

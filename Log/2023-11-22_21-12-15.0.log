@@ -1,0 +1,5 @@
+21:12:15.008 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:12:15.048 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+21:12:15.120 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+21:12:15.268 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+21:12:15.290 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.679 seconds (process running for 1662.502)

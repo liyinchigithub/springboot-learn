@@ -1,0 +1,4 @@
+21:15:39.235 [http-nio-8088-exec-7] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+21:15:39.240 [http-nio-8088-exec-7] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+21:15:39.241 [http-nio-8088-exec-7] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+21:15:39.362 [http-nio-8088-exec-7] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 101 ms

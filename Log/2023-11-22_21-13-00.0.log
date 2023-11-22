@@ -1,0 +1,4 @@
+21:13:00.004 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+21:13:00.074 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+21:13:00.250 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+21:13:00.270 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.652 seconds (process running for 1707.482)
