@@ -1,4 +1,4 @@
-# lyc.springboot.demo
+# springboot-learn
 
 这是一个SpringBoot学习项目
 
