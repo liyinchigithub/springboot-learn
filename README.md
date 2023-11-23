@@ -182,7 +182,12 @@ java -jar lyc.springboot.demo.jar
 
 * 示例1：
 ```java
-   @Operation(summary = "获取所有用户", description = "返回所有用户的列表")
+   /**
+     * @author: liyinchi
+     * @description 通过获取所有用户信息
+     * @mark
+     * */
+    @Operation(summary = "获取所有用户", description = "返回所有用户的列表")
     @RequestMapping(value = "/getAllUsers", method = RequestMethod.GET,produces = "application/json; charset=UTF-8")
     public BaseResponse<List<UserDTO>> getAllUsers() {
         List<User> users = userService.getAllUsers();
@@ -199,7 +204,12 @@ java -jar lyc.springboot.demo.jar
 
 * 示例2：
 ```java
-   @Operation(summary = "通过ID获取用户", description = "返回指定ID的用户")
+   /**
+     * @author: liyinchi
+     * @description 通过ID获取用户信息
+     * @mark    /getUserById/{id}
+     * */
+    @Operation(summary = "通过ID获取用户", description = "返回指定ID的用户")
     @RequestMapping(value = "/getUserById/{id}", method = RequestMethod.GET, produces = "application/json; charset=UTF-8")
     public BaseResponse<UserDTO> getUserById(@Parameter(description = "用户ID", required = true) @PathVariable int id) {
         User user = userService.getUserById(id);
@@ -213,7 +223,12 @@ java -jar lyc.springboot.demo.jar
 
 * 示例3：
 ```java
- @Operation(summary = "通过ID参数获取用户", description = "返回指定ID的用户")
+     /**
+     * @author: liyinchi
+     * @description 通过ID获取用户信息
+     * @mark    ?id=1&name=liyinchi
+     * */
+    @Operation(summary = "通过ID参数获取用户", description = "返回指定ID的用户")
     @RequestMapping(value = "/getUserByIdParam", method = RequestMethod.GET, produces = "application/json; charset=UTF-8")
     public BaseResponse<UserDTO> getUserByIdParam(@Parameter(description = "用户ID", required = true) @RequestParam("id") int id) {
         User user = userService.getUserById(id);
@@ -232,7 +247,12 @@ java -jar lyc.springboot.demo.jar
 * 示例1：
 
 ```java
-// 定义一个处理POST请求的方法，路径为"/addUser"，返回的数据类型为JSON
+   /**
+     * @author: liyinchi
+     * @description 新增用户
+     * @mark json
+     * */
+    // 定义一个处理POST请求的方法，路径为"/addUser"，返回的数据类型为JSON
     @Operation(summary = "新增用户", description = "通过JSON数据新增用户")
     @RequestMapping(value = "/addUser", method = RequestMethod.POST,produces = "application/json; charset=UTF-8")
     // 该方法接收一个参数，即UserDTO对象，这个对象是通过@RequestBody注解从请求体中获取的
@@ -317,7 +337,10 @@ java -jar lyc.springboot.demo.jar
 
 ```
 
-* 返回数据 
+* 返回数据
+
+  <img width="400" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/69744455-2793-40b9-9372-e8e8204839c2">
+
 
 
 ## DELETE
@@ -335,17 +358,19 @@ java -jar lyc.springboot.demo.jar
     @Operation(summary = "删除用户", description = "通过JSON数据删除用户")
     @RequestMapping(value = "/deleteUser", method = RequestMethod.DELETE,produces = "application/json; charset=UTF-8")
     // 该方法接收一个参数，即DeleteUserRequestDTO对象，这个对象是通过@RequestBody注解从请求体中获取的
-    public BaseResponse<UserIdResponseDTO>  deleteUser(@Parameter(description = "删除用户请求数据", required = true)  @RequestBody DeleteUserRequestDTO request) {
+    public BaseResponse<DeleteUserResponseDTO>  deleteUser(@Parameter(description = "删除用户请求数据", required = true)  @RequestBody DeleteUserRequestDTO request) {
         // 调用userService的deleteUser方法，根据请求中的id删除数据库中的用户
-        userService.deleteUser(request.getId());// 获取请求参数id值
+        int updates = userService.deleteUser(request.getId());// 获取请求参数id值
         // 记录日志，输出删除的用户的请求信息
         log.info("=======deleteUser:{}", request);
         // 返回一个表示操作成功的BaseResponse对象
-        return BaseResponse.success(new UserIdResponseDTO(request.getId()));
+        return BaseResponse.success(new DeleteUserResponseDTO(request.getId(), updates));
     }
 ```
 
 * 返回数据 
+
+<img width="400" height="400"  alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/a4181ff1-5a87-492b-8230-4af94510e40d">
 
 
 
