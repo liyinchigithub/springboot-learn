@@ -17,27 +17,25 @@
 * Redis
 * RabbitMQ
 * tomcat
-* Spring Security
-* Spring Boot Admin
-* Spring Boot Actuator
-* Spring Boot DevTools
-* Spring Boot Web
-* Spring Boot Test
-* Spring Boot Mail
-* Spring Boot Quartz
-* Spring Boot JPA
-* Spring Boot Data Redis
-* Spring Boot Data MongoDB
-* Spring Boot Data Elasticsearch
-* Spring Boot Data JDBC
-* Spring Boot Data JPA
-* Spring Boot Data REST
-* Spring Boot Data Neo4j
-* Spring Boot Data Solr
-* Spring Boot Data LDAP
-* Spring Boot Data Redis
-* Spring Boot Data Cassandra
-* Spring Boot Data Couchbase
+* Spring Security                 安全认证和授权
+* Spring Boot Admin               管理和监控Spring Boot应用程序
+* Spring Boot Actuator            提供生产级的应用特性，如监控和度量
+* Spring Boot DevTools            提高开发者的开发效率
+* Spring Boot Web                 开发Web应用程序，包括RESTful应用程序
+* Spring Boot Test                测试Spring Boot引用过程序
+* Spring Boot Mail                发送邮件
+* Spring Boot Quartz              定时任务
+* Spring Boot JPA                 Java Persistence API（JPA）访问数据库
+* Spring Boot Data Redis          Redis访问键值对数据
+* Spring Boot Data MongoDB        MongoDB访问文档数据库
+* Spring Boot Data Elasticsearch  Elasticsearch进行全文搜索
+* Spring Boot Data JDBC           JDBC访问数据库
+* Spring Boot Data REST           RESTful API访问数据
+* Spring Boot Data Neo4j          Neo4j访问图数据库
+* Spring Boot Data Solr           Apache Solr进行全文搜索
+* Spring Boot Data LDAP           LDAP访问目录服务
+* Spring Boot Data Cassandra      Cassandra访问列存储数据库
+* Spring Boot Data Couchbase      Couchbase访问文档数据库。
 
 
 
