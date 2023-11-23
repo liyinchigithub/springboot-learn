@@ -8,7 +8,7 @@
     <select id="findAllUsers" resultType="com.example.lyc.springboot.demo.entity.User">
         SELECT * FROM User
     </select>
-    <insert id="insertUser" parameterType="com.example.lyc.springboot.demo.entity.User">
+    <insert id="insertUser" parameterType="com.example.lyc.springboot.demo.entity.User" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO User (userName, password) VALUES (#{userName}, #{password})
     </insert>
     <update id="updateUser" parameterType="com.example.lyc.springboot.demo.entity.User">

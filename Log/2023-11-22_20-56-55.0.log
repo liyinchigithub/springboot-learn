@@ -1,4 +1,0 @@
-20:56:55.898 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-20:56:55.902 [Thread-11] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-20:56:55.905 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-20:56:55.913 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]

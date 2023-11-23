@@ -16,7 +16,7 @@ public interface UserMapper {
 
     User findUserById(int id);// 返回 类对象
 
-    void insertUser(User user);
+    int insertUser(User user);
 
     void updateUser(User user);
 

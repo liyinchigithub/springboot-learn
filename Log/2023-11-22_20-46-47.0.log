@@ -1,5 +1,0 @@
-20:46:47.556 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=0, userName=liyinchi, password=1111111111)
-20:46:47.566 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==>  Preparing: INSERT INTO User (userName, password) VALUES (?, ?)
-20:46:47.567 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==> Parameters: liyinchi(String), 1111111111(String)
-20:46:47.583 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - <==    Updates: 1
-20:46:47.583 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======addUserFormData:User(id=0, userName=liyinchi, password=1111111111)

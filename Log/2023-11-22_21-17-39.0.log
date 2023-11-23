@@ -1,3 +1,0 @@
-21:17:39.020 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-21:17:39.252 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-21:17:39.270 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.933 seconds (process running for 214.302)

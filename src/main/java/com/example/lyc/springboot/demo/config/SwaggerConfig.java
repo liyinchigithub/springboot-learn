@@ -11,7 +11,7 @@ public class SwaggerConfig {
     public GroupedOpenApi publicApi() {
         return GroupedOpenApi.builder()
                 .group("public")
-                .pathsToMatch("/v1/**")
+                .pathsToMatch("/v1/**") // 注意这边要和Controller中的路径对应
                 .build();
     }
 

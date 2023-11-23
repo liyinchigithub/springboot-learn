@@ -11,7 +11,7 @@
 
     <property name="LOG_PATTERN" value="%date{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n" /> <!-- 定义日志的输出格式 -->
 
-    <property name="FILE_PATH" value="./Log/%d{yyyy-MM-dd_HH-mm-ss}.%i.log" /> <!-- 定义日志文件的路径和名称，其中包含日期和时间 -->
+    <property name="FILE_PATH" value="./Log/%d{yyyy-MM-dd_HH}.%i.log" /> <!-- 定义日志文件的路径和名称，其中包含日期和时间 HH-mm-ss-->
 
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender"> <!-- 定义一个名为"CONSOLE"的appender，用于将日志输出到控制台 -->
         <encoder>

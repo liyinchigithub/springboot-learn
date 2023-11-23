@@ -39,8 +39,10 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void addUser(User user) {
+    public int addUser(User user) {
         userMapper.insertUser(user);
+        // 返回新生成的ID
+        return user.getId();
     }
 
     @Override

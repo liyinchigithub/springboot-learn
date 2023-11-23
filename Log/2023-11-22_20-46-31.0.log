@@ -1,9 +1,0 @@
-20:46:31.084 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-20:46:31.170 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=0, userName=liyinchi, password=1111111111)
-20:46:31.213 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-20:46:31.639 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@442b7b83
-20:46:31.641 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-20:46:31.653 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==>  Preparing: INSERT INTO User (userName, password) VALUES (?, ?)
-20:46:31.701 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==> Parameters: liyinchi(String), 1111111111(String)
-20:46:31.719 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - <==    Updates: 1
-20:46:31.721 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======addUserFormData:User(id=0, userName=liyinchi, password=1111111111)
