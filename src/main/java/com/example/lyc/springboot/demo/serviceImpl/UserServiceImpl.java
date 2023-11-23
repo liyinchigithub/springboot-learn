@@ -1,5 +1,6 @@
 package com.example.lyc.springboot.demo.serviceImpl;
 
+import com.example.lyc.springboot.demo.dto.DeleteUserResponseDTO;
 import com.example.lyc.springboot.demo.service.UserService;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,12 +49,14 @@ public class UserServiceImpl implements UserService {
     @Override
     public int updateUser(User user) {
         int updates = userMapper.updateUser(user);
-        // 返回更新的行数
+        // 返回的执行结果  1成功 0
         return updates;
     }
 
     @Override
-    public void deleteUser(int id) {
-        userMapper.deleteUser(id);
+    public int deleteUser(int id) {
+        int updates = userMapper.deleteUser(id);
+        // 返回的执行结果 1成功 0
+        return updates;
     }
 }

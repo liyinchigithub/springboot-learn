@@ -1,10 +1,7 @@
 package com.example.lyc.springboot.demo.controller;
 
 import com.example.lyc.springboot.demo.commons.api.BaseResponse;
-import com.example.lyc.springboot.demo.dto.DeleteUserRequestDTO;
-import com.example.lyc.springboot.demo.dto.UpdateUserResponseDTO;
-import com.example.lyc.springboot.demo.dto.UserDTO;
-import com.example.lyc.springboot.demo.dto.UserIdResponseDTO;
+import com.example.lyc.springboot.demo.dto.*;
 import com.example.lyc.springboot.demo.entity.User;
 import com.example.lyc.springboot.demo.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -31,7 +28,12 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @Operation(summary = "获取所有用户", description = "返回所有用户的列表")
+    /**
+     * @author: liyinchi
+     * @description 通过获取所有用户信息
+     * @mark
+     * */
+    @Operation(summary = "获取所有用户信息", description = "返回所有用户的列表")
     @RequestMapping(value = "/getAllUsers", method = RequestMethod.GET,produces = "application/json; charset=UTF-8")
     public BaseResponse<List<UserDTO>> getAllUsers() {
         List<User> users = userService.getAllUsers();
@@ -40,7 +42,12 @@ public class UserController {
         return BaseResponse.success(userDTOs);
     }
 
-    @Operation(summary = "通过ID获取用户", description = "返回指定ID的用户")
+    /**
+     * @author: liyinchi
+     * @description 通过ID获取用户信息
+     * @mark    /getUserById/{id}
+     * */
+    @Operation(summary = "通过ID获取用户信息", description = "返回指定ID的用户")
     @RequestMapping(value = "/getUserById/{id}", method = RequestMethod.GET, produces = "application/json; charset=UTF-8")
     public BaseResponse<UserDTO> getUserById(@Parameter(description = "用户ID", required = true) @PathVariable int id) {
         User user = userService.getUserById(id);
@@ -50,11 +57,10 @@ public class UserController {
 
     /**
      * @author: liyinchi
-     * @description
+     * @description 通过ID获取用户信息
      * @mark    ?id=1&name=liyinchi
-     *s
      * */
-    @Operation(summary = "通过ID参数获取用户", description = "返回指定ID的用户")
+    @Operation(summary = "通过ID参数获取用户信息", description = "返回指定ID的用户")
     @RequestMapping(value = "/getUserByIdParam", method = RequestMethod.GET, produces = "application/json; charset=UTF-8")
     public BaseResponse<UserDTO> getUserByIdParam(@Parameter(description = "用户ID", required = true) @RequestParam("id") int id) {
         User user = userService.getUserById(id);
@@ -139,13 +145,13 @@ public class UserController {
     @Operation(summary = "删除用户", description = "通过JSON数据删除用户")
     @RequestMapping(value = "/deleteUser", method = RequestMethod.DELETE,produces = "application/json; charset=UTF-8")
     // 该方法接收一个参数，即DeleteUserRequestDTO对象，这个对象是通过@RequestBody注解从请求体中获取的
-    public BaseResponse<UserIdResponseDTO>  deleteUser(@Parameter(description = "删除用户请求数据", required = true)  @RequestBody DeleteUserRequestDTO request) {
+    public BaseResponse<DeleteUserResponseDTO>  deleteUser(@Parameter(description = "删除用户请求数据", required = true)  @RequestBody DeleteUserRequestDTO request) {
         // 调用userService的deleteUser方法，根据请求中的id删除数据库中的用户
-        userService.deleteUser(request.getId());// 获取请求参数id值
+        int updates = userService.deleteUser(request.getId());// 获取请求参数id值
         // 记录日志，输出删除的用户的请求信息
         log.info("=======deleteUser:{}", request);
         // 返回一个表示操作成功的BaseResponse对象
-        return BaseResponse.success(new UserIdResponseDTO(request.getId()));
+        return BaseResponse.success(new DeleteUserResponseDTO(request.getId(), updates));
     }
 
     /**

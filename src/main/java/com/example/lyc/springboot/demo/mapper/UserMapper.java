@@ -1,5 +1,6 @@
 package com.example.lyc.springboot.demo.mapper;
 
+import com.example.lyc.springboot.demo.dto.DeleteUserResponseDTO;
 import com.example.lyc.springboot.demo.entity.User;
 
 import java.util.List;
@@ -20,5 +21,7 @@ public interface UserMapper {
 
     int updateUser(User user);
 
-    void deleteUser(int id);
+    int deleteUser(int id);
+
+
 }

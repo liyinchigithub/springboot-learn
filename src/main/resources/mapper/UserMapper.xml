@@ -20,6 +20,8 @@
 <!--    <update id="updateUser" parameterType="com.example.lyc.springboot.demo.entity.User">-->
 <!--        UPDATE User SET username = #{userName}, password = #{password} WHERE id = #{id}-->
 <!--    </update>-->
+
+
     <delete id="deleteUser" parameterType="int">
         DELETE FROM User WHERE id = #{id}
     </delete>
