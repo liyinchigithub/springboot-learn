@@ -13,7 +13,13 @@
     </insert>
     <update id="updateUser" parameterType="com.example.lyc.springboot.demo.entity.User">
         UPDATE User SET username = #{userName}, password = #{password} WHERE id = #{id}
+        <selectKey resultType="int" order="AFTER" keyProperty="updates">
+            SELECT ROW_COUNT()
+        </selectKey>
     </update>
+<!--    <update id="updateUser" parameterType="com.example.lyc.springboot.demo.entity.User">-->
+<!--        UPDATE User SET username = #{userName}, password = #{password} WHERE id = #{id}-->
+<!--    </update>-->
     <delete id="deleteUser" parameterType="int">
         DELETE FROM User WHERE id = #{id}
     </delete>

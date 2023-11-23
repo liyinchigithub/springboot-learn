@@ -2,8 +2,9 @@ package com.example.lyc.springboot.demo.controller;
 
 import com.example.lyc.springboot.demo.commons.api.BaseResponse;
 import com.example.lyc.springboot.demo.dto.DeleteUserRequestDTO;
+import com.example.lyc.springboot.demo.dto.UpdateUserResponseDTO;
 import com.example.lyc.springboot.demo.dto.UserDTO;
-import com.example.lyc.springboot.demo.dto.UserIdResponse;
+import com.example.lyc.springboot.demo.dto.UserIdResponseDTO;
 import com.example.lyc.springboot.demo.entity.User;
 import com.example.lyc.springboot.demo.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -11,8 +12,7 @@ import io.swagger.v3.oas.annotations.Parameter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -71,7 +71,7 @@ public class UserController {
     @Operation(summary = "新增用户", description = "通过JSON数据新增用户")
     @RequestMapping(value = "/addUser", method = RequestMethod.POST,produces = "application/json; charset=UTF-8")
     // 该方法接收一个参数，即UserDTO对象，这个对象是通过@RequestBody注解从请求体中获取的
-    public BaseResponse<UserIdResponse> addUser(@Parameter(description = "用户数据", required = true) @RequestBody UserDTO userDto) {
+    public BaseResponse<UserIdResponseDTO> addUser(@Parameter(description = "用户数据", required = true) @RequestBody UserDTO userDto) {
         // 调用convertToEntity方法，将UserDTO对象转换为User对象
         User user = convertToEntity(userDto);
         // 调用userService的addUser方法，将User对象添加到数据库中
@@ -79,7 +79,7 @@ public class UserController {
         // 记录日志，输出添加的User对象的信息
         log.info("=======addUser:{}", user);
         // 返回一个表示操作成功的BaseResponse对象
-        return BaseResponse.success(new UserIdResponse(newUserId));
+        return BaseResponse.success(new UserIdResponseDTO(newUserId));
     }
 
     /**
@@ -92,8 +92,8 @@ public class UserController {
     @Operation(summary = "新增用户（表单）", description = "通过表单数据新增用户")
     @RequestMapping(value = "/addUserFormData", method = RequestMethod.POST,produces = "application/json; charset=UTF-8")
     // 该方法接收三个参数，分别是id，userName和password，这些参数都是通过@RequestParam注解从请求中获取的
-    public BaseResponse<String> addUserFormData(  @Parameter(description = "用户名", required = true) @RequestParam("userName") String userName,
-                                                  @Parameter(description = "密码", required = true) @RequestParam("password") String password){
+    public BaseResponse<UserIdResponseDTO> addUserFormData(@Parameter(description = "用户名", required = true) @RequestParam("userName") String userName,
+                                                           @Parameter(description = "密码", required = true) @RequestParam("password") String password){
         // 创建一个新的UserDTO对象
         UserDTO userDto = new UserDTO();
         // 将从请求中获取的参数设置到UserDTO对象中
@@ -101,31 +101,32 @@ public class UserController {
         userDto.setPassword(password);
         // 调用convertToEntity方法，将UserDTO对象转换为User对象
         User user = convertToEntity(userDto);
-        // 调用userService的addUser方法，将User对象添加到数据库中
-        userService.addUser(user);
         // 记录日志，输出添加的User对象的信息
         log.info("=======addUserFormData:{}", user);
-        return BaseResponse.success();
+        // 调用userService的addUser方法，将User对象添加到数据库中
+        int newUserId = userService.addUser(user);
         // 返回一个表示操作成功的BaseResponse对象
+        return BaseResponse.success(new UserIdResponseDTO(newUserId));
     }
 
     /**
      * @author: liyinchi
      * @description 更新用户
+     * @mark json
      * */
     @Operation(summary = "更新用户", description = "通过JSON数据更新用户")
     // 定义一个处理PUT请求的方法，路径为"/updateUser"，返回的数据类型为JSON
     @RequestMapping(value = "/updateUser", method = RequestMethod.PUT,produces = "application/json; charset=UTF-8")
     // 该方法接收一个参数，即UserDTO对象，这个对象是通过@RequestBody注解从请求体中获取的
-    public BaseResponse<String> updateUser(@Parameter(description = "用户数据", required = true) @RequestBody UserDTO userDto) {
+    public BaseResponse<UpdateUserResponseDTO> updateUser(@Parameter(description = "用户数据", required = true) @RequestBody UserDTO userDto) {
         // 调用convertToEntity方法，将UserDTO对象转换为User对象
         User user = convertToEntity(userDto);
         // 调用userService的updateUser方法，将User对象的信息更新到数据库中
-        userService.updateUser(user);
+        int updates = userService.updateUser(user);
         // 记录日志，输出更新的User对象的信息
         log.info("=======updateUser:{}", user);
         // 返回一个表示操作成功的BaseResponse对象
-        return BaseResponse.success();
+        return BaseResponse.success(new UpdateUserResponseDTO(user.getId(), updates));
     }
 
     /**
@@ -138,13 +139,13 @@ public class UserController {
     @Operation(summary = "删除用户", description = "通过JSON数据删除用户")
     @RequestMapping(value = "/deleteUser", method = RequestMethod.DELETE,produces = "application/json; charset=UTF-8")
     // 该方法接收一个参数，即DeleteUserRequestDTO对象，这个对象是通过@RequestBody注解从请求体中获取的
-    public BaseResponse<UserIdResponse>  deleteUser(@Parameter(description = "删除用户请求数据", required = true)  @RequestBody DeleteUserRequestDTO request) {
+    public BaseResponse<UserIdResponseDTO>  deleteUser(@Parameter(description = "删除用户请求数据", required = true)  @RequestBody DeleteUserRequestDTO request) {
         // 调用userService的deleteUser方法，根据请求中的id删除数据库中的用户
         userService.deleteUser(request.getId());// 获取请求参数id值
         // 记录日志，输出删除的用户的请求信息
         log.info("=======deleteUser:{}", request);
         // 返回一个表示操作成功的BaseResponse对象
-        return BaseResponse.success(new UserIdResponse(request.getId()));
+        return BaseResponse.success(new UserIdResponseDTO(request.getId()));
     }
 
     /**
@@ -157,10 +158,10 @@ public class UserController {
      * */
     @Operation(summary = "通过ID删除用户", description = "删除指定ID的用户")
     @RequestMapping(value = "/deleteUserPath/{id}", method = RequestMethod.DELETE,produces = "application/json; charset=UTF-8")
-    public BaseResponse<UserIdResponse> deleteUserPath(@Parameter(description = "用户ID", required = true) @PathVariable int id) { // id在URI中
+    public BaseResponse<UserIdResponseDTO> deleteUserPath(@Parameter(description = "用户ID", required = true) @PathVariable int id) { // id在URI中
         userService.deleteUser(id);
         log.info("=======deleteUserPath:{}", id);
-        return BaseResponse.success(new UserIdResponse(id));
+        return BaseResponse.success(new UserIdResponseDTO(id));
     }
 
     /**
@@ -173,10 +174,10 @@ public class UserController {
      * */
     @Operation(summary = "通过ID参数删除用户", description = "删除指定ID的用户")
     @RequestMapping(value = "/deleteUserParam", method = RequestMethod.DELETE,produces = "application/json; charset=UTF-8")
-    public BaseResponse<UserIdResponse> deleteUserParam(@Parameter(description = "用户ID", required = true) @RequestParam("id") int id) { // id在URI中
+    public BaseResponse<UserIdResponseDTO> deleteUserParam(@Parameter(description = "用户ID", required = true) @RequestParam("id") int id) { // id在URI中
         userService.deleteUser(id);
         log.info("=======deleteUserParam:{}", id);
-        return BaseResponse.success(new UserIdResponse(id));
+        return BaseResponse.success(new UserIdResponseDTO(id));
     }
 
 

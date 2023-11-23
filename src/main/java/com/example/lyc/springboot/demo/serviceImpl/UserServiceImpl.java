@@ -46,8 +46,10 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void updateUser(User user) {
-        userMapper.updateUser(user);
+    public int updateUser(User user) {
+        int updates = userMapper.updateUser(user);
+        // 返回更新的行数
+        return updates;
     }
 
     @Override

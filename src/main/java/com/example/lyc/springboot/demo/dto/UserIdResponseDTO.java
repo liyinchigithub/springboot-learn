@@ -7,7 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class DeleteUserRequestDTO {
+public class UserIdResponseDTO {
     private int id;
-    // getter and setter methods
+
+    // getters and setters
 }

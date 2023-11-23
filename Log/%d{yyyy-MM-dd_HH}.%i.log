@@ -1,46 +1,11 @@
-11:00:25.615 [Thread-89] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:00:25.784 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 61090 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:00:25.784 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:00:25.784 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:00:26.086 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:00:26.087 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:00:26.108 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:00:26.121 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:00:26.251 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:00:26.565 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.81 seconds (process running for 2916.457)
-11:01:10.307 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:01:58.153 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:02:08.197 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:02:18.234 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:03:12.390 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:03:58.737 [Thread-93] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:03:58.965 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 61090 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:03:58.965 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:03:58.965 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:03:59.251 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:03:59.251 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:03:59.289 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:03:59.318 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:03:59.413 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:03:59.590 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.669 seconds (process running for 3129.482)
-11:05:11.933 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:05:11.943 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=0, userName=liyinchi, password=1111111)
-11:05:11.946 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
-11:05:11.997 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56a1c71e
-11:05:11.997 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
-11:05:11.998 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==>  Preparing: INSERT INTO User (userName, password) VALUES (?, ?)
-11:05:11.999 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==> Parameters: liyinchi(String), 1111111(String)
-11:05:12.012 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - <==    Updates: 1
-11:05:12.013 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======addUser:User(id=0, userName=liyinchi, password=1111111)
-11:05:14.420 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:06:58.213 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:07:08.197 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:07:16.429 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:07:18.434 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:09:18.493 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:09:43.968 [Thread-97] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:09:43.968 [Thread-97] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
-11:09:43.969 [Thread-97] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-6 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+14:01:23.104 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:01:34.186 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:01:44.229 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:01:54.269 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:02:16.688 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:02:16.691 [Thread-11] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:02:16.693 [Thread-11] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:02:16.702 [Thread-11] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
  java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
  java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
@@ -50,154 +15,373 @@
  java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
  java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
  java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-11:09:43.977 [Thread-97] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
-11:09:43.982 [Thread-97] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
-11:09:44.147 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 61090 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:09:44.147 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:09:44.147 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:09:44.460 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:09:44.460 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:09:44.490 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:09:44.505 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:09:44.574 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:09:44.685 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.569 seconds (process running for 3474.565)
-11:10:27.971 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:10:27.982 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
-11:10:28.027 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3750081
-11:10:28.028 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
-11:10:28.028 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==>  Preparing: DELETE FROM User WHERE id = ?
-11:10:28.028 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==> Parameters: 3(Integer)
-11:10:28.033 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - <==    Updates: 0
-11:10:28.034 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======deleteUserPath:3
-11:11:02.562 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==>  Preparing: DELETE FROM User WHERE id = ?
-11:11:02.562 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==> Parameters: 5(Integer)
-11:11:02.567 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - <==    Updates: 0
-11:11:02.567 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======deleteUserParam:5
-11:11:06.996 [http-nio-8088-exec-3] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==>  Preparing: DELETE FROM User WHERE id = ?
-11:11:07.010 [http-nio-8088-exec-3] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==> Parameters: 11(Integer)
-11:11:07.020 [http-nio-8088-exec-3] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - <==    Updates: 1
-11:11:07.020 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======deleteUserParam:11
-11:11:16.062 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
-11:11:16.066 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
-11:11:52.762 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-11:11:52.798 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
-11:11:52.799 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
-11:11:52.799 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-11:11:52.800 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
-11:11:52.800 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
-11:11:52.800 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:11:52.800 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:11:52.801 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
-11:11:52.801 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:11:52.801 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:11:52.801 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
-11:11:52.801 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:11:52.801 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:11:52.801 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
-11:11:52.801 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
-11:11:52.801 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
-11:11:52.801 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
-11:11:52.812 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:11:52.813 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:11:52.814 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:11:55.398 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:11:55.399 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:11:55.400 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:11:55.487 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:11:55.579 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:11:56.003 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:11:56.383 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:11:56.664 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:11:56.982 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:11:57.036 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 33.003 seconds (process running for 34.451)
-11:12:14.674 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 32 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:12:48.722 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 64 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:13:54.738 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:15:23.178 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:15:23.179 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:15:23.184 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:15:23.193 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:15:23.323 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:15:23.323 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:15:23.323 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:15:23.834 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:15:23.835 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:15:23.836 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:15:23.866 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:15:23.903 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:15:24.139 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:15:24.282 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:15:24.374 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:15:24.390 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.129 seconds (process running for 241.806)
-11:15:56.812 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:16:30.581 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:16:40.631 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:16:50.673 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:17:58.909 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:20:01.130 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:21:30.592 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:21:40.629 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:21:50.668 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:22:03.143 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:23:27.421 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:23:27.563 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=0, userName=liyinchi, password=1111111)
-11:23:27.602 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-11:23:28.013 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f5e0fb5
-11:23:28.015 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-11:23:28.025 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==>  Preparing: INSERT INTO User (userName, password) VALUES (?, ?)
-11:23:28.060 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==> Parameters: liyinchi(String), 1111111(String)
-11:23:28.072 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - <==    Updates: 1
-11:23:28.074 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======addUser:User(id=0, userName=liyinchi, password=1111111)
-11:23:39.359 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - ==>  Preparing: SELECT * FROM User
-11:23:39.360 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - ==> Parameters: 
-11:23:39.405 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - <==      Total: 26
-11:23:39.412 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=7, userName=liyinchi1, password=1111111)
-11:23:39.412 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=8, userName=liyinchi1, password=1111111)
-11:23:39.413 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=9, userName=liyinchi1, password=1111111)
-11:23:39.413 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=10, userName=liyinchi1, password=1111111)
-11:23:39.413 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=12, userName=liyinchi1, password=1111111)
-11:23:39.413 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=13, userName=liyinchi1, password=1111111)
-11:23:39.414 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=14, userName=liyinchi1, password=1111111)
-11:23:39.414 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=15, userName=liyinchi1, password=1111111)
-11:23:39.414 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=16, userName=liyinchi1, password=1111111)
-11:23:39.414 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=17, userName=liyinchi17, password=7777777)
-11:23:39.414 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=18, userName=liyinchi18, password=88888888)
-11:23:39.414 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=19, userName=liyinchi, password=1111111)
-11:23:39.414 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=20, userName=liyinchi, password=1111111)
-11:23:39.414 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=21, userName=liyinchi, password=1111111)
-11:23:39.414 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=22, userName=liyinchi, password=1111111)
-11:23:39.415 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=23, userName=liyinchi, password=1111111)
-11:23:39.415 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=24, userName=liyinchi, password=1111111)
-11:23:39.415 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=25, userName=liyinchi, password=1111111111)
-11:23:39.415 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=26, userName=liyinchi, password=1111111111)
-11:23:39.415 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=27, userName=liyinchi, password=1111111111)
-11:23:39.415 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=28, userName=liyinchi, password=1111111111)
-11:23:39.415 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=29, userName=liyinchi, password=1111111111)
-11:23:39.416 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=30, userName=liyinchi, password=1111111111)
-11:23:39.416 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=31, userName=liyinchi, password=1111111111)
-11:23:39.416 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=32, userName=liyinchi, password=1111111)
-11:23:39.416 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=33, userName=liyinchi, password=1111111)
-11:23:39.416 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======getAllUsers: [UserDTO(id=7, userName=liyinchi1, password=1111111), UserDTO(id=8, userName=liyinchi1, password=1111111), UserDTO(id=9, userName=liyinchi1, password=1111111), UserDTO(id=10, userName=liyinchi1, password=1111111), UserDTO(id=12, userName=liyinchi1, password=1111111), UserDTO(id=13, userName=liyinchi1, password=1111111), UserDTO(id=14, userName=liyinchi1, password=1111111), UserDTO(id=15, userName=liyinchi1, password=1111111), UserDTO(id=16, userName=liyinchi1, password=1111111), UserDTO(id=17, userName=liyinchi17, password=7777777), UserDTO(id=18, userName=liyinchi18, password=88888888), UserDTO(id=19, userName=liyinchi, password=1111111), UserDTO(id=20, userName=liyinchi, password=1111111), UserDTO(id=21, userName=liyinchi, password=1111111), UserDTO(id=22, userName=liyinchi, password=1111111), UserDTO(id=23, userName=liyinchi, password=1111111), UserDTO(id=24, userName=liyinchi, password=1111111), UserDTO(id=25, userName=liyinchi, password=1111111111), UserDTO(id=26, userName=liyinchi, password=1111111111), UserDTO(id=27, userName=liyinchi, password=1111111111), UserDTO(id=28, userName=liyinchi, password=1111111111), UserDTO(id=29, userName=liyinchi, password=1111111111), UserDTO(id=30, userName=liyinchi, password=1111111111), UserDTO(id=31, userName=liyinchi, password=1111111111), UserDTO(id=32, userName=liyinchi, password=1111111), UserDTO(id=33, userName=liyinchi, password=1111111)]
-11:24:05.214 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:26:07.277 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:26:30.576 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:26:40.626 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:26:50.666 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:28:09.333 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:30:11.430 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:31:30.588 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:31:40.625 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:31:50.670 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:32:13.440 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:33:10.301 [http-nio-8088-exec-4] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==>  Preparing: DELETE FROM User WHERE id = ?
-11:33:10.302 [http-nio-8088-exec-4] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==> Parameters: 4(Integer)
-11:33:10.307 [http-nio-8088-exec-4] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - <==    Updates: 0
-11:33:10.307 [http-nio-8088-exec-4] INFO  c.e.l.s.d.controller.UserController - =======deleteUser:DeleteUserRequestDTO(id=4)
-11:34:15.480 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:35:04.664 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:35:04.664 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:35:04.665 [Thread-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
-11:35:04.675 [Thread-7] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+14:02:16.706 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:02:16.728 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:02:16.735 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+14:02:16.744 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+14:02:17.306 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:02:17.306 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:02:17.306 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:02:19.582 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:02:19.586 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:02:19.588 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:02:19.687 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:02:19.806 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:02:20.130 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:02:20.307 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:02:20.499 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:02:20.537 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 3.65 seconds (process running for 1554.48)
+14:02:37.025 [Thread-15] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:02:37.025 [Thread-15] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:02:37.027 [Thread-15] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:02:37.043 [Thread-15] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:02:37.242 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:02:37.244 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:02:37.247 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:02:37.990 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:02:37.991 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:02:37.991 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:02:38.016 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:02:38.034 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:02:38.139 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:02:38.304 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:02:38.403 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:02:38.422 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.251 seconds (process running for 1572.365)
+14:02:46.868 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:02:46.868 [Thread-19] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:02:46.870 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:02:46.876 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:02:47.021 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:02:47.022 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:02:47.022 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:02:47.487 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:02:47.487 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:02:47.487 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:02:47.511 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:02:47.529 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:02:47.630 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:02:47.729 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:02:47.885 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:02:47.905 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.938 seconds (process running for 1581.848)
+14:03:25.398 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:03:45.766 [Thread-23] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:03:45.766 [Thread-23] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:03:45.768 [Thread-23] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:03:45.773 [Thread-23] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:03:45.897 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:03:45.897 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:03:45.897 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:03:46.238 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:03:46.238 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:03:46.238 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:03:46.260 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:03:46.285 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:03:46.433 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:03:46.514 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:03:46.657 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:03:46.691 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.843 seconds (process running for 1640.634)
+14:04:14.307 [Thread-27] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:04:14.307 [Thread-27] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:04:14.309 [Thread-27] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:04:14.316 [Thread-27] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:04:14.533 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:04:14.533 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:04:14.533 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:04:16.566 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:04:16.567 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:04:16.567 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:04:16.600 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:04:16.614 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:04:16.694 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:04:16.783 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:04:17.058 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:04:17.075 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 2.65 seconds (process running for 1671.018)
+14:05:27.450 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:06:19.522 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:06:19.523 [Thread-31] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:06:19.527 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:06:19.534 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:06:19.744 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:06:19.744 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:06:19.744 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:06:20.740 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:06:20.741 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:06:20.741 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:06:20.806 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:06:20.840 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:06:21.036 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:06:21.121 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:06:21.203 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:06:21.226 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.588 seconds (process running for 1795.17)
+14:06:34.184 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:06:44.233 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:06:54.269 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:07:29.461 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:09:31.474 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:11:34.206 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:11:36.212 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:11:44.234 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:11:54.269 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:12:13.743 [Thread-35] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:12:13.743 [Thread-35] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:12:13.745 [Thread-35] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:12:13.748 [Thread-35] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:12:13.881 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:12:13.881 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:12:13.881 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:12:14.260 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:12:14.260 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:12:14.260 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:12:14.292 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:12:14.314 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:12:14.444 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:12:14.520 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:12:14.625 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:12:14.644 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.812 seconds (process running for 2148.59)
+14:13:03.459 [Thread-39] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:13:03.460 [Thread-39] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:13:03.461 [Thread-39] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:13:03.466 [Thread-39] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:13:03.561 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:13:03.561 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:13:03.561 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:13:03.879 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:13:03.880 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:13:03.880 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:13:03.904 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:13:03.920 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:13:04.031 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:13:04.120 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:13:04.229 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:13:04.248 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.712 seconds (process running for 2198.194)
+14:13:38.472 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:13:54.039 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:13:54.039 [Thread-43] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:13:54.041 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:13:54.043 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:13:54.179 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:13:54.179 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:13:54.179 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:13:54.599 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:13:54.602 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:13:54.602 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:13:54.660 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:13:54.678 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:13:54.848 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:13:54.971 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:13:55.085 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:13:55.116 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.978 seconds (process running for 2249.062)
+14:15:40.598 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:16:34.186 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:16:44.235 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:16:54.268 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:17:15.167 [Thread-47] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:17:15.167 [Thread-47] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:17:15.169 [Thread-47] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:17:15.177 [Thread-47] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:17:15.311 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:17:15.311 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:17:15.311 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:17:15.682 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:17:15.683 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:17:15.683 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:17:15.712 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:17:15.736 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:17:15.994 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:17:16.295 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:17:16.563 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:17:16.593 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.328 seconds (process running for 2450.535)
+14:17:42.791 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:18:48.738 [Thread-51] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:18:48.739 [Thread-51] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:18:48.741 [Thread-51] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:18:48.746 [Thread-51] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:18:48.940 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:18:48.941 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:18:48.941 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:18:49.492 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:18:49.492 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:18:49.493 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:18:49.532 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:18:49.554 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:18:49.705 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:18:49.784 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:18:49.890 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:18:49.919 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.016 seconds (process running for 2543.861)
+14:19:13.516 [Thread-55] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:19:13.516 [Thread-55] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:19:13.518 [Thread-55] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:19:13.535 [Thread-55] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:19:13.727 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:19:13.727 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:19:13.727 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:19:14.016 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:19:14.017 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:19:14.017 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:19:14.044 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:19:14.056 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:19:14.140 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:19:14.214 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:19:14.305 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:19:14.334 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.661 seconds (process running for 2568.276)
+14:19:20.751 [Thread-59] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:19:20.751 [Thread-59] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:19:20.752 [Thread-59] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:19:20.759 [Thread-59] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:19:20.888 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:19:20.888 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:19:20.888 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:19:21.429 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:19:21.429 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:19:21.429 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:19:21.457 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:19:21.470 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:19:21.571 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:19:21.657 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:19:21.779 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:19:21.789 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.94 seconds (process running for 2575.732)
+14:19:26.216 [Thread-63] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:19:26.216 [Thread-63] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:19:26.217 [Thread-63] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:19:26.222 [Thread-63] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:19:26.327 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:19:26.327 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:19:26.327 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:19:26.551 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:19:26.551 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:19:26.551 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:19:26.566 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:19:26.577 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:19:26.646 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:19:26.703 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:19:26.767 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:19:26.791 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.486 seconds (process running for 2580.733)
+14:19:36.249 [Thread-67] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:19:36.249 [Thread-67] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:19:36.250 [Thread-67] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:19:36.255 [Thread-67] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:19:36.375 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:19:36.375 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:19:36.375 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:19:36.645 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:19:36.645 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:19:36.645 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:19:36.661 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:19:36.672 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:19:36.735 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:19:36.779 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:19:36.833 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:19:36.848 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.506 seconds (process running for 2590.79)
+14:19:44.630 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:19:44.644 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=0, userName=liyinchi, password=1111111111)
+14:19:44.648 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======addUserFormData:User(id=0, userName=liyinchi, password=1111111111)
+14:19:44.652 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+14:19:44.739 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40cd2e20
+14:19:44.739 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+14:19:44.740 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==>  Preparing: INSERT INTO User (userName, password) VALUES (?, ?)
+14:19:44.744 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==> Parameters: liyinchi(String), 1111111111(String)
+14:19:44.758 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - <==    Updates: 1
+14:19:44.824 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:20:16.626 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=18, userName=liyinchi18, password=88888888)
+14:20:16.631 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==>  Preparing: UPDATE User SET username = ?, password = ? WHERE id = ?
+14:20:16.635 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==> Parameters: liyinchi18(String), 88888888(String), 18(Integer)
+14:20:16.642 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.updateUser - <==    Updates: 1
+14:20:16.649 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==>  Preparing: SELECT ROW_COUNT()
+14:20:16.649 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==> Parameters: 
+14:20:16.680 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - <==      Total: 1
+14:20:16.699 [http-nio-8088-exec-2] ERROR c.e.l.s.d.e.GlobalExceptionHandler - 系统异常1111：
+org.mybatis.spring.MyBatisSystemException: null
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:96)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:64)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy21/jdk.proxy21.$Proxy141.updateUser(Unknown Source)
+	at com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl.updateUser(UserServiceImpl.java:50)
+	at com.example.lyc.springboot.demo.controller.UserController.updateUser(UserController.java:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.ibatis.executor.ExecutorException: No setter found for the keyProperty 'updates' in com.example.lyc.springboot.demo.entity.User.
+	at org.apache.ibatis.executor.keygen.SelectKeyGenerator.setValue(SelectKeyGenerator.java:117)
+	at org.apache.ibatis.executor.keygen.SelectKeyGenerator.processGeneratedKeys(SelectKeyGenerator.java:80)
+	at org.apache.ibatis.executor.keygen.SelectKeyGenerator.processAfter(SelectKeyGenerator.java:54)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:51)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at jdk.proxy2/jdk.proxy2.$Proxy104.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 58 common frames omitted
+14:20:16.718 [http-nio-8088-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException]
+14:21:34.422 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:21:44.230 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:21:46.858 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:21:54.272 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:22:29.227 [Thread-71] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:22:29.228 [Thread-71] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:22:29.231 [Thread-71] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:22:29.240 [Thread-71] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-4 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
  java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
  java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
@@ -207,387 +391,92 @@
  java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
  java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
  java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-11:35:04.676 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:35:04.694 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:35:04.704 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-11:35:04.720 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-11:35:04.883 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:35:04.883 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:35:04.884 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:35:05.340 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:35:05.340 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:35:05.340 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:35:05.359 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:35:05.373 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:35:05.458 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:35:05.696 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:35:05.806 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:35:05.848 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.032 seconds (process running for 1423.268)
-11:35:24.358 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:35:24.358 [Thread-11] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:35:24.360 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:35:24.367 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:35:24.471 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:35:24.472 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:35:24.472 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:35:24.938 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:35:24.938 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:35:24.938 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:35:24.959 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:35:24.972 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:35:25.058 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:35:25.122 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:35:25.188 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:35:25.211 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.79 seconds (process running for 1442.631)
-11:36:17.549 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:36:30.573 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:36:34.160 [Thread-15] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:36:34.161 [Thread-15] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:36:34.163 [Thread-15] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:36:34.180 [Thread-15] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:36:34.331 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:36:34.332 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:36:34.332 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:36:35.912 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:36:35.913 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:36:35.913 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:36:35.951 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:36:35.978 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:36:36.346 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:36:36.683 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:36:36.980 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:36:37.033 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 2.757 seconds (process running for 1514.451)
-11:36:40.623 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:36:50.667 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:37:25.459 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:37:25.467 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
-11:37:25.549 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d35758b
-11:37:25.549 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
-11:37:25.549 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==>  Preparing: DELETE FROM User WHERE id = ?
-11:37:25.550 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==> Parameters: 4(Integer)
-11:37:25.559 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - <==    Updates: 0
-11:37:25.559 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======deleteUser:DeleteUserRequestDTO(id=4)
-11:38:19.596 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:40:21.739 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:41:08.883 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:41:08.885 [Thread-19] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:41:08.888 [Thread-19] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
-11:41:08.915 [Thread-19] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
- java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
- java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
- java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
- java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
- java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
- java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-11:41:08.917 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:41:08.925 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:41:08.940 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
-11:41:08.950 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
-11:41:09.197 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:41:09.198 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:41:09.198 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:41:09.691 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:41:09.692 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:41:09.692 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:41:09.719 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:41:09.744 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:41:09.985 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:41:10.097 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:41:10.168 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:41:10.188 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.104 seconds (process running for 1787.571)
-11:41:14.835 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:41:14.845 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
-11:41:14.928 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8e70d6d
-11:41:14.929 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
-11:41:14.929 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==>  Preparing: DELETE FROM User WHERE id = ?
-11:41:14.929 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==> Parameters: 3(Integer)
-11:41:14.937 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - <==    Updates: 0
-11:41:14.938 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======deleteUserPath:3
-11:41:19.486 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==>  Preparing: DELETE FROM User WHERE id = ?
-11:41:19.499 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - ==> Parameters: 11(Integer)
-11:41:19.505 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.deleteUser - <==    Updates: 0
-11:41:19.506 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======deleteUserParam:11
-11:41:30.616 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:41:40.770 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:41:50.705 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:42:23.756 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:44:25.796 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:44:51.900 [Thread-23] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:44:51.900 [Thread-23] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:44:51.901 [Thread-23] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
-11:44:51.902 [Thread-23] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
- java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
- java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
- java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
- java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
- java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
- java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-11:44:51.903 [Thread-23] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:44:51.910 [Thread-23] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:44:51.916 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
-11:44:51.924 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
-11:44:52.112 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:44:52.113 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:44:52.113 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:44:52.687 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:44:52.688 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:44:52.688 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:44:52.711 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:44:52.771 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:44:52.880 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:44:52.942 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:44:53.050 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:44:53.118 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.091 seconds (process running for 2010.499)
-11:45:05.556 [Thread-27] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:45:05.557 [Thread-27] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:45:05.558 [Thread-27] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:45:05.564 [Thread-27] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:45:05.711 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:45:05.711 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:45:05.711 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:45:06.306 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:45:06.307 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:45:06.309 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:45:06.330 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:45:06.347 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:45:06.464 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:45:06.596 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:45:06.678 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:45:06.694 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.035 seconds (process running for 2024.075)
-11:45:14.154 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:45:14.154 [Thread-31] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:45:14.156 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:45:14.161 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:45:14.278 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:45:14.278 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:45:14.278 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:45:14.624 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:45:14.625 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:45:14.625 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:45:14.642 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:45:14.656 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:45:14.728 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:45:14.795 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:45:14.924 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:45:14.953 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.707 seconds (process running for 2032.334)
-11:45:23.608 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:45:23.616 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=0, userName=liyinchi, password=1111111)
-11:45:23.617 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
-11:45:23.672 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a360381
-11:45:23.672 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
-11:45:23.672 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==>  Preparing: INSERT INTO User (userName, password) VALUES (?, ?)
-11:45:23.674 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==> Parameters: liyinchi(String), 1111111(String)
-11:45:23.687 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - <==    Updates: 1
-11:45:23.688 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======addUser:User(id=0, userName=liyinchi, password=1111111)
-11:45:27.033 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=0, userName=liyinchi, password=1111111)
-11:45:27.037 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==>  Preparing: INSERT INTO User (userName, password) VALUES (?, ?)
-11:45:27.037 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==> Parameters: liyinchi(String), 1111111(String)
-11:45:27.046 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - <==    Updates: 1
-11:45:27.046 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======addUser:User(id=0, userName=liyinchi, password=1111111)
-11:46:15.556 [http-nio-8088-exec-3] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - ==>  Preparing: SELECT * FROM User
-11:46:15.557 [http-nio-8088-exec-3] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - ==> Parameters: 
-11:46:15.574 [http-nio-8088-exec-3] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - <==      Total: 28
-11:46:15.578 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=7, userName=liyinchi1, password=1111111)
-11:46:15.578 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=8, userName=liyinchi1, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=9, userName=liyinchi1, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=10, userName=liyinchi1, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=12, userName=liyinchi1, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=13, userName=liyinchi1, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=14, userName=liyinchi1, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=15, userName=liyinchi1, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=16, userName=liyinchi1, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=17, userName=liyinchi17, password=7777777)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=18, userName=liyinchi18, password=88888888)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=19, userName=liyinchi, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=20, userName=liyinchi, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=21, userName=liyinchi, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=22, userName=liyinchi, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=23, userName=liyinchi, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=24, userName=liyinchi, password=1111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=25, userName=liyinchi, password=1111111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=26, userName=liyinchi, password=1111111111)
-11:46:15.579 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=27, userName=liyinchi, password=1111111111)
-11:46:15.580 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=28, userName=liyinchi, password=1111111111)
-11:46:15.580 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=29, userName=liyinchi, password=1111111111)
-11:46:15.580 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=30, userName=liyinchi, password=1111111111)
-11:46:15.580 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=31, userName=liyinchi, password=1111111111)
-11:46:15.580 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=32, userName=liyinchi, password=1111111)
-11:46:15.580 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=33, userName=liyinchi, password=1111111)
-11:46:15.580 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=34, userName=liyinchi, password=1111111)
-11:46:15.580 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=35, userName=liyinchi, password=1111111)
-11:46:15.580 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======getAllUsers: [UserDTO(id=7, userName=liyinchi1, password=1111111), UserDTO(id=8, userName=liyinchi1, password=1111111), UserDTO(id=9, userName=liyinchi1, password=1111111), UserDTO(id=10, userName=liyinchi1, password=1111111), UserDTO(id=12, userName=liyinchi1, password=1111111), UserDTO(id=13, userName=liyinchi1, password=1111111), UserDTO(id=14, userName=liyinchi1, password=1111111), UserDTO(id=15, userName=liyinchi1, password=1111111), UserDTO(id=16, userName=liyinchi1, password=1111111), UserDTO(id=17, userName=liyinchi17, password=7777777), UserDTO(id=18, userName=liyinchi18, password=88888888), UserDTO(id=19, userName=liyinchi, password=1111111), UserDTO(id=20, userName=liyinchi, password=1111111), UserDTO(id=21, userName=liyinchi, password=1111111), UserDTO(id=22, userName=liyinchi, password=1111111), UserDTO(id=23, userName=liyinchi, password=1111111), UserDTO(id=24, userName=liyinchi, password=1111111), UserDTO(id=25, userName=liyinchi, password=1111111111), UserDTO(id=26, userName=liyinchi, password=1111111111), UserDTO(id=27, userName=liyinchi, password=1111111111), UserDTO(id=28, userName=liyinchi, password=1111111111), UserDTO(id=29, userName=liyinchi, password=1111111111), UserDTO(id=30, userName=liyinchi, password=1111111111), UserDTO(id=31, userName=liyinchi, password=1111111111), UserDTO(id=32, userName=liyinchi, password=1111111), UserDTO(id=33, userName=liyinchi, password=1111111), UserDTO(id=34, userName=liyinchi, password=1111111), UserDTO(id=35, userName=liyinchi, password=1111111)]
-11:46:27.856 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:46:31.867 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:46:40.660 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:46:50.711 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:47:42.563 [Thread-35] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:47:42.564 [Thread-35] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:47:42.565 [Thread-35] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
-11:47:42.566 [Thread-35] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-4 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
- java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
- java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
- java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
- java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
- java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
- java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-11:47:42.567 [Thread-35] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:47:42.570 [Thread-35] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:47:42.576 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
-11:47:42.582 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
-11:47:42.709 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:47:42.709 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:47:42.709 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:47:43.289 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:47:43.290 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:47:43.290 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:47:43.312 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:47:43.332 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:47:43.444 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:47:43.556 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:47:43.647 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:47:43.663 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.989 seconds (process running for 2181.043)
-11:47:48.537 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:47:48.541 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=0, userName=liyinchi, password=1111111)
-11:47:48.542 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
-11:47:48.583 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31a84649
-11:47:48.583 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
-11:47:48.584 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==>  Preparing: INSERT INTO User (userName, password) VALUES (?, ?)
-11:47:48.584 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==> Parameters: liyinchi(String), 1111111(String)
-11:47:48.593 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - <==    Updates: 1
-11:47:48.593 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======addUser:User(id=0, userName=liyinchi, password=1111111)
-11:47:50.876 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=0, userName=liyinchi, password=1111111)
-11:47:50.880 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==>  Preparing: INSERT INTO User (userName, password) VALUES (?, ?)
-11:47:50.881 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==> Parameters: liyinchi(String), 1111111(String)
-11:47:50.897 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - <==    Updates: 1
-11:47:50.898 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======addUser:User(id=0, userName=liyinchi, password=1111111)
-11:48:18.390 [Thread-39] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:48:18.390 [Thread-39] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:48:18.391 [Thread-39] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
-11:48:18.392 [Thread-39] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-5 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
- java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
- java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
- java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
- java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
- java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
- java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
- java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-11:48:18.392 [Thread-39] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:48:18.397 [Thread-39] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:48:18.401 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
-11:48:18.406 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
-11:48:18.545 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:48:18.545 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:48:18.545 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:48:18.875 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:48:18.876 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:48:18.876 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:48:18.894 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:48:18.908 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:48:18.990 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:48:19.069 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:48:19.189 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:48:19.213 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.712 seconds (process running for 2216.593)
-11:48:29.966 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:49:37.276 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:49:37.276 [Thread-43] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:49:37.277 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:49:37.282 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:49:37.410 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:49:37.410 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:49:37.410 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:49:37.742 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:49:37.743 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:49:37.743 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:49:37.763 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:49:37.776 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:49:37.847 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:49:37.924 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:49:38.022 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:49:38.066 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.686 seconds (process running for 2295.446)
-11:50:32.000 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:50:51.076 [Thread-47] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:50:51.076 [Thread-47] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:50:51.078 [Thread-47] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:50:51.086 [Thread-47] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:50:51.265 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:50:51.265 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:50:51.265 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:50:51.662 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:50:51.662 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:50:51.662 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:50:51.682 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:50:51.696 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:50:51.767 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:50:51.827 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:50:51.920 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:50:51.958 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.758 seconds (process running for 2369.337)
-11:50:57.372 [Thread-51] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
-11:50:57.372 [Thread-51] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-11:50:57.374 [Thread-51] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
-11:50:57.378 [Thread-51] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
-11:50:57.493 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 66776 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:50:57.494 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:50:57.494 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:50:57.863 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:50:57.978 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:50:58.066 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:50:58.177 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 0.717 seconds (process running for 2375.555)
-11:51:33.884 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-11:51:33.937 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
-11:51:33.938 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
-11:51:33.938 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-11:51:33.939 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
-11:51:33.939 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
-11:51:33.939 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:51:33.939 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:51:33.939 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
-11:51:33.939 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:51:33.940 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:51:33.940 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
-11:51:33.940 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:51:33.940 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:51:33.940 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
-11:51:33.940 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
-11:51:33.940 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
-11:51:33.940 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
-11:51:33.957 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
-11:51:33.957 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
-11:51:33.959 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
-11:51:36.987 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
-11:51:36.990 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-11:51:36.990 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11:51:37.093 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-11:51:37.187 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
-11:51:37.630 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
-11:51:37.778 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:51:38.020 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-11:51:38.651 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
-11:51:38.695 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 33.676 seconds (process running for 35.125)
-11:51:54.524 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:51:54.642 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=0, userName=liyinchi, password=1111111)
-11:51:54.675 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-11:51:55.259 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6523c13a
-11:51:55.267 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-11:51:55.289 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==>  Preparing: INSERT INTO User (userName, password) VALUES (?, ?)
-11:51:55.375 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==> Parameters: liyinchi(String), 1111111(String)
-11:51:55.400 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.insertUser - <==    Updates: 1
-11:51:55.424 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======addUser:User(id=38, userName=liyinchi, password=1111111)
-11:51:55.819 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 32 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:51:57.803 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=0, userName=liyinchi, password=1111111)
-11:51:57.807 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==>  Preparing: INSERT INTO User (userName, password) VALUES (?, ?)
-11:51:57.808 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - ==> Parameters: liyinchi(String), 1111111(String)
-11:51:57.817 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.insertUser - <==    Updates: 1
-11:51:57.818 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======addUser:User(id=39, userName=liyinchi, password=1111111)
-11:52:29.836 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 64 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
-11:53:35.984 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:22:29.242 [Thread-71] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:22:29.257 [Thread-71] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:22:29.264 [Thread-71] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+14:22:29.278 [Thread-71] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+14:22:29.606 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:22:29.606 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:22:29.607 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:22:30.063 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:22:30.063 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:22:30.063 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:22:30.104 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:22:30.130 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:22:30.293 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:22:30.424 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:22:30.532 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:22:30.561 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.051 seconds (process running for 2764.503)
+14:23:00.214 [Thread-75] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:23:00.214 [Thread-75] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:23:00.217 [Thread-75] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:23:00.249 [Thread-75] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:23:00.483 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 71037 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:23:00.484 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:23:00.484 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:23:01.417 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:23:01.418 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:23:01.419 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:23:01.538 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:23:01.567 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:23:02.071 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:23:02.210 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:23:02.298 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:23:02.310 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.871 seconds (process running for 2796.252)
+14:23:03.211 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:23:03.215 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=18, userName=liyinchi18, password=88888888, updates=0)
+14:23:03.224 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+14:23:03.264 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33a8bee7
+14:23:03.264 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+14:23:03.264 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==>  Preparing: UPDATE User SET username = ?, password = ? WHERE id = ?
+14:23:03.265 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==> Parameters: liyinchi18(String), 88888888(String), 18(Integer)
+14:23:03.272 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.updateUser - <==    Updates: 1
+14:23:03.272 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==>  Preparing: SELECT ROW_COUNT()
+14:23:03.273 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==> Parameters: 
+14:23:03.275 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - <==      Total: 1
+14:23:03.276 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======updateUser:User(id=18, userName=liyinchi18, password=88888888, updates=1)
+14:23:07.009 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=18, userName=liyinchi18, password=88888888, updates=0)
+14:23:07.014 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==>  Preparing: UPDATE User SET username = ?, password = ? WHERE id = ?
+14:23:07.015 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==> Parameters: liyinchi18(String), 88888888(String), 18(Integer)
+14:23:07.023 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.updateUser - <==    Updates: 1
+14:23:07.023 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==>  Preparing: SELECT ROW_COUNT()
+14:23:07.023 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==> Parameters: 
+14:23:07.026 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - <==      Total: 1
+14:23:07.027 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======updateUser:User(id=18, userName=liyinchi18, password=88888888, updates=1)
+14:23:48.909 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:25:50.986 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:26:34.187 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:26:44.230 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:26:54.274 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:27:53.058 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:29:55.104 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:52:35.718 [HikariPool-5 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=22m2s307ms).
+14:53:06.537 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:53:16.514 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:53:26.556 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:53:29.396 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:55:31.457 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:55:31.770 [http-nio-8088-exec-4] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=19, userName=liyinchi19, password=88888888, updates=0)
+14:55:31.820 [http-nio-8088-exec-4] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==>  Preparing: UPDATE User SET username = ?, password = ? WHERE id = ?
+14:55:31.828 [http-nio-8088-exec-4] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==> Parameters: liyinchi19(String), 88888888(String), 19(Integer)
+14:55:31.841 [http-nio-8088-exec-4] DEBUG c.e.l.s.d.m.UserMapper.updateUser - <==    Updates: 1
+14:55:31.842 [http-nio-8088-exec-4] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==>  Preparing: SELECT ROW_COUNT()
+14:55:31.842 [http-nio-8088-exec-4] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==> Parameters: 
+14:55:31.860 [http-nio-8088-exec-4] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - <==      Total: 1
+14:55:31.864 [http-nio-8088-exec-4] INFO  c.e.l.s.d.controller.UserController - =======updateUser:User(id=19, userName=liyinchi19, password=88888888, updates=1)
+14:55:37.334 [http-nio-8088-exec-5] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=191, userName=liyinchi19, password=88888888, updates=0)
+14:55:37.341 [http-nio-8088-exec-5] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==>  Preparing: UPDATE User SET username = ?, password = ? WHERE id = ?
+14:55:37.342 [http-nio-8088-exec-5] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==> Parameters: liyinchi19(String), 88888888(String), 191(Integer)
+14:55:37.352 [http-nio-8088-exec-5] DEBUG c.e.l.s.d.m.UserMapper.updateUser - <==    Updates: 0
+14:55:37.353 [http-nio-8088-exec-5] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==>  Preparing: SELECT ROW_COUNT()
+14:55:37.353 [http-nio-8088-exec-5] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==> Parameters: 
+14:55:37.360 [http-nio-8088-exec-5] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - <==      Total: 1
+14:55:37.361 [http-nio-8088-exec-5] INFO  c.e.l.s.d.controller.UserController - =======updateUser:User(id=191, userName=liyinchi19, password=88888888, updates=0)
+14:55:41.958 [http-nio-8088-exec-6] INFO  c.e.l.s.d.controller.UserController - =======convertToEntity:User(id=19, userName=liyinchi19, password=88888888, updates=0)
+14:55:41.962 [http-nio-8088-exec-6] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==>  Preparing: UPDATE User SET username = ?, password = ? WHERE id = ?
+14:55:41.963 [http-nio-8088-exec-6] DEBUG c.e.l.s.d.m.UserMapper.updateUser - ==> Parameters: liyinchi19(String), 88888888(String), 19(Integer)
+14:55:41.972 [http-nio-8088-exec-6] DEBUG c.e.l.s.d.m.UserMapper.updateUser - <==    Updates: 1
+14:55:41.972 [http-nio-8088-exec-6] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==>  Preparing: SELECT ROW_COUNT()
+14:55:41.972 [http-nio-8088-exec-6] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - ==> Parameters: 
+14:55:41.975 [http-nio-8088-exec-6] DEBUG c.e.l.s.d.m.U.updateUser!selectKey - <==      Total: 1
+14:55:41.976 [http-nio-8088-exec-6] INFO  c.e.l.s.d.controller.UserController - =======updateUser:User(id=19, userName=liyinchi19, password=88888888, updates=1)
