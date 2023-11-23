@@ -164,10 +164,11 @@ public class UserController {
      * */
     @Operation(summary = "通过ID删除用户", description = "删除指定ID的用户")
     @RequestMapping(value = "/deleteUserPath/{id}", method = RequestMethod.DELETE,produces = "application/json; charset=UTF-8")
-    public BaseResponse<UserIdResponseDTO> deleteUserPath(@Parameter(description = "用户ID", required = true) @PathVariable int id) { // id在URI中
-        userService.deleteUser(id);
+    public BaseResponse<DeleteUserResponseDTO> deleteUserPath(@Parameter(description = "用户ID", required = true) @PathVariable int id) { // id在URI中
+        // 调用userService的deleteUser方法，根据请求中的id删除数据库中的用户
+        int updates = userService.deleteUser(id);// 获取请求参数id值
         log.info("=======deleteUserPath:{}", id);
-        return BaseResponse.success(new UserIdResponseDTO(id));
+        return BaseResponse.success(new DeleteUserResponseDTO(id, updates));
     }
 
     /**
@@ -180,10 +181,10 @@ public class UserController {
      * */
     @Operation(summary = "通过ID参数删除用户", description = "删除指定ID的用户")
     @RequestMapping(value = "/deleteUserParam", method = RequestMethod.DELETE,produces = "application/json; charset=UTF-8")
-    public BaseResponse<UserIdResponseDTO> deleteUserParam(@Parameter(description = "用户ID", required = true) @RequestParam("id") int id) { // id在URI中
-        userService.deleteUser(id);
+    public BaseResponse<DeleteUserResponseDTO> deleteUserParam(@Parameter(description = "用户ID", required = true) @RequestParam("id") int id) { // id在URI中
+        int updates = userService.deleteUser(id);// 获取请求参数id值
         log.info("=======deleteUserParam:{}", id);
-        return BaseResponse.success(new UserIdResponseDTO(id));
+        return BaseResponse.success(new DeleteUserResponseDTO(id, updates));
     }
 
 
