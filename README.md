@@ -396,6 +396,8 @@ java -jar lyc.springboot.demo.jar
 
 * 返回数据 
 
+<img width="400" height="400"  alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/c889e1b4-9319-4ba9-9adc-d83cfed60f55">
+
 
 * 示例3：
 
@@ -419,6 +421,8 @@ java -jar lyc.springboot.demo.jar
 ```
 
 * 返回数据 
+
+<img width="400" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/36db82b5-e195-4bf3-a4c7-f3551b30f47f">
 
 
 
