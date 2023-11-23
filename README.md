@@ -13,7 +13,7 @@
 * Swagger2
 * Lombak
 * jackjson
-* Druid
+* Druid                           数据库连接池实现
 * Redis
 * RabbitMQ
 * tomcat
