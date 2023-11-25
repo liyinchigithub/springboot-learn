@@ -56,8 +56,8 @@ public class JsonController {
     public List<User> getUserList() {
         // TODO rom 查询数据库表
         List<User> userList = new ArrayList<>();
-        User user1 = new User(1, "李银池", "123456");
-        User user2 = new User(2, "王哈哈", "123456");
+        User user1 = new User(1, "李银池", "123456",0);
+        User user2 = new User(2, "王哈哈", "123456",0);
         userList.add(user1);
         userList.add(user2);
         // 日志输出
@@ -78,7 +78,7 @@ public class JsonController {
     public Map<String, Object> getMap() {
         // TODO rom 查询数据库表
         Map<String, Object> map = new HashMap<>(3);
-        User user = new User(1, "李银池", "123456");
+        User user = new User(1, "李银池", "123456",0);
         map.put("作者信息", user);
         map.put("github", "https://github.com/liyinchigithub");
         map.put("CSDN地址", "https://blog.csdn.net/u013302168");

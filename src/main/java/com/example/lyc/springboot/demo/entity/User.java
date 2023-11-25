@@ -26,7 +26,6 @@ public class User {
     private String userName;
     @Schema(name = "password", description = "密码")
     private String password;
-
     private int updates;
 
     /* 省略get、set和带参构造方法、无参构造函数 */
