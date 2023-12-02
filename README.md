@@ -680,6 +680,8 @@ public class UploadController {
 
 >com/example/lyc/springboot/demo/util/MybatisGenerator.java
 
+![image](https://github.com/liyinchigithub/springboot-learn/assets/19643260/878198bf-69df-4294-8df9-126b4e74f594)
+
 
 
 
