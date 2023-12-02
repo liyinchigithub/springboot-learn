@@ -674,6 +674,15 @@ public class UploadController {
 
 ```
 
+# 生成工具
+
+## 快速实现实体类、mapper、数据库表字段
+
+>com/example/lyc/springboot/demo/util/MybatisGenerator.java
+
+
+
+
 # 常见问题
 
 1.端口占用

@@ -5,9 +5,9 @@
 <generatorConfiguration>
     <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/test"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/springBootTest"
                         userId="root"
-                        password="root">
+                        password="lyc123456">
         </jdbcConnection>
         <javaModelGenerator targetPackage="com.example.lyc.springboot.demo.model" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
@@ -19,9 +19,8 @@
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.example.lyc.springboot.demo.mapper" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
-        <table schema="test" tableName="your_table_name" domainObjectName="YourModelName" >
+        <table schema="test" tableName="Test" domainObjectName="YourModelName" >
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
     </context>
 </generatorConfiguration>
-```
