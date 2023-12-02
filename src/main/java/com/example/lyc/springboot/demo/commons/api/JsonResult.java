@@ -2,6 +2,10 @@ package com.example.lyc.springboot.demo.commons.api;
 
 import org.springframework.stereotype.Component;
 
+
+/**
+ * csdn 教程统一返回json类
+ * */
 @Component
 public class JsonResult<T> {
     private T data;// 返回数据

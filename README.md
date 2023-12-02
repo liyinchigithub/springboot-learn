@@ -440,33 +440,123 @@ mvn clean install
 <img width="1429" alt="image" src="https://github.com/liyinchigithub/lyc.springboot.demo/assets/19643260/eea042be-b835-4434-be4a-c98930333e07">
 
 
-# 全局处理
-
-##  处理全局异常
+# 全局异常处理
 
 >com.lyc.springboot.demo.common.exception.GlobalExceptionHandler
 
-##  枚举异常处理
+##  业务异常（枚举异常）
 >com.lyc.springboot.demo.common.exception.BusinesusinessMsgEnums
 
-##  处理所有不可知的异常
+## 参数缺失
 >com.lyc.springboot.demo.common.exception.GlobalExceptionHandler
 
+```java
+ /**
+     * 缺少请求参数异常
+     * @param ex HttpMessageNotReadableException
+     * @return
+     */
+    @ExceptionHandler(MissingServletRequestParameterException.class)
+    @ResponseStatus(value = HttpStatus.BAD_REQUEST)
+    public BaseResponse handleHttpMessageNotReadableException(MissingServletRequestParameterException ex) {
+        log.error("缺少请求参数，{}", ex.getMessage());
+        return new BaseResponse(400, "缺少必要的请求参数");
+    }
+```
+
+
 ##  处理空指针异常
+>com.lyc.springboot.demo.common.exception.GlobalExceptionHandler
+
+```java
+ /**
+     * 系统异常 预期以外异常
+     * @param ex
+     * 项目中，我们一般都会比较详细的去拦截一些常见异常，拦截 Exception 虽然可以一劳永逸，但是不利于我们去排查或者定位问题。
+     * 实际项目中，可以把拦截 Exception 异常写在 GlobalExceptionHandler 最下面，如果都没有找到，最后再拦截一下 Exception 异常，保证输出信息友好
+     *
+     */
+    @ExceptionHandler(Exception.class)
+    @ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
+    public BaseResponse handleUnexpectedServer(Exception ex) {
+        log.error("系统异常：", ex);
+        return new BaseResponse(500, "系统未知异常，请联系管理员");
+    }
+
+```
+
+##  所有不可知的异常(不推荐)
+>com.lyc.springboot.demo.common.exception.GlobalExceptionHandler
+
+```java
+  /**
+     * @Description: 所有不可知的异常
+     * @param ex
+     * @return
+     */
+    @ExceptionHandler(HttpMessageNotReadableException.class)
+    public ResponseEntity<String> handleHttpMessageNotReadableException(HttpMessageNotReadableException ex) {
+        // 这里可以记录日志，发送通知等
+        return new ResponseEntity<>("请求参数错误", HttpStatus.BAD_REQUEST);
+    }
+```
+
 
 ## 处理数组越界异常
 
-## 处理其他异常
+>com.lyc.springboot.demo.common.exception.GlobalExceptionHandler
+```java
+  /**
+     * 处理数组越界异常
+     * */
+    @ExceptionHandler(IndexOutOfBoundsException.class)
+    @ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
+    public BaseResponse handleIndexOutOfBoundsException(IndexOutOfBoundsException ex) {
+        log.error("数组越界异常，{}", ex.getMessage());
+        return new BaseResponse(500, "数组越界异常了");
+    }
+```
 
-## 处理自定义异常
+
+## 一劳永逸异常
+>com.lyc.springboot.demo.common.exception.GlobalExceptionHandler
+
+```java
+ /**
+     * 系统异常（预期意外）
+     * @param ex
+     * 项目中，我们一般都会比较详细的去拦截一些常见异常，拦截 Exception 虽然可以一劳永逸，但是不利于我们去排查或者定位问题。
+     * 实际项目中，可以把拦截 Exception 异常写在 GlobalExceptionHandler 最下面，如果都没有找到，最后再拦截一下 Exception 异常，保证输出信息友好
+     *
+     */
+    @ExceptionHandler(Exception.class)
+    @ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
+    public BaseResponse handleUnexpectedServer(Exception ex) {
+        log.error("系统异常：", ex);
+        return new BaseResponse(500, "系统未知异常，请联系管理员");
+    }
+```
+
 
 # 全局返回结果处理
 
->com.lyc.springboot.demo.common.config.ResultConfig
+>com.lyc.springboot.demo.common.api.BaseResponse
 
 ## 处理成功返回结果
 
+```java
+   public BaseResponse() {
+        this.code = 0;
+        this.message = "success";
+    }
+```
+
+
 ## 处理失败返回结果
+
+```java
+```
+
 
 # 统一日志处理
 
@@ -474,10 +564,21 @@ mvn clean install
 
 
 
+# 文件上传
 
+>com/example/lyc/springboot/demo/controller/UploadController.java
 
+接收上传文件，存放在指定路径下
 
+```java
 
+```
+
+接收上传文件，存放在阿里云存储上
+
+```java
+
+```
 
 # 常见问题
 

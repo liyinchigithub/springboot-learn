@@ -1,9 +1,16 @@
 package com.example.lyc.springboot.demo.exception;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 /**
  * 自定义业务异常
- * @author
+ * @author liyinchi
  */
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class BusinessErrorException extends RuntimeException {
 
     private static final long serialVersionUID = -7480022450501760611L;
