@@ -105,3 +105,12 @@ springdoc:
   api-docs:
     path: /swagger-docs
     enabled: true
+
+
+# 阿里云
+aliyun:
+  oss:
+    endpoint: <your-oss-endpoint>
+    accessKeyId: <your-access-key-id>
+    accessKeySecret: <your-access-key-secret>
+    bucketName: <your-bucket-name>

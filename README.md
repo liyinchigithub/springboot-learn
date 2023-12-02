@@ -124,7 +124,6 @@ User实体类 -> UserController ->  UserService.interface ->  UserServiceImpl.ja
 这种分层的架构可以使你的代码更加模块化，更容易测试和维护。每一层都有其特定的职责，这样可以降低各层之间的耦合度，提高代码的可重用性。
 
 
-
 ## 项目依赖
 pom.xml
 
