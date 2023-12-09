@@ -753,6 +753,8 @@ public class LogAspectHandler {
 
 }
 ```
+<img width="1351" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/613174c2-6a0c-4812-beaa-0e9e9d60882d">
+
 
 
 
@@ -775,6 +777,7 @@ public class LogAspectHandler {
           }
 ```
 
+<img width="1340" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/45bc19eb-30ba-481b-8f78-6721daf1f8da">
 
 
 * @AfterReturning 注解
