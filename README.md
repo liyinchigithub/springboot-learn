@@ -1,6 +1,6 @@
 # springboot-learn
 
-这是一个SpringBoot学习项目
+这是一个学习SpringBoot入门项目
 
 ## 版本
 * jdk 17
@@ -803,6 +803,8 @@ public class LogAspectHandler {
         log.info("对返回参数进行业务上的增强：{}", result + "增强版");
     }
 ```
+
+<img width="1343" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/b66bd351-27ae-4f94-ba30-87cf72d55d7e">
 
 
 * @AfterThrowing 注解
