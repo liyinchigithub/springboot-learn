@@ -1,0 +1,239 @@
+19:52:50.605 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+19:52:50.649 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+19:52:50.649 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+19:52:50.649 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+19:52:50.650 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+19:52:50.650 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+19:52:50.650 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:52:50.650 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:52:50.650 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+19:52:50.650 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:52:50.650 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:52:50.650 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+19:52:50.650 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:52:50.650 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:52:50.651 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+19:52:50.651 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+19:52:50.651 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+19:52:50.651 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+19:52:50.667 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 69853 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+19:52:50.667 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+19:52:50.668 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+19:52:53.149 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+19:52:53.151 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:52:53.152 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+19:52:53.240 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:52:53.323 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+19:52:53.771 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+19:52:54.175 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+19:52:54.492 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:52:54.801 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+19:52:54.849 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 32.903 seconds (process running for 34.238)
+19:53:12.509 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 32 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:53:46.525 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 64 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:54:52.535 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:55:48.562 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+19:55:49.448 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+19:55:49.450 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+19:55:49.451 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+19:55:49.452 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+19:55:49.454 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+19:55:49.458 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:55:49.461 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:55:49.462 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+19:55:49.465 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:55:49.466 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:55:49.466 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+19:55:49.467 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:55:49.468 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:55:49.469 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+19:55:49.470 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+19:55:49.471 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+19:55:49.472 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+19:55:49.633 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 70131 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+19:55:49.637 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+19:55:49.669 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+19:55:55.729 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:56:13.738 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 32 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:56:17.125 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+19:56:17.128 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:56:17.129 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+19:56:17.474 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:56:17.993 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+19:56:18.570 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+19:56:18.572 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+19:56:18.577 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService' defined in class path resource [com/example/lyc/springboot/demo/config/AppConfig.class]: Failed to instantiate [com.example.lyc.springboot.demo.service.UserService]: Factory method 'userService' threw exception with message: Cannot invoke "org.springframework.web.context.request.ServletRequestAttributes.getRequest()" because "attributes" is null
+19:56:18.584 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:56:18.913 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService' defined in class path resource [com/example/lyc/springboot/demo/config/AppConfig.class]: Failed to instantiate [com.example.lyc.springboot.demo.service.UserService]: Factory method 'userService' threw exception with message: Cannot invoke "org.springframework.web.context.request.ServletRequestAttributes.getRequest()" because "attributes" is null
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:716)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:696)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in class path resource [com/example/lyc/springboot/demo/config/AppConfig.class]: Failed to instantiate [com.example.lyc.springboot.demo.service.UserService]: Factory method 'userService' threw exception with message: Cannot invoke "org.springframework.web.context.request.ServletRequestAttributes.getRequest()" because "attributes" is null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.lyc.springboot.demo.service.UserService]: Factory method 'userService' threw exception with message: Cannot invoke "org.springframework.web.context.request.ServletRequestAttributes.getRequest()" because "attributes" is null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 38 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.context.request.ServletRequestAttributes.getRequest()" because "attributes" is null
+	at com.example.lyc.springboot.demo.handler.LogAspectHandler.doBefore(LogAspectHandler.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:620)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.config.AppConfig$$SpringCGLIB$$3.userService(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 39 common frames omitted
+19:57:04.719 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+19:57:04.750 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+19:57:04.751 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+19:57:04.751 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+19:57:04.751 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+19:57:04.751 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+19:57:04.751 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:57:04.751 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:57:04.752 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+19:57:04.752 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:57:04.752 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:57:04.752 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+19:57:04.752 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:57:04.752 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:57:04.752 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+19:57:04.753 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+19:57:04.753 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+19:57:04.753 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+19:57:04.764 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 70402 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+19:57:04.794 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+19:57:04.801 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+19:57:08.392 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+19:57:08.395 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:57:08.397 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+19:57:08.631 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=127.0.0.1 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+19:57:08.644 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:57:09.060 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+19:57:09.690 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+19:57:09.692 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+19:57:09.695 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService' defined in class path resource [com/example/lyc/springboot/demo/config/AppConfig.class]: Failed to instantiate [com.example.lyc.springboot.demo.service.UserService]: Factory method 'userService' threw exception with message: Cannot invoke "org.springframework.web.context.request.ServletRequestAttributes.getRequest()" because "attributes" is null
+19:57:09.699 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:57:09.758 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService' defined in class path resource [com/example/lyc/springboot/demo/config/AppConfig.class]: Failed to instantiate [com.example.lyc.springboot.demo.service.UserService]: Factory method 'userService' threw exception with message: Cannot invoke "org.springframework.web.context.request.ServletRequestAttributes.getRequest()" because "attributes" is null
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:716)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:696)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in class path resource [com/example/lyc/springboot/demo/config/AppConfig.class]: Failed to instantiate [com.example.lyc.springboot.demo.service.UserService]: Factory method 'userService' threw exception with message: Cannot invoke "org.springframework.web.context.request.ServletRequestAttributes.getRequest()" because "attributes" is null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.lyc.springboot.demo.service.UserService]: Factory method 'userService' threw exception with message: Cannot invoke "org.springframework.web.context.request.ServletRequestAttributes.getRequest()" because "attributes" is null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 38 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.context.request.ServletRequestAttributes.getRequest()" because "attributes" is null
+	at com.example.lyc.springboot.demo.handler.LogAspectHandler.doBefore(LogAspectHandler.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:620)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.config.AppConfig$$SpringCGLIB$$3.userService(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 39 common frames omitted
