@@ -36,6 +36,7 @@ public class ExceptionController {
         // 日志
         log.info("name：{}", userName);
         log.info("pass：{}", password);
+
         throw new NullPointerException("空指针异常");
 //        return new JsonResult();
     }
@@ -52,11 +53,6 @@ public class ExceptionController {
         }
         return new BaseResponse();
     }
-
-
-
-
-
 
 }
 

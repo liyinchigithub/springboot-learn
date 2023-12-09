@@ -1,0 +1,805 @@
+23:00:22.698 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+23:00:32.744 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+23:00:42.782 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+23:01:51.418 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:03:54.000 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:05:23.840 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:05:33.382 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:05:43.235 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:05:56.939 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:07:59.406 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:08:44.991 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+23:08:44.992 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:08:44.994 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+23:08:44.997 [Thread-5] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+23:08:45.000 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+23:08:45.038 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+23:08:45.066 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:08:45.082 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:08:45.269 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 4852 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+23:08:45.269 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+23:08:45.270 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+23:08:46.009 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+23:08:46.010 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:08:46.010 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+23:08:46.034 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:08:46.115 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+23:08:46.279 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:08:46.279 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:08:46.280 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:08:46.281 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@58e7c8d7
+23:08:46.281 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@58e7c8d7增强版
+23:08:46.282 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:08:46.282 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+23:08:46.306 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:08:46.306 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:08:46.307 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:08:46.307 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@14b21195
+23:08:46.307 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@14b21195增强版
+23:08:46.307 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:08:46.307 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+23:08:46.312 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:08:46.312 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:08:46.312 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:08:46.313 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@e87581b
+23:08:46.313 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@e87581b增强版
+23:08:46.313 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:08:46.313 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+23:08:46.316 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:08:46.316 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:08:46.316 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:08:46.317 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@1f091c02
+23:08:46.317 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@1f091c02增强版
+23:08:46.317 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:08:46.317 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+23:08:46.454 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+23:08:46.922 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+23:08:47.582 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+23:08:47.598 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 2.426 seconds (process running for 812.545)
+23:10:05.157 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:10:18.771 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+23:10:18.771 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:10:18.772 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+23:10:18.779 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+23:10:18.944 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 4852 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+23:10:18.945 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+23:10:18.945 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+23:10:19.436 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+23:10:19.437 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:10:19.437 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+23:10:19.459 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:10:19.530 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+23:10:19.641 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:10:19.642 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:10:19.642 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:10:19.642 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@7a10e2a5
+23:10:19.643 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@7a10e2a5增强版
+23:10:19.643 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@7a10e2a5
+23:10:19.643 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:10:19.644 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+23:10:19.661 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:10:19.661 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:10:19.661 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:10:19.661 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@58fd57ae
+23:10:19.661 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@58fd57ae增强版
+23:10:19.662 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@58fd57ae
+23:10:19.662 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:10:19.662 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+23:10:19.666 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:10:19.666 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:10:19.666 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:10:19.666 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@560d3148
+23:10:19.666 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@560d3148增强版
+23:10:19.666 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@560d3148
+23:10:19.666 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:10:19.666 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+23:10:19.668 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:10:19.668 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:10:19.668 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:10:19.668 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@2411cb3e
+23:10:19.668 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@2411cb3e增强版
+23:10:19.668 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@2411cb3e
+23:10:19.668 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:10:19.668 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+23:10:19.756 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+23:10:20.103 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+23:10:20.511 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+23:10:20.529 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.645 seconds (process running for 905.473)
+23:10:24.110 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:10:33.770 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:10:44.067 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:12:14.636 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+23:12:14.681 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+23:12:14.681 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+23:12:14.682 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+23:12:14.682 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+23:12:14.682 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+23:12:14.682 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:12:14.682 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:12:14.682 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+23:12:14.682 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:12:14.683 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:12:14.683 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+23:12:14.683 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:12:14.683 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:12:14.683 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+23:12:14.684 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:12:14.684 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:12:14.684 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:12:14.697 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 5985 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+23:12:14.698 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+23:12:14.699 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+23:12:17.328 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:12:18.047 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+23:12:18.049 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:12:18.050 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+23:12:18.173 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:12:18.483 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+23:12:18.939 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:12:18.942 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:12:18.943 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:12:18.944 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@5ebd5ea
+23:12:18.946 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@5ebd5ea增强版
+23:12:18.947 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:12:18.947 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+23:12:18.972 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:12:18.973 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:12:18.973 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:12:18.990 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@2f2b4f3a
+23:12:18.990 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@2f2b4f3a增强版
+23:12:18.990 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:12:18.990 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+23:12:18.996 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:12:18.996 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:12:18.996 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:12:19.001 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@12f3ada3
+23:12:19.002 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@12f3ada3增强版
+23:12:19.002 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:12:19.002 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+23:12:19.004 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:12:19.004 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:12:19.004 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:12:19.005 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@7cf86f2f
+23:12:19.005 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@7cf86f2f增强版
+23:12:19.005 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:12:19.005 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+23:12:19.185 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+23:12:20.017 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+23:12:21.171 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+23:12:21.238 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 43.792 seconds (process running for 45.014)
+23:12:21.511 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:12:21.544 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:12:21.544 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.controller.UserController包
+23:12:21.545 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsers，ip地址为：127.0.0.1
+23:12:21.545 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:12:21.545 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl包
+23:12:21.546 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsers，ip地址为：127.0.0.1
+23:12:21.547 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:12:21.548 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: findAllUsers，属于com.example.lyc.springboot.demo.mapper.UserMapper包
+23:12:21.548 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsers，ip地址为：127.0.0.1
+23:12:21.572 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:12:21.983 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@83e0d9c
+23:12:21.984 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:12:21.999 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - ==>  Preparing: SELECT * FROM User
+23:12:22.036 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - ==> Parameters: 
+23:12:22.076 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - <==      Total: 43
+23:12:22.081 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法findAllUsers执行完毕，返回参数为：[User(id=7, userName=liyinchi1, password=1111111, updates=0), User(id=8, userName=liyinchi1, password=1111111, updates=0), User(id=9, userName=liyinchi1, password=1111111, updates=0), User(id=10, userName=liyinchi1, password=1111111, updates=0), User(id=12, userName=liyinchi1, password=1111111, updates=0), User(id=13, userName=liyinchi1, password=1111111, updates=0), User(id=14, userName=liyinchi1, password=1111111, updates=0), User(id=15, userName=liyinchi1, password=1111111, updates=0), User(id=16, userName=liyinchi1, password=1111111, updates=0), User(id=17, userName=liyinchi17, password=7777777, updates=0), User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0), User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0), User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0), User(id=51, userName=liyinchi, password=1111111111, updates=0), User(id=52, userName=liyinchi, password=1111111111, updates=0), User(id=53, userName=liyinchi, password=1111111111, updates=0)]
+23:12:22.086 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：[User(id=7, userName=liyinchi1, password=1111111, updates=0), User(id=8, userName=liyinchi1, password=1111111, updates=0), User(id=9, userName=liyinchi1, password=1111111, updates=0), User(id=10, userName=liyinchi1, password=1111111, updates=0), User(id=12, userName=liyinchi1, password=1111111, updates=0), User(id=13, userName=liyinchi1, password=1111111, updates=0), User(id=14, userName=liyinchi1, password=1111111, updates=0), User(id=15, userName=liyinchi1, password=1111111, updates=0), User(id=16, userName=liyinchi1, password=1111111, updates=0), User(id=17, userName=liyinchi17, password=7777777, updates=0), User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0), User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0), User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0), User(id=51, userName=liyinchi, password=1111111111, updates=0), User(id=52, userName=liyinchi, password=1111111111, updates=0), User(id=53, userName=liyinchi, password=1111111111, updates=0)]增强版
+23:12:22.086 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:12:22.087 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法findAllUsers已经执行完
+23:12:22.087 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers执行完毕，返回参数为：[User(id=7, userName=liyinchi1, password=1111111, updates=0), User(id=8, userName=liyinchi1, password=1111111, updates=0), User(id=9, userName=liyinchi1, password=1111111, updates=0), User(id=10, userName=liyinchi1, password=1111111, updates=0), User(id=12, userName=liyinchi1, password=1111111, updates=0), User(id=13, userName=liyinchi1, password=1111111, updates=0), User(id=14, userName=liyinchi1, password=1111111, updates=0), User(id=15, userName=liyinchi1, password=1111111, updates=0), User(id=16, userName=liyinchi1, password=1111111, updates=0), User(id=17, userName=liyinchi17, password=7777777, updates=0), User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0), User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0), User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0), User(id=51, userName=liyinchi, password=1111111111, updates=0), User(id=52, userName=liyinchi, password=1111111111, updates=0), User(id=53, userName=liyinchi, password=1111111111, updates=0)]
+23:12:22.088 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：[User(id=7, userName=liyinchi1, password=1111111, updates=0), User(id=8, userName=liyinchi1, password=1111111, updates=0), User(id=9, userName=liyinchi1, password=1111111, updates=0), User(id=10, userName=liyinchi1, password=1111111, updates=0), User(id=12, userName=liyinchi1, password=1111111, updates=0), User(id=13, userName=liyinchi1, password=1111111, updates=0), User(id=14, userName=liyinchi1, password=1111111, updates=0), User(id=15, userName=liyinchi1, password=1111111, updates=0), User(id=16, userName=liyinchi1, password=1111111, updates=0), User(id=17, userName=liyinchi17, password=7777777, updates=0), User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0), User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0), User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0), User(id=51, userName=liyinchi, password=1111111111, updates=0), User(id=52, userName=liyinchi, password=1111111111, updates=0), User(id=53, userName=liyinchi, password=1111111111, updates=0)]增强版
+23:12:22.089 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:12:22.089 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+23:12:22.090 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=7, userName=liyinchi1, password=1111111)
+23:12:22.094 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=8, userName=liyinchi1, password=1111111)
+23:12:22.095 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=9, userName=liyinchi1, password=1111111)
+23:12:22.095 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=10, userName=liyinchi1, password=1111111)
+23:12:22.095 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=12, userName=liyinchi1, password=1111111)
+23:12:22.095 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=13, userName=liyinchi1, password=1111111)
+23:12:22.095 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=14, userName=liyinchi1, password=1111111)
+23:12:22.095 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=15, userName=liyinchi1, password=1111111)
+23:12:22.095 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=16, userName=liyinchi1, password=1111111)
+23:12:22.095 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=17, userName=liyinchi17, password=7777777)
+23:12:22.095 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=18, userName=liyinchi18, password=88888888)
+23:12:22.095 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=19, userName=liyinchi19, password=88888888)
+23:12:22.095 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=20, userName=liyinchi, password=1111111)
+23:12:22.096 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=21, userName=liyinchi, password=1111111)
+23:12:22.096 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=22, userName=liyinchi, password=1111111)
+23:12:22.096 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=23, userName=liyinchi, password=1111111)
+23:12:22.096 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=24, userName=liyinchi, password=1111111)
+23:12:22.096 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=25, userName=liyinchi, password=1111111111)
+23:12:22.096 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=26, userName=liyinchi, password=1111111111)
+23:12:22.096 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=27, userName=liyinchi, password=1111111111)
+23:12:22.096 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=28, userName=liyinchi, password=1111111111)
+23:12:22.096 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=29, userName=liyinchi, password=1111111111)
+23:12:22.096 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=30, userName=liyinchi, password=1111111111)
+23:12:22.096 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=34, userName=liyinchi, password=1111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=35, userName=liyinchi, password=1111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=36, userName=liyinchi, password=1111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=37, userName=liyinchi, password=1111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=38, userName=liyinchi, password=1111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=39, userName=liyinchi, password=1111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=40, userName=liyinchi, password=1111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=41, userName=liyinchi, password=1111111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=42, userName=liyinchi, password=1111111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=43, userName=liyinchi, password=1111111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=44, userName=liyinchi, password=1111111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=45, userName=liyinchi, password=1111111111)
+23:12:22.097 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=46, userName=liyinchi, password=1111111111)
+23:12:22.098 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=47, userName=liyinchi, password=1111111111)
+23:12:22.098 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=48, userName=liyinchi, password=1111111111)
+23:12:22.098 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=49, userName=liyinchi, password=1111111111)
+23:12:22.098 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=50, userName=liyinchi, password=1111111111)
+23:12:22.098 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=51, userName=liyinchi, password=1111111111)
+23:12:22.098 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=52, userName=liyinchi, password=1111111111)
+23:12:22.098 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=53, userName=liyinchi, password=1111111111)
+23:12:22.098 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======getAllUsers: [UserDTO(id=7, userName=liyinchi1, password=1111111), UserDTO(id=8, userName=liyinchi1, password=1111111), UserDTO(id=9, userName=liyinchi1, password=1111111), UserDTO(id=10, userName=liyinchi1, password=1111111), UserDTO(id=12, userName=liyinchi1, password=1111111), UserDTO(id=13, userName=liyinchi1, password=1111111), UserDTO(id=14, userName=liyinchi1, password=1111111), UserDTO(id=15, userName=liyinchi1, password=1111111), UserDTO(id=16, userName=liyinchi1, password=1111111), UserDTO(id=17, userName=liyinchi17, password=7777777), UserDTO(id=18, userName=liyinchi18, password=88888888), UserDTO(id=19, userName=liyinchi19, password=88888888), UserDTO(id=20, userName=liyinchi, password=1111111), UserDTO(id=21, userName=liyinchi, password=1111111), UserDTO(id=22, userName=liyinchi, password=1111111), UserDTO(id=23, userName=liyinchi, password=1111111), UserDTO(id=24, userName=liyinchi, password=1111111), UserDTO(id=25, userName=liyinchi, password=1111111111), UserDTO(id=26, userName=liyinchi, password=1111111111), UserDTO(id=27, userName=liyinchi, password=1111111111), UserDTO(id=28, userName=liyinchi, password=1111111111), UserDTO(id=29, userName=liyinchi, password=1111111111), UserDTO(id=30, userName=liyinchi, password=1111111111), UserDTO(id=34, userName=liyinchi, password=1111111), UserDTO(id=35, userName=liyinchi, password=1111111), UserDTO(id=36, userName=liyinchi, password=1111111), UserDTO(id=37, userName=liyinchi, password=1111111), UserDTO(id=38, userName=liyinchi, password=1111111), UserDTO(id=39, userName=liyinchi, password=1111111), UserDTO(id=40, userName=liyinchi, password=1111111), UserDTO(id=41, userName=liyinchi, password=1111111111), UserDTO(id=42, userName=liyinchi, password=1111111111), UserDTO(id=43, userName=liyinchi, password=1111111111), UserDTO(id=44, userName=liyinchi, password=1111111111), UserDTO(id=45, userName=liyinchi, password=1111111111), UserDTO(id=46, userName=liyinchi, password=1111111111), UserDTO(id=47, userName=liyinchi, password=1111111111), UserDTO(id=48, userName=liyinchi, password=1111111111), UserDTO(id=49, userName=liyinchi, password=1111111111), UserDTO(id=50, userName=liyinchi, password=1111111111), UserDTO(id=51, userName=liyinchi, password=1111111111), UserDTO(id=52, userName=liyinchi, password=1111111111), UserDTO(id=53, userName=liyinchi, password=1111111111)]
+23:12:22.099 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers执行完毕，返回参数为：BaseResponse(code=0, message=success, data=[UserDTO(id=7, userName=liyinchi1, password=1111111), UserDTO(id=8, userName=liyinchi1, password=1111111), UserDTO(id=9, userName=liyinchi1, password=1111111), UserDTO(id=10, userName=liyinchi1, password=1111111), UserDTO(id=12, userName=liyinchi1, password=1111111), UserDTO(id=13, userName=liyinchi1, password=1111111), UserDTO(id=14, userName=liyinchi1, password=1111111), UserDTO(id=15, userName=liyinchi1, password=1111111), UserDTO(id=16, userName=liyinchi1, password=1111111), UserDTO(id=17, userName=liyinchi17, password=7777777), UserDTO(id=18, userName=liyinchi18, password=88888888), UserDTO(id=19, userName=liyinchi19, password=88888888), UserDTO(id=20, userName=liyinchi, password=1111111), UserDTO(id=21, userName=liyinchi, password=1111111), UserDTO(id=22, userName=liyinchi, password=1111111), UserDTO(id=23, userName=liyinchi, password=1111111), UserDTO(id=24, userName=liyinchi, password=1111111), UserDTO(id=25, userName=liyinchi, password=1111111111), UserDTO(id=26, userName=liyinchi, password=1111111111), UserDTO(id=27, userName=liyinchi, password=1111111111), UserDTO(id=28, userName=liyinchi, password=1111111111), UserDTO(id=29, userName=liyinchi, password=1111111111), UserDTO(id=30, userName=liyinchi, password=1111111111), UserDTO(id=34, userName=liyinchi, password=1111111), UserDTO(id=35, userName=liyinchi, password=1111111), UserDTO(id=36, userName=liyinchi, password=1111111), UserDTO(id=37, userName=liyinchi, password=1111111), UserDTO(id=38, userName=liyinchi, password=1111111), UserDTO(id=39, userName=liyinchi, password=1111111), UserDTO(id=40, userName=liyinchi, password=1111111), UserDTO(id=41, userName=liyinchi, password=1111111111), UserDTO(id=42, userName=liyinchi, password=1111111111), UserDTO(id=43, userName=liyinchi, password=1111111111), UserDTO(id=44, userName=liyinchi, password=1111111111), UserDTO(id=45, userName=liyinchi, password=1111111111), UserDTO(id=46, userName=liyinchi, password=1111111111), UserDTO(id=47, userName=liyinchi, password=1111111111), UserDTO(id=48, userName=liyinchi, password=1111111111), UserDTO(id=49, userName=liyinchi, password=1111111111), UserDTO(id=50, userName=liyinchi, password=1111111111), UserDTO(id=51, userName=liyinchi, password=1111111111), UserDTO(id=52, userName=liyinchi, password=1111111111), UserDTO(id=53, userName=liyinchi, password=1111111111)])
+23:12:22.100 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：BaseResponse(code=0, message=success, data=[UserDTO(id=7, userName=liyinchi1, password=1111111), UserDTO(id=8, userName=liyinchi1, password=1111111), UserDTO(id=9, userName=liyinchi1, password=1111111), UserDTO(id=10, userName=liyinchi1, password=1111111), UserDTO(id=12, userName=liyinchi1, password=1111111), UserDTO(id=13, userName=liyinchi1, password=1111111), UserDTO(id=14, userName=liyinchi1, password=1111111), UserDTO(id=15, userName=liyinchi1, password=1111111), UserDTO(id=16, userName=liyinchi1, password=1111111), UserDTO(id=17, userName=liyinchi17, password=7777777), UserDTO(id=18, userName=liyinchi18, password=88888888), UserDTO(id=19, userName=liyinchi19, password=88888888), UserDTO(id=20, userName=liyinchi, password=1111111), UserDTO(id=21, userName=liyinchi, password=1111111), UserDTO(id=22, userName=liyinchi, password=1111111), UserDTO(id=23, userName=liyinchi, password=1111111), UserDTO(id=24, userName=liyinchi, password=1111111), UserDTO(id=25, userName=liyinchi, password=1111111111), UserDTO(id=26, userName=liyinchi, password=1111111111), UserDTO(id=27, userName=liyinchi, password=1111111111), UserDTO(id=28, userName=liyinchi, password=1111111111), UserDTO(id=29, userName=liyinchi, password=1111111111), UserDTO(id=30, userName=liyinchi, password=1111111111), UserDTO(id=34, userName=liyinchi, password=1111111), UserDTO(id=35, userName=liyinchi, password=1111111), UserDTO(id=36, userName=liyinchi, password=1111111), UserDTO(id=37, userName=liyinchi, password=1111111), UserDTO(id=38, userName=liyinchi, password=1111111), UserDTO(id=39, userName=liyinchi, password=1111111), UserDTO(id=40, userName=liyinchi, password=1111111), UserDTO(id=41, userName=liyinchi, password=1111111111), UserDTO(id=42, userName=liyinchi, password=1111111111), UserDTO(id=43, userName=liyinchi, password=1111111111), UserDTO(id=44, userName=liyinchi, password=1111111111), UserDTO(id=45, userName=liyinchi, password=1111111111), UserDTO(id=46, userName=liyinchi, password=1111111111), UserDTO(id=47, userName=liyinchi, password=1111111111), UserDTO(id=48, userName=liyinchi, password=1111111111), UserDTO(id=49, userName=liyinchi, password=1111111111), UserDTO(id=50, userName=liyinchi, password=1111111111), UserDTO(id=51, userName=liyinchi, password=1111111111), UserDTO(id=52, userName=liyinchi, password=1111111111), UserDTO(id=53, userName=liyinchi, password=1111111111)])增强版
+23:12:22.101 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:12:22.101 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+23:12:36.152 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 32 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:13:10.892 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 64 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:13:17.885 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:13:17.885 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.controller.UserController包
+23:13:17.885 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsers，ip地址为：127.0.0.1
+23:13:17.885 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:13:17.885 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl包
+23:13:17.885 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsers，ip地址为：127.0.0.1
+23:13:17.886 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:13:17.886 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: findAllUsers，属于com.example.lyc.springboot.demo.mapper.UserMapper包
+23:13:17.886 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsers，ip地址为：127.0.0.1
+23:13:17.889 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - ==>  Preparing: SELECT * FROM User
+23:13:17.890 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - ==> Parameters: 
+23:13:17.901 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.findAllUsers - <==      Total: 43
+23:13:17.902 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法findAllUsers执行完毕，返回参数为：[User(id=7, userName=liyinchi1, password=1111111, updates=0), User(id=8, userName=liyinchi1, password=1111111, updates=0), User(id=9, userName=liyinchi1, password=1111111, updates=0), User(id=10, userName=liyinchi1, password=1111111, updates=0), User(id=12, userName=liyinchi1, password=1111111, updates=0), User(id=13, userName=liyinchi1, password=1111111, updates=0), User(id=14, userName=liyinchi1, password=1111111, updates=0), User(id=15, userName=liyinchi1, password=1111111, updates=0), User(id=16, userName=liyinchi1, password=1111111, updates=0), User(id=17, userName=liyinchi17, password=7777777, updates=0), User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0), User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0), User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0), User(id=51, userName=liyinchi, password=1111111111, updates=0), User(id=52, userName=liyinchi, password=1111111111, updates=0), User(id=53, userName=liyinchi, password=1111111111, updates=0)]
+23:13:17.902 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：[User(id=7, userName=liyinchi1, password=1111111, updates=0), User(id=8, userName=liyinchi1, password=1111111, updates=0), User(id=9, userName=liyinchi1, password=1111111, updates=0), User(id=10, userName=liyinchi1, password=1111111, updates=0), User(id=12, userName=liyinchi1, password=1111111, updates=0), User(id=13, userName=liyinchi1, password=1111111, updates=0), User(id=14, userName=liyinchi1, password=1111111, updates=0), User(id=15, userName=liyinchi1, password=1111111, updates=0), User(id=16, userName=liyinchi1, password=1111111, updates=0), User(id=17, userName=liyinchi17, password=7777777, updates=0), User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0), User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0), User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0), User(id=51, userName=liyinchi, password=1111111111, updates=0), User(id=52, userName=liyinchi, password=1111111111, updates=0), User(id=53, userName=liyinchi, password=1111111111, updates=0)]增强版
+23:13:17.903 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:13:17.903 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法findAllUsers已经执行完
+23:13:17.903 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers执行完毕，返回参数为：[User(id=7, userName=liyinchi1, password=1111111, updates=0), User(id=8, userName=liyinchi1, password=1111111, updates=0), User(id=9, userName=liyinchi1, password=1111111, updates=0), User(id=10, userName=liyinchi1, password=1111111, updates=0), User(id=12, userName=liyinchi1, password=1111111, updates=0), User(id=13, userName=liyinchi1, password=1111111, updates=0), User(id=14, userName=liyinchi1, password=1111111, updates=0), User(id=15, userName=liyinchi1, password=1111111, updates=0), User(id=16, userName=liyinchi1, password=1111111, updates=0), User(id=17, userName=liyinchi17, password=7777777, updates=0), User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0), User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0), User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0), User(id=51, userName=liyinchi, password=1111111111, updates=0), User(id=52, userName=liyinchi, password=1111111111, updates=0), User(id=53, userName=liyinchi, password=1111111111, updates=0)]
+23:13:17.903 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：[User(id=7, userName=liyinchi1, password=1111111, updates=0), User(id=8, userName=liyinchi1, password=1111111, updates=0), User(id=9, userName=liyinchi1, password=1111111, updates=0), User(id=10, userName=liyinchi1, password=1111111, updates=0), User(id=12, userName=liyinchi1, password=1111111, updates=0), User(id=13, userName=liyinchi1, password=1111111, updates=0), User(id=14, userName=liyinchi1, password=1111111, updates=0), User(id=15, userName=liyinchi1, password=1111111, updates=0), User(id=16, userName=liyinchi1, password=1111111, updates=0), User(id=17, userName=liyinchi17, password=7777777, updates=0), User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0), User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0), User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0), User(id=51, userName=liyinchi, password=1111111111, updates=0), User(id=52, userName=liyinchi, password=1111111111, updates=0), User(id=53, userName=liyinchi, password=1111111111, updates=0)]增强版
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=7, userName=liyinchi1, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=8, userName=liyinchi1, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=9, userName=liyinchi1, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=10, userName=liyinchi1, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=12, userName=liyinchi1, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=13, userName=liyinchi1, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=14, userName=liyinchi1, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=15, userName=liyinchi1, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=16, userName=liyinchi1, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=17, userName=liyinchi17, password=7777777)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=18, userName=liyinchi18, password=88888888)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=19, userName=liyinchi19, password=88888888)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=20, userName=liyinchi, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=21, userName=liyinchi, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=22, userName=liyinchi, password=1111111)
+23:13:17.904 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=23, userName=liyinchi, password=1111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=24, userName=liyinchi, password=1111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=25, userName=liyinchi, password=1111111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=26, userName=liyinchi, password=1111111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=27, userName=liyinchi, password=1111111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=28, userName=liyinchi, password=1111111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=29, userName=liyinchi, password=1111111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=30, userName=liyinchi, password=1111111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=34, userName=liyinchi, password=1111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=35, userName=liyinchi, password=1111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=36, userName=liyinchi, password=1111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=37, userName=liyinchi, password=1111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=38, userName=liyinchi, password=1111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=39, userName=liyinchi, password=1111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=40, userName=liyinchi, password=1111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=41, userName=liyinchi, password=1111111111)
+23:13:17.905 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=42, userName=liyinchi, password=1111111111)
+23:13:17.906 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=43, userName=liyinchi, password=1111111111)
+23:13:17.906 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=44, userName=liyinchi, password=1111111111)
+23:13:17.906 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=45, userName=liyinchi, password=1111111111)
+23:13:17.906 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=46, userName=liyinchi, password=1111111111)
+23:13:17.906 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=47, userName=liyinchi, password=1111111111)
+23:13:17.906 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=48, userName=liyinchi, password=1111111111)
+23:13:17.906 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=49, userName=liyinchi, password=1111111111)
+23:13:17.906 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=50, userName=liyinchi, password=1111111111)
+23:13:17.906 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=51, userName=liyinchi, password=1111111111)
+23:13:17.907 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=52, userName=liyinchi, password=1111111111)
+23:13:17.907 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=53, userName=liyinchi, password=1111111111)
+23:13:17.907 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======getAllUsers: [UserDTO(id=7, userName=liyinchi1, password=1111111), UserDTO(id=8, userName=liyinchi1, password=1111111), UserDTO(id=9, userName=liyinchi1, password=1111111), UserDTO(id=10, userName=liyinchi1, password=1111111), UserDTO(id=12, userName=liyinchi1, password=1111111), UserDTO(id=13, userName=liyinchi1, password=1111111), UserDTO(id=14, userName=liyinchi1, password=1111111), UserDTO(id=15, userName=liyinchi1, password=1111111), UserDTO(id=16, userName=liyinchi1, password=1111111), UserDTO(id=17, userName=liyinchi17, password=7777777), UserDTO(id=18, userName=liyinchi18, password=88888888), UserDTO(id=19, userName=liyinchi19, password=88888888), UserDTO(id=20, userName=liyinchi, password=1111111), UserDTO(id=21, userName=liyinchi, password=1111111), UserDTO(id=22, userName=liyinchi, password=1111111), UserDTO(id=23, userName=liyinchi, password=1111111), UserDTO(id=24, userName=liyinchi, password=1111111), UserDTO(id=25, userName=liyinchi, password=1111111111), UserDTO(id=26, userName=liyinchi, password=1111111111), UserDTO(id=27, userName=liyinchi, password=1111111111), UserDTO(id=28, userName=liyinchi, password=1111111111), UserDTO(id=29, userName=liyinchi, password=1111111111), UserDTO(id=30, userName=liyinchi, password=1111111111), UserDTO(id=34, userName=liyinchi, password=1111111), UserDTO(id=35, userName=liyinchi, password=1111111), UserDTO(id=36, userName=liyinchi, password=1111111), UserDTO(id=37, userName=liyinchi, password=1111111), UserDTO(id=38, userName=liyinchi, password=1111111), UserDTO(id=39, userName=liyinchi, password=1111111), UserDTO(id=40, userName=liyinchi, password=1111111), UserDTO(id=41, userName=liyinchi, password=1111111111), UserDTO(id=42, userName=liyinchi, password=1111111111), UserDTO(id=43, userName=liyinchi, password=1111111111), UserDTO(id=44, userName=liyinchi, password=1111111111), UserDTO(id=45, userName=liyinchi, password=1111111111), UserDTO(id=46, userName=liyinchi, password=1111111111), UserDTO(id=47, userName=liyinchi, password=1111111111), UserDTO(id=48, userName=liyinchi, password=1111111111), UserDTO(id=49, userName=liyinchi, password=1111111111), UserDTO(id=50, userName=liyinchi, password=1111111111), UserDTO(id=51, userName=liyinchi, password=1111111111), UserDTO(id=52, userName=liyinchi, password=1111111111), UserDTO(id=53, userName=liyinchi, password=1111111111)]
+23:13:17.907 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers执行完毕，返回参数为：BaseResponse(code=0, message=success, data=[UserDTO(id=7, userName=liyinchi1, password=1111111), UserDTO(id=8, userName=liyinchi1, password=1111111), UserDTO(id=9, userName=liyinchi1, password=1111111), UserDTO(id=10, userName=liyinchi1, password=1111111), UserDTO(id=12, userName=liyinchi1, password=1111111), UserDTO(id=13, userName=liyinchi1, password=1111111), UserDTO(id=14, userName=liyinchi1, password=1111111), UserDTO(id=15, userName=liyinchi1, password=1111111), UserDTO(id=16, userName=liyinchi1, password=1111111), UserDTO(id=17, userName=liyinchi17, password=7777777), UserDTO(id=18, userName=liyinchi18, password=88888888), UserDTO(id=19, userName=liyinchi19, password=88888888), UserDTO(id=20, userName=liyinchi, password=1111111), UserDTO(id=21, userName=liyinchi, password=1111111), UserDTO(id=22, userName=liyinchi, password=1111111), UserDTO(id=23, userName=liyinchi, password=1111111), UserDTO(id=24, userName=liyinchi, password=1111111), UserDTO(id=25, userName=liyinchi, password=1111111111), UserDTO(id=26, userName=liyinchi, password=1111111111), UserDTO(id=27, userName=liyinchi, password=1111111111), UserDTO(id=28, userName=liyinchi, password=1111111111), UserDTO(id=29, userName=liyinchi, password=1111111111), UserDTO(id=30, userName=liyinchi, password=1111111111), UserDTO(id=34, userName=liyinchi, password=1111111), UserDTO(id=35, userName=liyinchi, password=1111111), UserDTO(id=36, userName=liyinchi, password=1111111), UserDTO(id=37, userName=liyinchi, password=1111111), UserDTO(id=38, userName=liyinchi, password=1111111), UserDTO(id=39, userName=liyinchi, password=1111111), UserDTO(id=40, userName=liyinchi, password=1111111), UserDTO(id=41, userName=liyinchi, password=1111111111), UserDTO(id=42, userName=liyinchi, password=1111111111), UserDTO(id=43, userName=liyinchi, password=1111111111), UserDTO(id=44, userName=liyinchi, password=1111111111), UserDTO(id=45, userName=liyinchi, password=1111111111), UserDTO(id=46, userName=liyinchi, password=1111111111), UserDTO(id=47, userName=liyinchi, password=1111111111), UserDTO(id=48, userName=liyinchi, password=1111111111), UserDTO(id=49, userName=liyinchi, password=1111111111), UserDTO(id=50, userName=liyinchi, password=1111111111), UserDTO(id=51, userName=liyinchi, password=1111111111), UserDTO(id=52, userName=liyinchi, password=1111111111), UserDTO(id=53, userName=liyinchi, password=1111111111)])
+23:13:17.908 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：BaseResponse(code=0, message=success, data=[UserDTO(id=7, userName=liyinchi1, password=1111111), UserDTO(id=8, userName=liyinchi1, password=1111111), UserDTO(id=9, userName=liyinchi1, password=1111111), UserDTO(id=10, userName=liyinchi1, password=1111111), UserDTO(id=12, userName=liyinchi1, password=1111111), UserDTO(id=13, userName=liyinchi1, password=1111111), UserDTO(id=14, userName=liyinchi1, password=1111111), UserDTO(id=15, userName=liyinchi1, password=1111111), UserDTO(id=16, userName=liyinchi1, password=1111111), UserDTO(id=17, userName=liyinchi17, password=7777777), UserDTO(id=18, userName=liyinchi18, password=88888888), UserDTO(id=19, userName=liyinchi19, password=88888888), UserDTO(id=20, userName=liyinchi, password=1111111), UserDTO(id=21, userName=liyinchi, password=1111111), UserDTO(id=22, userName=liyinchi, password=1111111), UserDTO(id=23, userName=liyinchi, password=1111111), UserDTO(id=24, userName=liyinchi, password=1111111), UserDTO(id=25, userName=liyinchi, password=1111111111), UserDTO(id=26, userName=liyinchi, password=1111111111), UserDTO(id=27, userName=liyinchi, password=1111111111), UserDTO(id=28, userName=liyinchi, password=1111111111), UserDTO(id=29, userName=liyinchi, password=1111111111), UserDTO(id=30, userName=liyinchi, password=1111111111), UserDTO(id=34, userName=liyinchi, password=1111111), UserDTO(id=35, userName=liyinchi, password=1111111), UserDTO(id=36, userName=liyinchi, password=1111111), UserDTO(id=37, userName=liyinchi, password=1111111), UserDTO(id=38, userName=liyinchi, password=1111111), UserDTO(id=39, userName=liyinchi, password=1111111), UserDTO(id=40, userName=liyinchi, password=1111111), UserDTO(id=41, userName=liyinchi, password=1111111111), UserDTO(id=42, userName=liyinchi, password=1111111111), UserDTO(id=43, userName=liyinchi, password=1111111111), UserDTO(id=44, userName=liyinchi, password=1111111111), UserDTO(id=45, userName=liyinchi, password=1111111111), UserDTO(id=46, userName=liyinchi, password=1111111111), UserDTO(id=47, userName=liyinchi, password=1111111111), UserDTO(id=48, userName=liyinchi, password=1111111111), UserDTO(id=49, userName=liyinchi, password=1111111111), UserDTO(id=50, userName=liyinchi, password=1111111111), UserDTO(id=51, userName=liyinchi, password=1111111111), UserDTO(id=52, userName=liyinchi, password=1111111111), UserDTO(id=53, userName=liyinchi, password=1111111111)])增强版
+23:13:17.908 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:13:17.908 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+23:14:17.517 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:16:19.870 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:16:45.764 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:16:58.397 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:17:12.038 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:18:08.589 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:18:08.589 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: handleUnexpectedServer，属于com.example.lyc.springboot.demo.exception.GlobalExceptionHandler包
+23:18:08.590 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/exception/nullPointException，ip地址为：127.0.0.1
+23:18:08.590 [http-nio-8088-exec-4] ERROR c.e.l.s.d.e.GlobalExceptionHandler - 系统异常：
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.lyc.springboot.demo.commons.api.BaseResponse com.example.lyc.springboot.demo.controller.ExceptionController.nullPointException(java.lang.String,java.lang.String)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:166)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+23:18:08.596 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法handleUnexpectedServer执行完毕，返回参数为：BaseResponse(code=500, message=系统未知异常，请联系管理员, data=null)
+23:18:08.597 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：BaseResponse(code=500, message=系统未知异常，请联系管理员, data=null)增强版
+23:18:08.597 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:18:08.597 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法handleUnexpectedServer已经执行完
+23:18:08.606 [http-nio-8088-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.lyc.springboot.demo.commons.api.BaseResponse com.example.lyc.springboot.demo.controller.ExceptionController.nullPointException(java.lang.String,java.lang.String)]
+23:18:22.364 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:20:24.932 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:20:44.029 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:20:44.044 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:21:25.920 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+23:21:25.961 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+23:21:25.961 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+23:21:25.961 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+23:21:25.961 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+23:21:25.961 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+23:21:25.962 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:21:25.962 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:21:25.962 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+23:21:25.962 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:21:25.962 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:21:25.962 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+23:21:25.962 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:21:25.962 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:21:25.962 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+23:21:25.962 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:21:25.963 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:21:25.963 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:21:25.976 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 6534 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+23:21:25.977 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+23:21:25.978 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+23:21:28.928 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:21:29.117 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+23:21:29.119 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:21:29.119 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+23:21:29.214 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:21:29.397 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+23:21:29.738 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:21:29.740 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:21:29.741 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:21:29.742 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@57eaa421
+23:21:29.742 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@57eaa421增强版
+23:21:29.742 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:21:29.743 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+23:21:29.767 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:21:29.767 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:21:29.768 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:21:29.788 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@7b723c7
+23:21:29.788 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@7b723c7增强版
+23:21:29.788 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:21:29.788 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+23:21:29.794 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:21:29.795 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:21:29.795 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:21:29.801 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@4fcde305
+23:21:29.801 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@4fcde305增强版
+23:21:29.801 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:21:29.801 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+23:21:29.805 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:21:29.805 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:21:29.805 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:21:29.805 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@2d2266b7
+23:21:29.805 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@2d2266b7增强版
+23:21:29.805 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:21:29.806 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+23:21:30.014 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+23:21:30.733 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+23:21:31.951 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+23:21:31.993 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 42.877 seconds (process running for 44.145)
+23:21:35.766 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:21:35.818 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:21:35.821 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: handleUnexpectedServer，属于com.example.lyc.springboot.demo.exception.GlobalExceptionHandler包
+23:21:35.822 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/exception/nullPointException，ip地址为：127.0.0.1
+23:21:35.822 [http-nio-8088-exec-1] ERROR c.e.l.s.d.e.GlobalExceptionHandler - 系统异常：
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.lyc.springboot.demo.commons.api.BaseResponse com.example.lyc.springboot.demo.controller.ExceptionController.nullPointException(java.lang.String,java.lang.String)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:166)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+23:21:35.826 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法handleUnexpectedServer执行完毕，返回参数为：BaseResponse(code=500, message=系统未知异常，请联系管理员, data=null)
+23:21:35.829 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：BaseResponse(code=500, message=系统未知异常，请联系管理员, data=null)增强版
+23:21:35.829 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:21:35.830 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法handleUnexpectedServer已经执行完
+23:21:35.894 [http-nio-8088-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.lyc.springboot.demo.commons.api.BaseResponse com.example.lyc.springboot.demo.controller.ExceptionController.nullPointException(java.lang.String,java.lang.String)]
+23:21:47.524 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 32 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:22:22.150 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 64 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:22:54.004 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+23:22:54.004 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:22:54.006 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+23:22:54.010 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+23:22:54.018 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+23:22:54.149 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 6534 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+23:22:54.150 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+23:22:54.150 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+23:22:54.653 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+23:22:54.654 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:22:54.654 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+23:22:54.674 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:22:54.733 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+23:22:54.854 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:22:54.854 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:22:54.854 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:22:54.855 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@4d8b1727
+23:22:54.855 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@4d8b1727增强版
+23:22:54.855 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:22:54.855 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+23:22:54.874 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:22:54.874 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:22:54.874 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:22:54.875 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@16d13199
+23:22:54.875 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@16d13199增强版
+23:22:54.875 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:22:54.875 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+23:22:54.879 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:22:54.880 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:22:54.880 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:22:54.880 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@795809c9
+23:22:54.880 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@795809c9增强版
+23:22:54.880 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:22:54.880 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+23:22:54.882 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:22:54.882 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:22:54.882 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:22:54.883 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@50ef77ab
+23:22:54.883 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@50ef77ab增强版
+23:22:54.883 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:22:54.883 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+23:22:54.986 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+23:22:55.365 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+23:22:56.010 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+23:22:56.035 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.942 seconds (process running for 128.184)
+23:23:47.428 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+23:23:47.468 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+23:23:47.468 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+23:23:47.469 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+23:23:47.469 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+23:23:47.469 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+23:23:47.469 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:23:47.469 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:23:47.469 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+23:23:47.469 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:23:47.470 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:23:47.470 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+23:23:47.470 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:23:47.470 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:23:47.470 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+23:23:47.470 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:23:47.470 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:23:47.470 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:23:47.484 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 6654 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+23:23:47.485 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+23:23:47.486 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+23:23:50.442 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:23:50.901 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+23:23:50.903 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:23:50.903 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+23:23:51.004 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:23:51.198 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+23:23:51.604 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:23:51.605 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:23:51.607 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:23:51.608 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@56616f1c
+23:23:51.608 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@56616f1c增强版
+23:23:51.609 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:23:51.609 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+23:23:51.637 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:23:51.638 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:23:51.638 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:23:51.659 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@39bbc86a
+23:23:51.660 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@39bbc86a增强版
+23:23:51.660 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:23:51.660 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+23:23:51.667 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:23:51.667 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:23:51.667 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:23:51.673 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@62c16dec
+23:23:51.673 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@62c16dec增强版
+23:23:51.673 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:23:51.673 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+23:23:51.676 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:23:51.676 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:23:51.677 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:23:51.677 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@78ed89a7
+23:23:51.677 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@78ed89a7增强版
+23:23:51.677 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:23:51.677 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+23:23:52.254 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+23:23:53.226 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+23:23:55.032 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+23:23:55.113 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 43.857 seconds (process running for 45.261)
+23:24:09.060 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 32 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:24:10.982 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:24:11.032 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:24:11.033 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: handleUnexpectedServer，属于com.example.lyc.springboot.demo.exception.GlobalExceptionHandler包
+23:24:11.034 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/exception/nullPointException，ip地址为：127.0.0.1
+23:24:11.034 [http-nio-8088-exec-1] ERROR c.e.l.s.d.e.GlobalExceptionHandler - 系统异常：
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.lyc.springboot.demo.commons.api.BaseResponse com.example.lyc.springboot.demo.controller.ExceptionController.nullPointException(java.lang.String,java.lang.String)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:166)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+23:24:11.038 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法handleUnexpectedServer执行完毕，返回参数为：BaseResponse(code=500, message=系统未知异常，请联系管理员, data=null)
+23:24:11.041 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：BaseResponse(code=500, message=系统未知异常，请联系管理员, data=null)增强版
+23:24:11.041 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:24:11.042 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法handleUnexpectedServer已经执行完
+23:24:11.093 [http-nio-8088-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.lyc.springboot.demo.commons.api.BaseResponse com.example.lyc.springboot.demo.controller.ExceptionController.nullPointException(java.lang.String,java.lang.String)]
+23:24:43.752 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 64 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:24:55.953 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+23:24:55.957 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:24:55.960 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+23:24:55.965 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+23:24:55.976 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+23:24:56.164 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 6654 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+23:24:56.165 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+23:24:56.166 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+23:24:56.752 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+23:24:56.752 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:24:56.752 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+23:24:56.776 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:24:56.842 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+23:24:56.961 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:24:56.961 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:24:56.962 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:24:56.962 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@6c9fc088
+23:24:56.962 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@6c9fc088增强版
+23:24:56.963 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:24:56.963 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+23:24:56.982 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:24:56.991 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+23:24:56.991 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:24:56.992 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@3ca0e349
+23:24:56.992 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@3ca0e349增强版
+23:24:56.992 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:24:56.992 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+23:24:56.996 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:24:56.996 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:24:56.996 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:24:56.996 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@5cd7b1d2
+23:24:56.996 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@5cd7b1d2增强版
+23:24:56.997 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:24:56.997 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+23:24:56.998 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+23:24:56.998 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+23:24:56.998 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:24:56.999 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@42d8f544
+23:24:56.999 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@42d8f544增强版
+23:24:56.999 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+23:24:56.999 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+23:24:57.086 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+23:24:57.576 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+23:24:58.235 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+23:24:58.255 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 2.168 seconds (process running for 108.402)
+23:25:44.983 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+23:25:45.018 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+23:25:45.019 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+23:25:45.019 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+23:25:45.019 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+23:25:45.019 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+23:25:45.019 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:25:45.020 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:25:45.020 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+23:25:45.020 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:25:45.020 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:25:45.020 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+23:25:45.020 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:25:45.020 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: Unexpected end of file from server]]
+23:25:45.021 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+23:25:45.021 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:25:45.021 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:25:45.021 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+23:25:45.035 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 6761 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+23:25:45.035 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+23:25:45.037 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+23:25:46.731 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed
+23:25:46.774 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:592)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': BeanPostProcessor before instantiation of bean failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:280)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:509)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Throwing argument name 'ex' was not bound in advice arguments
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.bindExplicitArguments(AbstractAspectJAdvice.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.bindArgumentsByName(AbstractAspectJAdvice.java:438)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.calculateArgumentBindings(AbstractAspectJAdvice.java:389)
+	at org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory.getAdvice(ReflectiveAspectJAdvisorFactory.java:303)
+	at org.springframework.aop.aspectj.annotation.InstantiationModelAwarePointcutAdvisorImpl.instantiateAdvice(InstantiationModelAwarePointcutAdvisorImpl.java:150)
+	at org.springframework.aop.aspectj.annotation.InstantiationModelAwarePointcutAdvisorImpl.<init>(InstantiationModelAwarePointcutAdvisorImpl.java:114)
+	at org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory.getAdvisor(ReflectiveAspectJAdvisorFactory.java:213)
+	at org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory.getAdvisors(ReflectiveAspectJAdvisorFactory.java:144)
+	at org.springframework.aop.aspectj.annotation.BeanFactoryAspectJAdvisorsBuilder.buildAspectJAdvisors(BeanFactoryAspectJAdvisorsBuilder.java:110)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:95)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:280)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:509)
+	... 40 common frames omitted

@@ -827,6 +827,37 @@ public class LogAspectHandler {
     }
 ```
 
+annotation() 方式是针对某个注解来定义切面，比如我们对具有@GetMapping注解的方法做切面，可以如下定义切面：
+```java
+@Pointcut("@annotation(org.springframework.web.bind.annotation.GetMapping)")
+public void annotationCut() {}
+```
+
+# 监听器
+
+
+# 拦截器
+
+
+# 静态资源
+
+Spring Boot 的默认静态目录为 resources/static
+
+
+# 配置文件
+
+Spring Boot 的配置文件为 application.properties 或者 application.yml
+
+
+# 配置文件
+
+Spring Boot 的配置文件为 application.properties 或者 application.yml
+
+
+# 配置文件
+
+Spring Boot 的配置
+
 
 
 

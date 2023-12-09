@@ -77,21 +77,25 @@ public class LogAspectHandler {
         String classMethod = signature.getName();
         log.info("方法{}执行完毕，返回参数为：{}", classMethod, result);
         // 实际项目中可以根据业务做具体的返回值增强
-        log.info("对返回参数进行业务上的增强：{}", result + "增强版");
+        log.info("对返回参数进行业务上的增强：{}", result.toString() + "增强版");
     }
 
 
     /**
      * 在上面定义的切面方法执行抛异常时，执行该方法
      * @param joinPoint jointPoint
-     * @param ex ex
+     * @param e e
      */
-    @AfterThrowing(pointcut = "pointCut()", throwing = "ex")
-    public void afterThrowing(JoinPoint joinPoint, Throwable ex) {
+    @AfterThrowing(pointcut = "pointCut()", throwing = "e")
+    public void afterThrowing(JoinPoint joinPoint, Throwable e) {
         Signature signature = joinPoint.getSignature();
         String method = signature.getName();
         // 处理异常的逻辑
-        log.info("执行方法{}出错，异常为：{}", method, ex);
+        log.info("执行方法{}出错，异常为：{}", method, e);
     }
+
+
+    @Pointcut("@annotation(org.springframework.web.bind.annotation.PostMapping)")
+    public void annotationCut() {}
 
 }
