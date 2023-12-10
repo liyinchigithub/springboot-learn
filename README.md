@@ -833,30 +833,40 @@ annotation() 方式是针对某个注解来定义切面，比如我们对具有@
 public void annotationCut() {}
 ```
 
+# 静态资源
+
+Spring Boot 的默认静态目录为 resources/static
+
+
+# 事务
+
+
 # 监听器
 
 
 # 拦截器
 
 
-# 静态资源
-
-Spring Boot 的默认静态目录为 resources/static
+# Redis
 
 
-# 配置文件
+## 分布式锁
 
-Spring Boot 的配置文件为 application.properties 或者 application.yml
+## 分布式事务
+
+## 分布式ID
+
+## 分布式缓存
+
+# shiro
 
 
-# 配置文件
 
-Spring Boot 的配置文件为 application.properties 或者 application.yml
+# activeMQ
 
 
-# 配置文件
 
-Spring Boot 的配置
+
 
 
 

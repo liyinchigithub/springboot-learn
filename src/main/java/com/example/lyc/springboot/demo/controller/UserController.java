@@ -88,6 +88,22 @@ public class UserController {
         return BaseResponse.success(new UserIdResponseDTO(newUserId));
     }
 
+
+
+    /**
+     * @author: liyinchi
+     * @description 测试发生运行时异常时、Error时 事务回滚
+     * @mark json
+     * */
+    @PostMapping("/insertUser")
+    public String insertUser(@RequestBody User user) throws Exception {
+        if (null != user) {
+            userService.insertUser(user);
+            return "success";
+        } else {
+            return "false";
+        }
+    }
     /**
      * @author: liyinchi
      * @description 新增用户

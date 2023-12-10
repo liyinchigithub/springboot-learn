@@ -3,10 +3,10 @@
 <mapper namespace="com.example.lyc.springboot.demo.mapper.UserMapper">
 <!--    使用了 resultType="User"，这告诉 MyBatis 结果应该映射到 'User' 类，注意：这边类路径写死 或在mybatis-config配置-->
     <select id="findUserById" parameterType="int" resultType="com.example.lyc.springboot.demo.entity.User">
-        SELECT * FROM User WHERE id = #{id}
+        SELECT * FROM User WHERE id = #{id} FOR UPDATE
     </select>
     <select id="findAllUsers" resultType="com.example.lyc.springboot.demo.entity.User">
-        SELECT * FROM User
+        SELECT * FROM User FOR UPDATE
     </select>
     <insert id="insertUser" parameterType="com.example.lyc.springboot.demo.entity.User" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO User (userName, password) VALUES (#{userName}, #{password})
@@ -20,8 +20,6 @@
 <!--    <update id="updateUser" parameterType="com.example.lyc.springboot.demo.entity.User">-->
 <!--        UPDATE User SET username = #{userName}, password = #{password} WHERE id = #{id}-->
 <!--    </update>-->
-
-
     <delete id="deleteUser" parameterType="int">
         DELETE FROM User WHERE id = #{id}
     </delete>

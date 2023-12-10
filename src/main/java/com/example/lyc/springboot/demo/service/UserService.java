@@ -1,6 +1,7 @@
 package com.example.lyc.springboot.demo.service;
 
 import com.example.lyc.springboot.demo.entity.User;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -20,4 +21,7 @@ public interface UserService {
     int updateUser(User user);
 
     int deleteUser(int id);
+
+    @Transactional
+    void insertUser(User user);
 }

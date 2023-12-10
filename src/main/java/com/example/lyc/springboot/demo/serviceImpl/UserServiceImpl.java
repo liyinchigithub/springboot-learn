@@ -1,11 +1,12 @@
 package com.example.lyc.springboot.demo.serviceImpl;
 
-import com.example.lyc.springboot.demo.dto.DeleteUserResponseDTO;
 import com.example.lyc.springboot.demo.service.UserService;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.example.lyc.springboot.demo.mapper.UserMapper;
 import com.example.lyc.springboot.demo.entity.User;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.util.List;
 
 /**
@@ -30,16 +31,19 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public List<User> getAllUsers() {
         return userMapper.findAllUsers();
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public User getUserById(int id) {
         return userMapper.findUserById(id);
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public int addUser(User user) {
         userMapper.insertUser(user);
         // 返回新生成的ID
@@ -47,6 +51,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public int updateUser(User user) {
         int updates = userMapper.updateUser(user);
         // 返回的执行结果  1成功 0
@@ -54,9 +59,19 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public int deleteUser(int id) {
         int updates = userMapper.deleteUser(id);
         // 返回的执行结果 1成功 0
         return updates;
+    }
+
+    @Override
+    @Transactional
+    public void insertUser(User user) {
+        // 插入用户信息
+        userMapper.insertUser(user);
+        // 手动抛出异常
+        throw new RuntimeException();// 当调用此方法时，会抛出异常，并回滚事务，不会插入数据
     }
 }
