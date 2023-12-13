@@ -895,9 +895,236 @@ SpringBoot 默认的事务规则是遇到 **运行异常（RuntimeException）**
 如果方法抛出了未捕获的异常，Spring会回滚事务,这就是事务的范围。
 
 
-
-
 # 监听器
+
+## 应用监听
+
+### 监听客户端请求Servlet Request对象
+
+* 使用监听器获取用户的访问信息比较简单，实现 ServletRequestListener 接口即可，然后通过 request 对象获取一些信息。
+
+如下：
+```java
+package com.example.lyc.springboot.demo.listener;
+
+import jakarta.servlet.ServletRequestEvent;
+import jakarta.servlet.ServletRequestListener;
+import jakarta.servlet.http.HttpServletRequest;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
+
+/**
+ * 使用ServletRequestListener获取访问信息
+ * @author liyinchi
+ * @date 2023/12/13
+ */
+@Component
+public class MyServletRequestListener implements ServletRequestListener {
+
+    private static final Logger logger = LoggerFactory.getLogger(MyServletRequestListener.class);
+
+    @Override
+    public void requestInitialized(ServletRequestEvent servletRequestEvent) {
+        HttpServletRequest request = (HttpServletRequest) servletRequestEvent.getServletRequest();
+        logger.info("session id为：{}", request.getRequestedSessionId());
+        logger.info("request url为：{}", request.getRequestURL());
+
+        request.setAttribute("name", "测试自定义事件监听器");
+    }
+
+    @Override
+    public void requestDestroyed(ServletRequestEvent servletRequestEvent) {
+
+        logger.info("request end");
+        HttpServletRequest request = (HttpServletRequest) servletRequestEvent.getServletRequest();
+        logger.info("request域中保存的name值为：{}", request.getAttribute("name"));
+
+    }
+
+}
+
+```
+
+* 接下来写一个 Controller 测试
+
+```java
+@GetMapping("/request")
+public String getRequestInfo(HttpServletRequest request) {
+    System.out.println("requestListener中的初始化的name数据：" + request.getAttribute("name"));
+    return "success";
+}
+```
+
+
+### 监听HTTP会话 Session对象
+
+* 监听器还有一个比较常用的地方就是用来监听 session 对象，来获取在线用户数量，现在有很多开发者都有自己的网站，监听 session 来获取当前在下用户数量是个很常见的使用场景，下面来介绍一下如何来使用。
+
+```java
+package com.example.lyc.springboot.demo.listener;
+
+import jakarta.servlet.http.HttpSessionEvent;
+import jakarta.servlet.http.HttpSessionListener;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
+
+/**
+ * 使用HttpSessionListener统计在线用户数的监听器
+ * @author liyinchi
+ * @date 2023/12/13
+ */
+@Component
+public class MyHttpSessionListener implements HttpSessionListener {
+
+    private static final Logger logger = LoggerFactory.getLogger(MyHttpSessionListener.class);
+
+    /**
+     * 记录在线的用户数量
+     */
+    public Integer count = 0;
+
+    @Override
+    public synchronized void sessionCreated(HttpSessionEvent httpSessionEvent) {
+        logger.info("新用户上线了");
+        count++;
+        httpSessionEvent.getSession().getServletContext().setAttribute("count", count);
+    }
+
+    @Override
+    public synchronized void sessionDestroyed(HttpSessionEvent httpSessionEvent) {
+        logger.info("用户下线了");
+        count--;
+        httpSessionEvent.getSession().getServletContext().setAttribute("count", count);
+    }
+}
+```
+
+* 写一个 Controller 来测试一下
+
+```java
+@RestController
+@RequestMapping("/listener")
+public class onlineController {
+
+  @GetMapping("/total2")
+  public String getTotalUser(HttpServletRequest request, HttpServletResponse response) {
+    Cookie cookie;
+    try {
+      // 把sessionId记录在浏览器中
+      cookie = new Cookie("JSESSIONID", URLEncoder.encode(request.getSession().getId(), "utf-8"));
+      cookie.setPath("/");
+      //设置cookie有效期为2天，设置长一点
+      cookie.setMaxAge( 48*60 * 60);
+      response.addCookie(cookie);
+    } catch (UnsupportedEncodingException e) {
+      e.printStackTrace();
+    }
+    Integer count = (Integer) request.getSession().getServletContext().getAttribute("count");
+    return "当前在线人数：" + count;
+  }
+}
+```
+
+该处理逻辑是让服务器记得原来那个 session，即把原来的 sessionId 记录在浏览器中，下次再打开时，把这个 sessionId 传过去，这样服务器就不会重新再创建了。
+
+重启一下服务器，在浏览器中再次测试一下，即可避免上面的问题。
+
+
+## 自定义监听
+
+*  定义事件
+
+**MyEvent.java**
+
+>com/example/lyc/springboot/demo/event/MyEvent.java
+
+```java
+/**
+ * 自定义事件
+ * @author liyinchi
+ * @date 2023/12/13
+ */
+@Getter
+@Setter
+public class MyEvent extends ApplicationEvent {
+
+  private User user;
+
+  public MyEvent(Object source, User user) {
+    super(source);
+    this.user = user;
+  }
+
+  // 省去get、set方法
+}
+```
+
+*  自定义一个监听器
+
+监听上面定义的 MyEvent 事件，自定义监听器需要实现 ApplicationListener 接口即可。
+
+**MyEventListener.java**
+
+>com/example/lyc/springboot/demo/event/MyEventListener.java
+
+```java
+/**
+ * 自定义监听器，监听MyEvent事件
+ * @author liyinchi
+ * @date 2023/12/13
+ */
+@Slf4j
+@Component
+public class MyEventListener implements ApplicationListener<MyEvent> {
+  @Override
+  public void onApplicationEvent(MyEvent myEvent) {
+    // 把事件中的信息获取到
+    User user = myEvent.getUser();
+    // 处理事件，实际项目中可以通知别的微服务或者处理其他逻辑等等
+    log.info("MyEventListener", "用户名：" + user.getUserName());
+    log.info("MyEventListener", "密码：" + user.getPassword());
+
+  }
+}
+```
+
+*  发布事件
+
+**UserServiceImple**
+
+>/com/example/lyc/springboot/demo/service/impl/UserServiceImple.java
+> 
+```java
+  /**
+ * 发布事件
+ * @return
+ */
+public User getUser2() {
+        User user = new User(1, "测试", "123456", 0);
+        // 发布事件
+        MyEvent event = new MyEvent(this, user);
+        applicationContext.publishEvent(event);
+        return user;
+        }
+```
+
+* 测试接口
+
+**UserController**
+
+最后，在 Controller 中写一个接口来测试一下：
+
+>/com/example/lyc/springboot/demo/controller/UserController.java
+> 
+```java
+@GetMapping("/request")
+public String getRequestInfo(HttpServletRequest request) {
+    log.info("requestListener中的初始化的name数据：" + request.getAttribute("name"));
+    return "success";
+}
+```
 
 
 # 拦截器

@@ -75,9 +75,13 @@ public class LogAspectHandler {
 
         Signature signature = joinPoint.getSignature();
         String classMethod = signature.getName();
-        log.info("方法{}执行完毕，返回参数为：{}", classMethod, result);
-        // 实际项目中可以根据业务做具体的返回值增强
-        log.info("对返回参数进行业务上的增强：{}", result.toString() + "增强版");
+        if (result != null) {
+            log.info("方法{}执行完毕，返回参数为：{}", classMethod, result);
+            // 实际项目中可以根据业务做具体的返回值增强
+            log.info("对返回参数进行业务上的增强：{}", result.toString() + "增强版");
+        } else {
+            log.info("方法{}执行完毕，但返回参数为 null", classMethod);
+        }
     }
 
 

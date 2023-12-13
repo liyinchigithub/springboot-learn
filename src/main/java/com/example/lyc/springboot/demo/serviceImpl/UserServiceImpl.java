@@ -1,6 +1,9 @@
 package com.example.lyc.springboot.demo.serviceImpl;
 
+import com.example.lyc.springboot.demo.event.MyEvent;
 import com.example.lyc.springboot.demo.service.UserService;
+import jakarta.annotation.Resource;
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.example.lyc.springboot.demo.mapper.UserMapper;
@@ -20,7 +23,8 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserService {
     private final UserMapper userMapper;//
-
+    @Resource
+    private ApplicationContext applicationContext;
     /**
      * 构造函数
      * 通过构造函数，将数据对象（UserMapper interface）注入到UserServiceImpl中
@@ -73,5 +77,17 @@ public class UserServiceImpl implements UserService {
         userMapper.insertUser(user);
         // 手动抛出异常
         throw new RuntimeException();// 当调用此方法时，会抛出异常，并回滚事务，不会插入数据
+    }
+
+    /**
+     * 发布事件
+     * @return
+     */
+    public User getUser2() {
+        User user = new User(1, "liyinchi", "123456", 0);
+        // 发布事件
+        MyEvent event = new MyEvent(this, user);
+        applicationContext.publishEvent(event);
+        return user;
     }
 }

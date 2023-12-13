@@ -1,0 +1,419 @@
+18:01:32.756 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:02:54.316 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+18:02:54.318 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+18:02:54.318 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+18:02:55.072 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:02:55.072 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+18:02:55.102 [restartedMain] INFO  o.a.c.c.C.[Tomcat-9].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:02:55.201 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+18:02:55.319 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:02:55.326 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+18:02:55.327 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:02:55.328 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@2cd33823
+18:02:55.330 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@2cd33823增强版
+18:02:55.331 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:02:55.331 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+18:02:55.359 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:02:55.360 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+18:02:55.360 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:02:55.361 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@6c429ac2
+18:02:55.361 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@6c429ac2增强版
+18:02:55.361 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:02:55.361 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+18:02:55.365 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:02:55.365 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+18:02:55.365 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:02:55.366 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@427af6b
+18:02:55.366 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@427af6b增强版
+18:02:55.366 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:02:55.366 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+18:02:55.367 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:02:55.368 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+18:02:55.368 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:02:55.369 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@64f9903f
+18:02:55.369 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@64f9903f增强版
+18:02:55.369 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:02:55.370 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+18:02:55.502 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+18:02:56.237 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+18:02:56.882 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 2.78 seconds (process running for 97488.798)
+18:02:56.884 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:02:56.884 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+18:02:56.884 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:02:56.884 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，但返回参数为 null
+18:02:56.884 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:02:56.885 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+18:02:59.256 [Thread-22] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18:03:00.075 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+18:03:00.076 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+18:03:00.076 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+18:03:00.517 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:03:00.526 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+18:03:00.546 [restartedMain] INFO  o.a.c.c.C.[Tomcat-9].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:03:00.595 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+18:03:00.715 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:03:00.716 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+18:03:00.716 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:03:00.716 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@133b8bca
+18:03:00.717 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@133b8bca增强版
+18:03:00.718 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:03:00.718 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+18:03:00.738 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:03:00.738 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+18:03:00.738 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:03:00.738 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@7cb04c51
+18:03:00.738 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@7cb04c51增强版
+18:03:00.738 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:03:00.738 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+18:03:00.741 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:03:00.741 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+18:03:00.741 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:03:00.741 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@5e63d611
+18:03:00.741 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@5e63d611增强版
+18:03:00.741 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:03:00.741 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+18:03:00.742 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:03:00.743 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+18:03:00.743 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:03:00.743 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@44f1b86a
+18:03:00.743 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@44f1b86a增强版
+18:03:00.743 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:03:00.743 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+18:03:00.838 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+18:03:01.213 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+18:03:01.708 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.69 seconds (process running for 97493.624)
+18:03:01.709 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:03:01.709 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+18:03:01.710 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:03:01.710 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，但返回参数为 null
+18:03:01.710 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:03:01.710 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+18:03:16.085 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:03:26.136 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:03:28.862 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+18:03:28.916 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+18:03:28.917 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+18:03:28.917 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+18:03:28.917 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+18:03:28.917 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+18:03:28.918 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:03:28.918 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:03:28.938 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+18:03:28.939 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:03:28.939 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:03:28.939 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+18:03:28.940 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:03:28.940 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:03:28.940 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+18:03:28.940 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+18:03:28.940 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+18:03:28.940 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+18:03:28.955 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 24987 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+18:03:28.956 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+18:03:28.958 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+18:03:32.260 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+18:03:32.263 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:03:32.263 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+18:03:32.361 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:03:32.612 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+18:03:33.119 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:03:33.121 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+18:03:33.122 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:03:33.123 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@30b8a3
+18:03:33.123 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@30b8a3增强版
+18:03:33.124 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:03:33.124 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+18:03:33.176 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:03:33.177 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+18:03:33.177 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:03:33.197 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@b4f7b91
+18:03:33.197 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@b4f7b91增强版
+18:03:33.198 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:03:33.198 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+18:03:33.205 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:03:33.205 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+18:03:33.205 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:03:33.213 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@ff85a32
+18:03:33.213 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@ff85a32增强版
+18:03:33.213 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:03:33.214 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+18:03:33.217 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:03:33.218 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+18:03:33.218 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:03:33.218 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@3cb99951
+18:03:33.218 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@3cb99951增强版
+18:03:33.218 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:03:33.219 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+18:03:33.503 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+18:03:34.485 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+18:03:34.771 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:03:35.987 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+18:03:36.037 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+18:03:36.064 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+18:03:36.091 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+18:03:36.091 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18:03:36.098 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+18:03:36.099 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+18:03:36.133 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+18:03:36.766 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:03:36.782 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:04:48.851 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+18:04:48.897 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+18:04:48.898 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+18:04:48.898 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+18:04:48.898 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+18:04:48.899 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+18:04:48.900 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:04:48.900 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:04:48.901 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+18:04:48.902 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:04:48.902 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:04:48.902 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+18:04:48.903 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:04:48.903 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:04:48.903 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+18:04:48.903 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+18:04:48.903 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+18:04:48.903 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+18:04:48.918 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 25250 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+18:04:48.919 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+18:04:48.920 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+18:04:52.218 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+18:04:52.220 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:04:52.220 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+18:04:52.312 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:04:52.570 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+18:04:52.753 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:04:53.045 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:04:53.047 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+18:04:53.048 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:04:53.049 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@5e42629d
+18:04:53.050 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@5e42629d增强版
+18:04:53.050 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:04:53.051 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+18:04:53.114 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:04:53.114 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+18:04:53.115 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:04:53.135 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@61830668
+18:04:53.135 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@61830668增强版
+18:04:53.135 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:04:53.135 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+18:04:53.148 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:04:53.148 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+18:04:53.148 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:04:53.158 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@1574906e
+18:04:53.159 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@1574906e增强版
+18:04:53.159 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:04:53.159 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+18:04:53.170 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:04:53.170 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+18:04:53.170 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:04:53.171 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@b4f7b91
+18:04:53.171 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@b4f7b91增强版
+18:04:53.171 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:04:53.171 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+18:04:53.500 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+18:04:54.470 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+18:04:55.882 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+18:04:55.959 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 35.929 seconds (process running for 37.247)
+18:04:55.963 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:04:55.963 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+18:04:55.963 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:04:55.963 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，但返回参数为 null
+18:04:55.964 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:04:55.964 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+18:05:04.317 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:05:04.364 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:05:04.369 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:05:04.371 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total，ip地址为：127.0.0.1
+18:05:04.383 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:05:04.383 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: sessionCreated，属于com.example.lyc.springboot.demo.listener.MyHttpSessionListener包
+18:05:04.384 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total，ip地址为：127.0.0.1
+18:05:04.384 [http-nio-8088-exec-1] INFO  c.e.l.s.d.l.MyHttpSessionListener - 新用户上线了
+18:05:04.384 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法sessionCreated执行完毕，但返回参数为 null
+18:05:04.385 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:05:04.385 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法sessionCreated已经执行完
+18:05:04.387 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：1
+18:05:04.387 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：1增强版
+18:05:04.387 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:05:04.388 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:05:07.053 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:05:07.053 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:05:07.053 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total，ip地址为：127.0.0.1
+18:05:07.053 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：1
+18:05:07.053 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：1增强版
+18:05:07.054 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:05:07.054 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:05:08.867 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:05:08.867 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:05:08.868 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total，ip地址为：127.0.0.1
+18:05:08.868 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：1
+18:05:08.868 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：1增强版
+18:05:08.868 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:05:08.868 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:05:09.887 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:05:09.888 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:05:09.888 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total，ip地址为：127.0.0.1
+18:05:09.888 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：1
+18:05:09.889 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：1增强版
+18:05:09.889 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:05:09.889 [http-nio-8088-exec-4] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:05:10.769 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 32 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:05:10.882 [http-nio-8088-exec-5] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:05:10.882 [http-nio-8088-exec-5] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:05:10.882 [http-nio-8088-exec-5] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total，ip地址为：127.0.0.1
+18:05:10.882 [http-nio-8088-exec-5] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：1
+18:05:10.882 [http-nio-8088-exec-5] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：1增强版
+18:05:10.883 [http-nio-8088-exec-5] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:05:10.883 [http-nio-8088-exec-5] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:05:45.021 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 64 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:06:14.354 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:06:14.354 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:06:14.355 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total，ip地址为：127.0.0.1
+18:06:14.355 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:06:14.355 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: sessionCreated，属于com.example.lyc.springboot.demo.listener.MyHttpSessionListener包
+18:06:14.356 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total，ip地址为：127.0.0.1
+18:06:14.356 [http-nio-8088-exec-7] INFO  c.e.l.s.d.l.MyHttpSessionListener - 新用户上线了
+18:06:14.356 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法sessionCreated执行完毕，但返回参数为 null
+18:06:14.357 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:06:14.358 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法sessionCreated已经执行完
+18:06:14.358 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：2
+18:06:14.358 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：2增强版
+18:06:14.359 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:06:14.359 [http-nio-8088-exec-7] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:06:16.776 [http-nio-8088-exec-9] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:06:16.777 [http-nio-8088-exec-9] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:06:16.777 [http-nio-8088-exec-9] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total，ip地址为：127.0.0.1
+18:06:16.777 [http-nio-8088-exec-9] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：2
+18:06:16.777 [http-nio-8088-exec-9] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：2增强版
+18:06:16.777 [http-nio-8088-exec-9] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:06:16.777 [http-nio-8088-exec-9] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:06:19.297 [http-nio-8088-exec-10] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:06:19.297 [http-nio-8088-exec-10] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:06:19.297 [http-nio-8088-exec-10] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total，ip地址为：127.0.0.1
+18:06:19.298 [http-nio-8088-exec-10] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：2
+18:06:19.299 [http-nio-8088-exec-10] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：2增强版
+18:06:19.299 [http-nio-8088-exec-10] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:06:19.299 [http-nio-8088-exec-10] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:06:24.698 [http-nio-8088-exec-11] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:06:24.699 [http-nio-8088-exec-11] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:06:24.699 [http-nio-8088-exec-11] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total2，ip地址为：127.0.0.1
+18:06:24.701 [http-nio-8088-exec-11] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：2
+18:06:24.701 [http-nio-8088-exec-11] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：2增强版
+18:06:24.702 [http-nio-8088-exec-11] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:06:24.702 [http-nio-8088-exec-11] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:06:27.001 [http-nio-8088-exec-12] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:06:27.001 [http-nio-8088-exec-12] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:06:27.001 [http-nio-8088-exec-12] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total2，ip地址为：127.0.0.1
+18:06:27.002 [http-nio-8088-exec-12] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：2
+18:06:27.002 [http-nio-8088-exec-12] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：2增强版
+18:06:27.002 [http-nio-8088-exec-12] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:06:27.003 [http-nio-8088-exec-12] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:06:40.450 [http-nio-8088-exec-13] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:06:40.451 [http-nio-8088-exec-13] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:06:40.452 [http-nio-8088-exec-13] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total2，ip地址为：127.0.0.1
+18:06:40.453 [http-nio-8088-exec-13] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：2
+18:06:40.454 [http-nio-8088-exec-13] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：2增强版
+18:06:40.455 [http-nio-8088-exec-13] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:06:40.455 [http-nio-8088-exec-13] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:06:51.152 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:07:02.909 [http-nio-8088-exec-14] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:07:02.910 [http-nio-8088-exec-14] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:07:02.910 [http-nio-8088-exec-14] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total2，ip地址为：127.0.0.1
+18:07:02.914 [http-nio-8088-exec-14] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：2
+18:07:02.914 [http-nio-8088-exec-14] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：2增强版
+18:07:02.915 [http-nio-8088-exec-14] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:07:02.915 [http-nio-8088-exec-14] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:07:11.965 [http-nio-8088-exec-15] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:07:11.965 [http-nio-8088-exec-15] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getTotalUser，属于com.example.lyc.springboot.demo.controller.onlineController包
+18:07:11.965 [http-nio-8088-exec-15] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/listener/total2，ip地址为：127.0.0.1
+18:07:11.966 [http-nio-8088-exec-15] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser执行完毕，返回参数为：当前在线人数：2
+18:07:11.966 [http-nio-8088-exec-15] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：当前在线人数：2增强版
+18:07:11.966 [http-nio-8088-exec-15] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:07:11.966 [http-nio-8088-exec-15] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getTotalUser已经执行完
+18:08:53.270 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:09:26.799 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:09:36.847 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:09:46.890 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:10:55.539 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:12:57.590 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:14:26.821 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:14:36.865 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:14:46.901 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:14:59.614 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:17:01.692 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:19:03.750 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:19:26.821 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:19:36.875 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:19:46.913 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:21:05.831 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:23:07.833 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:24:26.773 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:24:36.943 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:24:46.879 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:25:09.859 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:27:11.948 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:29:14.003 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:29:26.789 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:29:36.839 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:29:46.879 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:31:16.062 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:33:18.122 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:34:26.793 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:34:36.872 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:34:46.881 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:35:20.152 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:37:22.156 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:37:53.696 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:37:53.697 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: sessionDestroyed，属于com.example.lyc.springboot.demo.listener.MyHttpSessionListener包
+18:37:53.697 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:37:53.697 [Catalina-utility-1] INFO  c.e.l.s.d.l.MyHttpSessionListener - 用户下线了
+18:37:53.698 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法sessionDestroyed执行完毕，但返回参数为 null
+18:37:53.698 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:37:53.698 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法sessionDestroyed已经执行完
+18:37:53.700 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+18:37:53.701 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: sessionDestroyed，属于com.example.lyc.springboot.demo.listener.MyHttpSessionListener包
+18:37:53.701 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+18:37:53.701 [Catalina-utility-1] INFO  c.e.l.s.d.l.MyHttpSessionListener - 用户下线了
+18:37:53.701 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法sessionDestroyed执行完毕，但返回参数为 null
+18:37:53.701 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+18:37:53.701 [Catalina-utility-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法sessionDestroyed已经执行完
+18:39:24.223 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:39:28.237 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:39:36.801 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:39:46.836 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:41:26.311 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:43:28.360 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:44:26.736 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:44:36.786 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:44:46.933 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:45:30.380 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:47:32.433 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:49:26.837 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:49:34.461 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:49:36.799 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:49:46.833 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:51:36.527 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:53:38.693 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:54:26.749 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:54:36.803 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:54:46.838 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:55:40.735 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:57:43.002 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:59:26.796 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:59:36.843 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:59:45.058 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+18:59:47.077 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]

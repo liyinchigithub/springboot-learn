@@ -1,0 +1,1251 @@
+17:00:30.534 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:02:32.649 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:03:16.213 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:03:26.200 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:03:36.230 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:04:34.746 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:06:36.801 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:07:02.734 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:07:02.734 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:07:02.734 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:07:05.557 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:07:05.557 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:07:05.667 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:07:05.835 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+17:07:06.101 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:07:06.101 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+17:07:06.101 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:07:06.103 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@617b7868
+17:07:06.104 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@617b7868增强版
+17:07:06.105 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:07:06.105 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+17:07:06.139 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:07:06.139 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+17:07:06.139 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:07:06.140 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@4a4a3fc4
+17:07:06.140 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@4a4a3fc4增强版
+17:07:06.140 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:07:06.141 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+17:07:06.144 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:07:06.144 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+17:07:06.144 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:07:06.145 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@ab14e03
+17:07:06.145 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@ab14e03增强版
+17:07:06.145 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:07:06.145 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+17:07:06.148 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:07:06.148 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+17:07:06.148 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:07:06.149 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@6b0243cd
+17:07:06.149 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@6b0243cd增强版
+17:07:06.149 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:07:06.149 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+17:07:06.319 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+17:07:07.543 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+17:07:09.029 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 7.374 seconds (process running for 94140.874)
+17:07:09.033 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:07:09.033 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+17:07:09.033 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:07:09.033 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，返回参数为：null
+17:07:09.034 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:07:09.034 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+17:07:09.039 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "result" is null
+	at com.example.lyc.springboot.demo.handler.LogAspectHandler.doAfterReturning(LogAspectHandler.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:620)
+	at org.springframework.aop.aspectj.AspectJAfterReturningAdvice.afterReturning(AspectJAfterReturningAdvice.java:66)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.listener.MyListener$$SpringCGLIB$$0.onApplicationEvent(<generated>)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:437)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:109)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+17:07:09.045 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:07:55.077 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:07:55.077 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:07:55.077 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:07:55.645 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:07:55.645 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:07:55.689 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:07:55.730 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+17:07:55.731 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:07:55.733 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+17:07:55.743 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:489)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:183)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:235)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4886)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:485)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 56 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The public type MyHttpSessionListener must be defined in its own file
+
+	at com.example.lyc.springboot.demo.listener.MyHttpSessionListener.<init>(HttpSessionListener.java:15)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 58 common frames omitted
+17:08:16.288 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:08:26.287 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:08:36.238 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:08:38.819 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:10:41.079 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:12:43.184 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:13:16.169 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:13:26.227 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:13:36.252 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:14:45.440 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:16:47.490 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:18:16.080 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:18:26.107 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:18:36.145 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:18:49.393 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:20:51.443 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:22:53.500 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:23:16.054 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:23:26.119 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:23:36.138 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:24:55.599 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:26:57.633 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:28:16.053 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:28:26.315 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:28:36.147 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:28:59.659 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:31:01.718 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:33:03.763 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:33:16.051 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:33:17.829 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:33:17.830 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:33:17.836 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:33:21.772 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:33:21.773 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:33:21.825 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:33:21.891 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+17:33:21.903 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:33:21.908 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+17:33:21.928 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:489)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:183)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:235)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4886)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:485)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 56 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The public type MyHttpSessionListener must be defined in its own file
+
+	at com.example.lyc.springboot.demo.listener.MyHttpSessionListener.<init>(HttpSessionListener.java:15)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 58 common frames omitted
+17:33:26.096 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:33:36.128 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:33:39.639 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:33:39.639 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:33:39.640 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:33:40.459 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:33:40.460 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:33:40.478 [restartedMain] INFO  o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:33:40.498 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+17:33:40.503 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:33:40.505 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+17:33:40.511 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:489)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:183)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:235)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4886)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:485)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 56 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The public type MyHttpSessionListener must be defined in its own file
+
+	at com.example.lyc.springboot.demo.listener.MyHttpSessionListener.<init>(HttpSessionListener.java:15)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 58 common frames omitted
+17:33:43.218 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:33:43.219 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:33:43.219 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:33:44.742 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:33:44.743 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:33:44.786 [restartedMain] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:33:44.827 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+17:33:44.832 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:33:44.835 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+17:33:44.850 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:489)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:183)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:235)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4886)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:485)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 56 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The public type MyHttpSessionListener must be defined in its own file
+
+	at com.example.lyc.springboot.demo.listener.MyHttpSessionListener.<init>(HttpSessionListener.java:15)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 58 common frames omitted
+17:34:13.686 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:34:13.687 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:34:13.687 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:34:15.224 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:34:15.238 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:34:15.269 [restartedMain] INFO  o.a.c.c.C.[Tomcat-5].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:34:15.314 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+17:34:15.318 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:34:15.344 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+17:34:15.354 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:489)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:183)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:235)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4886)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:485)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 56 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The public type MyHttpSessionListener must be defined in its own file
+
+	at com.example.lyc.springboot.demo.listener.MyHttpSessionListener.<init>(HttpSessionListener.java:15)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 58 common frames omitted
+17:34:38.055 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:34:38.055 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:34:38.055 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:34:38.515 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:34:38.515 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:34:38.536 [restartedMain] INFO  o.a.c.c.C.[Tomcat-6].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:34:38.554 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+17:34:38.555 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:34:38.556 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+17:34:38.562 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:489)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:183)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:235)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4886)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:485)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 56 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The public type MyHttpSessionListener must be defined in its own file
+
+	at com.example.lyc.springboot.demo.listener.MyHttpSessionListener.<init>(HttpSessionListener.java:15)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 58 common frames omitted
+17:35:05.852 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:37:07.880 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:38:15.364 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:38:15.365 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:38:15.365 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:38:15.875 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:38:15.875 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:38:15.899 [restartedMain] INFO  o.a.c.c.C.[Tomcat-7].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:38:15.923 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+17:38:15.924 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:38:15.926 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+17:38:15.930 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:489)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:183)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myHttpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/MyHttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:235)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4886)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:485)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.lyc.springboot.demo.listener.MyHttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 56 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The public type MyHttpSessionListener must be defined in its own file
+
+	at com.example.lyc.springboot.demo.listener.MyHttpSessionListener.<init>(HttpSessionListener.java:15)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 58 common frames omitted
+17:38:16.038 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:38:26.130 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:38:36.118 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:39:09.894 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:41:11.932 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:43:13.977 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:43:17.995 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:43:26.082 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:43:36.112 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:45:16.157 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:46:55.259 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:46:55.260 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:46:55.261 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:46:56.061 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:46:56.061 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:46:56.097 [restartedMain] INFO  o.a.c.c.C.[Tomcat-8].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:46:56.238 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+17:46:56.397 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:46:56.410 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+17:46:56.411 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:46:56.524 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@30b6f819
+17:46:56.526 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@30b6f819增强版
+17:46:56.527 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:46:56.527 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+17:46:56.588 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'httpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/HttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.HttpSessionListener]: Constructor threw exception
+17:46:56.590 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:46:56.601 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'httpSessionListener' defined in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/com/example/lyc/springboot/demo/listener/HttpSessionListener.class]: Failed to instantiate [com.example.lyc.springboot.demo.listener.HttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.lyc.springboot.demo.listener.HttpSessionListener]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import jakarta.servlet.http.HttpSessionListener conflicts with a type defined in the same file
+	Cycle detected: the type HttpSessionListener cannot extend/implement itself or one of its own member types
+	The method sessionCreated(HttpSessionEvent) of type HttpSessionListener must override or implement a supertype method
+	The method sessionDestroyed(HttpSessionEvent) of type HttpSessionListener must override or implement a supertype method
+
+	at com.example.lyc.springboot.demo.listener.HttpSessionListener.<init>(HttpSessionListener.java:4)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 24 common frames omitted
+17:47:18.197 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:48:16.027 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:48:26.081 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:48:36.348 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:49:20.208 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:51:21.439 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:51:21.440 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:51:21.440 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:51:21.831 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:51:21.831 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:51:21.849 [restartedMain] INFO  o.a.c.c.C.[Tomcat-9].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:51:21.907 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+17:51:22.049 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:51:22.050 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+17:51:22.050 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:51:22.051 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@5c29edf0
+17:51:22.053 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@5c29edf0增强版
+17:51:22.053 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:51:22.053 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+17:51:22.090 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:51:22.090 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+17:51:22.090 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:51:22.092 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@4c2d075
+17:51:22.092 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@4c2d075增强版
+17:51:22.092 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:51:22.092 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+17:51:22.096 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:51:22.096 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+17:51:22.096 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:51:22.097 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@77c526d
+17:51:22.098 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@77c526d增强版
+17:51:22.098 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:51:22.098 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+17:51:22.099 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:51:22.099 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+17:51:22.099 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:51:22.100 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@643f7
+17:51:22.101 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@643f7增强版
+17:51:22.101 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:51:22.101 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+17:51:22.242 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+17:51:22.340 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:51:22.680 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+17:51:23.231 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.825 seconds (process running for 96795.149)
+17:51:23.232 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:51:23.233 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+17:51:23.233 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:51:23.233 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，返回参数为：null
+17:51:23.234 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:51:23.234 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+17:51:23.237 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "result" is null
+	at com.example.lyc.springboot.demo.handler.LogAspectHandler.doAfterReturning(LogAspectHandler.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:620)
+	at org.springframework.aop.aspectj.AspectJAfterReturningAdvice.afterReturning(AspectJAfterReturningAdvice.java:66)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.listener.MyListener$$SpringCGLIB$$0.onApplicationEvent(<generated>)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:437)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:109)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+17:51:23.243 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:51:37.875 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 29370 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:51:37.876 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:51:37.876 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:51:38.656 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:51:38.657 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:51:38.692 [restartedMain] INFO  o.a.c.c.C.[Tomcat-9].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:51:38.845 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+17:51:39.019 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:51:39.019 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+17:51:39.020 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:51:39.020 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@2c222614
+17:51:39.021 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@2c222614增强版
+17:51:39.021 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:51:39.021 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+17:51:39.031 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:51:39.032 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+17:51:39.032 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:51:39.034 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@6ce2bacf
+17:51:39.034 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@6ce2bacf增强版
+17:51:39.034 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:51:39.034 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+17:51:39.041 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:51:39.041 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+17:51:39.041 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:51:39.042 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@4f1e421f
+17:51:39.042 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@4f1e421f增强版
+17:51:39.042 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:51:39.042 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+17:51:39.044 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:51:39.044 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+17:51:39.045 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:51:39.045 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@5d2df161
+17:51:39.045 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@5d2df161增强版
+17:51:39.045 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:51:39.045 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+17:51:39.207 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+17:51:39.648 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+17:51:40.447 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 2.619 seconds (process running for 96812.364)
+17:51:40.448 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:51:40.449 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+17:51:40.449 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:51:40.449 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，返回参数为：null
+17:51:40.449 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:51:40.449 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+17:51:40.452 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "result" is null
+	at com.example.lyc.springboot.demo.handler.LogAspectHandler.doAfterReturning(LogAspectHandler.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:620)
+	at org.springframework.aop.aspectj.AspectJAfterReturningAdvice.afterReturning(AspectJAfterReturningAdvice.java:66)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.listener.MyListener$$SpringCGLIB$$0.onApplicationEvent(<generated>)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:437)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:109)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+17:51:40.458 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:52:10.713 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+17:52:10.768 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+17:52:10.768 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+17:52:10.768 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+17:52:10.769 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+17:52:10.769 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+17:52:10.769 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:52:10.770 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:52:10.770 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+17:52:10.770 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:52:10.770 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:52:10.770 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+17:52:10.770 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:52:10.770 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:52:10.770 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+17:52:10.771 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+17:52:10.771 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+17:52:10.771 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+17:52:10.787 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 23560 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:52:10.788 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:52:10.790 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:52:14.287 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+17:52:14.289 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:52:14.289 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:52:14.388 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:52:14.613 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+17:52:15.079 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:52:15.080 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+17:52:15.082 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:52:15.083 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@5be17ebe
+17:52:15.083 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@5be17ebe增强版
+17:52:15.083 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:52:15.084 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+17:52:15.135 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:52:15.136 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+17:52:15.136 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:52:15.164 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@67253bf8
+17:52:15.164 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@67253bf8增强版
+17:52:15.164 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:52:15.164 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+17:52:15.173 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:52:15.173 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+17:52:15.173 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:52:15.182 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@29385a37
+17:52:15.201 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@29385a37增强版
+17:52:15.202 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:52:15.222 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+17:52:15.240 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:52:15.244 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+17:52:15.244 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:52:15.244 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@2197ce3
+17:52:15.245 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@2197ce3增强版
+17:52:15.245 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:52:15.245 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+17:52:15.539 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+17:52:16.412 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+17:52:16.588 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:52:17.995 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+17:52:18.023 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+17:52:18.081 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 36.439 seconds (process running for 38.369)
+17:52:18.087 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:52:18.087 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+17:52:18.087 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:52:18.087 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，返回参数为：null
+17:52:18.087 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:52:18.088 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+17:52:18.113 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "result" is null
+	at com.example.lyc.springboot.demo.handler.LogAspectHandler.doAfterReturning(LogAspectHandler.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:620)
+	at org.springframework.aop.aspectj.AspectJAfterReturningAdvice.afterReturning(AspectJAfterReturningAdvice.java:66)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.listener.MyListener$$SpringCGLIB$$0.onApplicationEvent(<generated>)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:437)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:109)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+17:52:18.124 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+17:52:18.124 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:52:18.132 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+17:52:18.141 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+17:53:16.268 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:53:24.355 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:53:26.363 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:53:36.165 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:54:11.120 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+17:54:11.172 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+17:54:11.173 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+17:54:11.173 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+17:54:11.173 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+17:54:11.173 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+17:54:11.173 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:54:11.173 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:54:11.174 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+17:54:11.174 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:54:11.174 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:54:11.175 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+17:54:11.175 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:54:11.176 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:54:11.176 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+17:54:11.198 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+17:54:11.199 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+17:54:11.199 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+17:54:11.213 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 23929 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+17:54:11.214 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+17:54:11.215 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+17:54:14.493 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+17:54:14.495 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:54:14.495 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+17:54:14.601 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:54:14.819 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+17:54:15.008 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:54:15.229 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:54:15.230 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+17:54:15.232 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:54:15.232 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@44553279
+17:54:15.233 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@44553279增强版
+17:54:15.233 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:54:15.233 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+17:54:15.274 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:54:15.274 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+17:54:15.274 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:54:15.295 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@3f5587ff
+17:54:15.295 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@3f5587ff增强版
+17:54:15.295 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:54:15.295 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+17:54:15.302 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:54:15.302 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+17:54:15.302 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:54:15.308 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@4c916846
+17:54:15.309 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@4c916846增强版
+17:54:15.309 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:54:15.309 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+17:54:15.312 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:54:15.312 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+17:54:15.312 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:54:15.312 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@e03079a
+17:54:15.313 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@e03079a增强版
+17:54:15.313 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:54:15.313 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+17:54:15.573 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+17:54:16.403 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+17:54:17.743 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+17:54:17.771 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+17:54:17.822 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 35.514 seconds (process running for 37.221)
+17:54:17.825 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+17:54:17.825 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+17:54:17.825 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+17:54:17.826 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，返回参数为：null
+17:54:17.826 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+17:54:17.826 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+17:54:17.849 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "result" is null
+	at com.example.lyc.springboot.demo.handler.LogAspectHandler.doAfterReturning(LogAspectHandler.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:620)
+	at org.springframework.aop.aspectj.AspectJAfterReturningAdvice.afterReturning(AspectJAfterReturningAdvice.java:66)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.listener.MyListener$$SpringCGLIB$$0.onApplicationEvent(<generated>)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:437)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:109)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+17:54:17.862 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+17:54:17.862 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:54:17.868 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+17:54:17.878 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+17:55:26.397 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:57:28.437 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:58:16.077 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:58:26.133 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:58:36.167 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+17:59:30.681 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
