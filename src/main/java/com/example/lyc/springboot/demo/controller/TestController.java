@@ -13,13 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/v1/test")
 public class TestController {
-
-    @Controller
-    @RequestMapping("/interceptor")
-    public class InterceptorController {
-        @RequestMapping("/test")
+        @RequestMapping("/interceptor")
         public String test() {
             return "hello";
-        }
     }
 }

@@ -1156,6 +1156,7 @@ public String getRequestInfo(HttpServletRequest request) {
 
 # 拦截器
 
+>com/example/lyc/springboot/demo/controller/Interceptor
 
 拦截器的原理很简单，是AOP的一种实现，专门拦截对动态资源的后台请求，即拦截对控制层的请求。
 
@@ -1170,11 +1171,126 @@ public String getRequestInfo(HttpServletRequest request) {
 
 * 使用拦截器很简单，只需要两步即可：**①定义拦截器**和**②配置拦截器**
 
-（1）定义   
+（1）定义拦截器
 
+>com/example/lyc/springboot/demo/controller/Interceptor/MyInterceptor.java
+
+```java
+@Configuration
+public class MyInterceptorConfig extends WebMvcConfigurationSupport {
+
+    /**
+     * 用来指定静态资源不被拦截，否则继承WebMvcConfigurationSupport这种方式会导致静态资源无法直接访问
+     * @param registry
+     */
+    @Override
+    protected void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/**").addResourceLocations("classpath:/static/");
+        super.addResourceHandlers(registry);
+    }
+}
+```
+
+
+
+（2）配置拦截器
+
+>com/example/lyc/springboot/demo/config/MyInterceptorConfig.java
+
+```java
+
+@Configuration
+public class MyInterceptorConfig extends WebMvcConfigurationSupport {
+
+  /**
+   * 用来指定静态资源不被拦截，否则继承WebMvcConfigurationSupport这种方式会导致静态资源无法直接访问
+   * @param registry
+   */
+  @Override
+  public void addInterceptors(InterceptorRegistry registry) {
+    registry.addInterceptor(new MyInterceptor()).addPathPatterns("/**");
+  }
+
+  @Override
+  protected void addResourceHandlers(ResourceHandlerRegistry registry) {
+    registry.addResourceHandler("/**").addResourceLocations("classpath:/static/");
+    super.addResourceHandlers(registry);
+  }
+}
+```
+
+## 测试拦截器
+
+>com/example/lyc/springboot/demo/controller/TestController.java
+
+```java
+@Controller
+@RequestMapping("/interceptor")
+public class InterceptorController {
+    @RequestMapping("/test")
+    public String test() {
+        return "hello";
+    }
+}
+```
 
 
 # Redis
+
+## 安装
+
+```shell
+docker pull  redis
+```
+
+
+```shell
+docker run --name my-redis -d -p 6380:6379 redis redis-server --requirepass 123456
+```
+
+## 配置redis
+
+>src/main/resources/application.yml
+
+```yaml
+#redis相关配置
+redis:
+  database: 1 # 
+  # 配置redis的主机地址，需要修改成自己的
+  host: 127.0.0.1
+  port: 6380   # 默认是6379
+  password: 123456
+  timeout: 10000
+  jedis:
+    pool:
+      # 连接池中的最大空闲连接，默认值也是8。
+      max-idle: 500
+      # 连接池中的最小空闲连接，默认值也是0。
+      min-idle: 50
+      # 如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)
+      max-active: 1000
+      # 等待可用连接的最大时间，单位毫秒，默认值为-1，表示永不超时。如果超过等待时间，则直接抛出JedisConnectionException
+      max-wait: 2000
+```
+
+
+## docker redis 查看ip和端口
+```shell
+docker inspect my-redis
+```
+
+如果Redis容器运行在本地，并且映射到了6379端口，可以使用以下命令来测试连接
+```shell
+redis-cli -h 127.0.0.1 -p 6379
+```
+
+
+## 常用redis方法
+
+
+
+
+
 
 
 ## 分布式锁

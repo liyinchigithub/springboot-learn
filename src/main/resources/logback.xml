@@ -26,7 +26,7 @@
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy"> <!-- 定义滚动策略，根据时间来滚动日志文件 -->
             <fileNamePattern>${FILE_PATH}</fileNamePattern> <!-- 滚动时新文件的名称 -->
-            <maxHistory>1*60</maxHistory> <!-- 保留最近60天的日志文件 -->
+            <maxHistory>60</maxHistory> <!-- 保留最近60天的日志文件 -->
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP"> <!-- 定义触发滚动的策略，根据文件大小和时间来触发 -->
                 <maxFileSize>10MB</maxFileSize> <!-- 当文件大小超过10MB时，触发滚动 -->
             </timeBasedFileNamingAndTriggeringPolicy>
