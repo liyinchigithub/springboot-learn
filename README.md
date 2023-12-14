@@ -1233,6 +1233,7 @@ public class InterceptorController {
     }
 }
 ```
+<img width="1371" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/880f0142-39fa-47d2-a036-21185d784077">
 
 
 # Redis
