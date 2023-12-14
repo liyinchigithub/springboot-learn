@@ -84,6 +84,7 @@ public class UserServiceImpl implements UserService {
      * @return
      */
     public User getUser2() {
+        // TODO 数据库查询
         User user = new User(1, "liyinchi", "123456", 0);
         // 发布事件
         MyEvent event = new MyEvent(this, user);

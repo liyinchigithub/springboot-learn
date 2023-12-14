@@ -8,7 +8,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * 使用ServletRequestListener获取访问信息
+ *
+ * 监听器：使用ServletRequestListener获取访问信息
  * @author liyinchi
  * @date 2023/12/13
  */

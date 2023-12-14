@@ -897,13 +897,107 @@ SpringBoot 默认的事务规则是遇到 **运行异常（RuntimeException）**
 
 # 监听器
 
-## 应用监听
+>com/example/lyc/springboot/demo/listener
 
-### 监听客户端请求Servlet Request对象
 
-* 使用监听器获取用户的访问信息比较简单，实现 ServletRequestListener 接口即可，然后通过 request 对象获取一些信息。
+监听器 --> 监听事件
 
-如下：
+## （一）应用监听
+
+### 1.监听Servlet上下文对象
+
+略
+
+### 2.监听HTTP会话 Session对象
+
+* 监听器还有一个比较常用的地方就是用来监听 session 对象，来获取在线用户数量，现在有很多开发者都有自己的网站，监听 session 来获取当前在下用户数量是个很常见的使用场景。
+
+（1）**MyHttpSessionListener.java**
+```java
+package com.example.lyc.springboot.demo.listener;
+
+import jakarta.servlet.http.HttpSessionEvent;
+import jakarta.servlet.http.HttpSessionListener;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
+
+/**
+ * 使用HttpSessionListener统计在线用户数的监听器
+ * @author liyinchi
+ * @date 2023/12/13
+ */
+@Component
+public class MyHttpSessionListener implements HttpSessionListener {
+
+    private static final Logger logger = LoggerFactory.getLogger(MyHttpSessionListener.class);
+
+    /**
+     * 记录在线的用户数量
+     */
+    public Integer count = 0;
+
+    @Override
+    public synchronized void sessionCreated(HttpSessionEvent httpSessionEvent) {
+        logger.info("新用户上线了");
+        count++;
+        httpSessionEvent.getSession().getServletContext().setAttribute("count", count);
+    }
+
+    @Override
+    public synchronized void sessionDestroyed(HttpSessionEvent httpSessionEvent) {
+        logger.info("用户下线了");
+        count--;
+        httpSessionEvent.getSession().getServletContext().setAttribute("count", count);
+    }
+}
+```
+可以看出，首先该监听器需要实现 HttpSessionListener 接口，然后重写 sessionCreated 和 sessionDestroyed 方法，在 sessionCreated 方法中传递一个 HttpSessionEvent 对象，然后将当前 session 中的用户数量加1，sessionDestroyed 方法刚好相反。
+
+* 写一个 Controller 来测试一下
+
+（2）**TestController.java**
+
+```java
+@RestController
+@RequestMapping("/listener")
+public class onlineController {
+
+  @GetMapping("/total2")
+  public String getTotalUser(HttpServletRequest request, HttpServletResponse response) {
+    Cookie cookie;
+    try {
+      // 把sessionId记录在浏览器中
+      cookie = new Cookie("JSESSIONID", URLEncoder.encode(request.getSession().getId(), "utf-8"));
+      cookie.setPath("/");
+      //设置cookie有效期为2天，设置长一点
+      cookie.setMaxAge( 48*60 * 60);
+      response.addCookie(cookie);
+    } catch (UnsupportedEncodingException e) {
+      e.printStackTrace();
+    }
+    Integer count = (Integer) request.getSession().getServletContext().getAttribute("count");
+    return "当前在线人数：" + count;
+  }
+}
+```
+
+该处理逻辑是让服务器记得原来那个session
+
+即 把原来的sessionId记录在浏览器中，下次再打开时，把这个 sessionId 传过去，这样服务器就不会重新再创建了。
+
+重启一下服务器，在浏览器中再次测试一下，即可避免上面的问题。
+
+
+### 3.监听客户端请求Servlet Request对象
+
+* 使用监听器获取用户的访问信息
+
+（1）**ServletRequestListener**
+
+实现 ServletRequestListener接口，然后通过 request对象 获取一些信息。
+
+
 ```java
 package com.example.lyc.springboot.demo.listener;
 
@@ -946,6 +1040,7 @@ public class MyServletRequestListener implements ServletRequestListener {
 
 ```
 
+（2）**UserController**
 * 接下来写一个 Controller 测试
 
 ```java
@@ -957,86 +1052,13 @@ public String getRequestInfo(HttpServletRequest request) {
 ```
 
 
-### 监听HTTP会话 Session对象
-
-* 监听器还有一个比较常用的地方就是用来监听 session 对象，来获取在线用户数量，现在有很多开发者都有自己的网站，监听 session 来获取当前在下用户数量是个很常见的使用场景，下面来介绍一下如何来使用。
-
-```java
-package com.example.lyc.springboot.demo.listener;
-
-import jakarta.servlet.http.HttpSessionEvent;
-import jakarta.servlet.http.HttpSessionListener;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
-
-/**
- * 使用HttpSessionListener统计在线用户数的监听器
- * @author liyinchi
- * @date 2023/12/13
- */
-@Component
-public class MyHttpSessionListener implements HttpSessionListener {
-
-    private static final Logger logger = LoggerFactory.getLogger(MyHttpSessionListener.class);
-
-    /**
-     * 记录在线的用户数量
-     */
-    public Integer count = 0;
-
-    @Override
-    public synchronized void sessionCreated(HttpSessionEvent httpSessionEvent) {
-        logger.info("新用户上线了");
-        count++;
-        httpSessionEvent.getSession().getServletContext().setAttribute("count", count);
-    }
-
-    @Override
-    public synchronized void sessionDestroyed(HttpSessionEvent httpSessionEvent) {
-        logger.info("用户下线了");
-        count--;
-        httpSessionEvent.getSession().getServletContext().setAttribute("count", count);
-    }
-}
-```
-
-* 写一个 Controller 来测试一下
-
-```java
-@RestController
-@RequestMapping("/listener")
-public class onlineController {
-
-  @GetMapping("/total2")
-  public String getTotalUser(HttpServletRequest request, HttpServletResponse response) {
-    Cookie cookie;
-    try {
-      // 把sessionId记录在浏览器中
-      cookie = new Cookie("JSESSIONID", URLEncoder.encode(request.getSession().getId(), "utf-8"));
-      cookie.setPath("/");
-      //设置cookie有效期为2天，设置长一点
-      cookie.setMaxAge( 48*60 * 60);
-      response.addCookie(cookie);
-    } catch (UnsupportedEncodingException e) {
-      e.printStackTrace();
-    }
-    Integer count = (Integer) request.getSession().getServletContext().getAttribute("count");
-    return "当前在线人数：" + count;
-  }
-}
-```
-
-该处理逻辑是让服务器记得原来那个 session，即把原来的 sessionId 记录在浏览器中，下次再打开时，把这个 sessionId 传过去，这样服务器就不会重新再创建了。
-
-重启一下服务器，在浏览器中再次测试一下，即可避免上面的问题。
-
-
-## 自定义监听
+## （二）自定义监听
 
 *  定义事件
 
-**MyEvent.java**
+1. 自定义事件
+
+（1）**MyEvent.java**
 
 >com/example/lyc/springboot/demo/event/MyEvent.java
 
@@ -1063,9 +1085,9 @@ public class MyEvent extends ApplicationEvent {
 
 *  自定义一个监听器
 
-监听上面定义的 MyEvent 事件，自定义监听器需要实现 ApplicationListener 接口即可。
+监听上面定义的 MyEvent 事件，自定义监听器需要实现 ApplicationListener 接口即可。重写 onApplicationEvent 方法)
 
-**MyEventListener.java**
+（2）**MyEventListener.java**
 
 >com/example/lyc/springboot/demo/event/MyEventListener.java
 
@@ -1092,22 +1114,27 @@ public class MyEventListener implements ApplicationListener<MyEvent> {
 
 *  发布事件
 
-**UserServiceImple**
+（3）**UserServiceImple**
 
 >/com/example/lyc/springboot/demo/service/impl/UserServiceImple.java
-> 
+
+
 ```java
-  /**
- * 发布事件
- * @return
- */
-public User getUser2() {
+ @Service
+public class UserServiceImpl implements UserService {
+
+    /**
+     * 发布事件
+     * @return
+     */
+    public User getUser2() {
         User user = new User(1, "测试", "123456", 0);
         // 发布事件
         MyEvent event = new MyEvent(this, user);
         applicationContext.publishEvent(event);
         return user;
-        }
+    }
+}
 ```
 
 * 测试接口
@@ -1128,6 +1155,23 @@ public String getRequestInfo(HttpServletRequest request) {
 
 
 # 拦截器
+
+
+拦截器的原理很简单，是AOP的一种实现，专门拦截对动态资源的后台请求，即拦截对控制层的请求。
+
+使用场景比较多的是**判断用户是否有权限请求后台**，更拔高一层的使用场景也有，比如拦截器可以结合 websocket 一起使用，用来**拦截 websocket 请求**，然后做相应的处理等等。
+**拦截器不会拦截静态资源**，Spring Boot 的默认静态目录为 resources/static，该目录下的静态页面、js、css、图片等等，不会被拦截（也要看如何实现，有些情况也会拦截，我在下文会指出）。
+
+在 MVC（Model-View-Controller）架构中，拦截器（Interceptor）通常属于控制器（Controller）层。
+
+它们主要用于处理跨越多个请求或控制器的行为，例如：**日志记录**、**身份验证**、**授权**以及**性能监控**等。
+
+在 Spring 框架中，拦截器可以注册为 Spring Bean 并配置为拦截特定的 URL 模式，以在请求被实际的控制器处理**之前**或**之后**执行特定的操作。
+
+* 使用拦截器很简单，只需要两步即可：**①定义拦截器**和**②配置拦截器**
+
+（1）定义   
+
 
 
 # Redis
