@@ -2,6 +2,7 @@ package com.example.lyc.springboot.demo.mapper;
 
 import com.example.lyc.springboot.demo.dto.DeleteUserResponseDTO;
 import com.example.lyc.springboot.demo.entity.User;
+import org.apache.ibatis.session.RowBounds;
 
 import java.util.List;
 
@@ -23,5 +24,5 @@ public interface UserMapper {
 
     int deleteUser(int id);
 
-
+    List<User> getAllUsers(RowBounds rowBounds, String sortField);
 }

@@ -3,6 +3,8 @@ package com.example.lyc.springboot.demo.serviceImpl;
 import com.example.lyc.springboot.demo.event.MyEvent;
 import com.example.lyc.springboot.demo.service.UserService;
 import jakarta.annotation.Resource;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.ibatis.session.RowBounds;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,11 +22,14 @@ import java.util.List;
  * UserService的实现（例如UserServiceImpl）通常会使用UserMapper来访问数据库，但它也可能包含其他的业务逻辑，例如验证、错误处理、事务管理等
  *
  * */
+@Slf4j
 @Service
 public class UserServiceImpl implements UserService {
+    @Autowired
     private final UserMapper userMapper;//
     @Resource
     private ApplicationContext applicationContext;
+
     /**
      * 构造函数
      * 通过构造函数，将数据对象（UserMapper interface）注入到UserServiceImpl中
@@ -79,6 +84,25 @@ public class UserServiceImpl implements UserService {
         throw new RuntimeException();// 当调用此方法时，会抛出异常，并回滚事务，不会插入数据
     }
 
+
+    @Override
+    public List<User> getAllUsers(int page, int size, String sortField) {
+        log.debug("page" + page + " size" + size + " sortField" + sortField);
+        // 检查page和size参数的有效性
+        if (page < 0 || size <= 0) {
+            throw new IllegalArgumentException("Page must be non-negative and size must be positive");
+        }
+
+        // 检查sortField参数的有效性
+        if (sortField == null || sortField.isEmpty()) {
+            sortField = "id";  // 使用一个默认的排序字段
+        }
+
+        int offset = page * size;
+        RowBounds rowBounds = new RowBounds(offset, size);
+        return userMapper.getAllUsers(rowBounds, sortField);
+    }
+
     /**
      * 发布事件
      * @return
@@ -91,4 +115,6 @@ public class UserServiceImpl implements UserService {
         applicationContext.publishEvent(event);
         return user;
     }
+
+
 }

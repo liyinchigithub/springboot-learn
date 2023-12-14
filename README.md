@@ -243,6 +243,94 @@ java -jar lyc.springboot.demo.jar
 <img width="400" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/00b34bc9-9596-49b8-943e-2dc4cf356e62">
 
 
+## 分页查询
+
+在Spring Boot中，我们可以使用Spring Data JPA的分页功能来实现分页查询。以下是一个简单的例子：
+
+
+（1）首先，你需要在UserMapper接口中添加一个新的方法，该方法接收一个RowBounds对象和一个排序字段名作为参数，并返回一个List<User>对象：
+
+* UserMapper.java
+```java
+import org.apache.ibatis.session.RowBounds;
+import java.util.List;
+
+public interface UserMapper {
+    // 其他方法...
+
+    List<User> getAllUsers(RowBounds rowBounds, String sortField);
+}
+```
+
+（2）然后，在你的UserMapper.xml文件中，你需要添加一个新的SQL查询，该查询使用ORDER BY子句来排序结果，并使用LIMIT和OFFSET子句来实现分页：
+
+* UserMapper.xml
+```xml
+<select id="getAllUsers" resultType="com.example.lyc.springboot.demo.entity.User">
+  SELECT * FROM user ORDER BY ${sortField} LIMIT #{limit} OFFSET #{offset}
+</select>
+```
+
+（3）接下来，在UserService接口中，你需要添加一个新的方法，该方法接收页码、页大小和排序字段名作为参数，并返回一个List<User>对象：
+
+* UserService.java
+
+```java
+import java.util.List;
+
+public interface UserService {
+  // 其他方法...
+
+  List<User> getAllUsers(int page, int size, String sortField);
+}
+```
+
+（4）然后，在你的UserServiceImpl类中实现这个方法：
+
+* UserServiceImpl.java
+
+```java
+import org.apache.ibatis.session.RowBounds;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserServiceImpl implements UserService {
+  @Autowired
+  private UserMapper userMapper;
+
+  // 其他代码...
+
+  @Override
+  public List<User> getAllUsers(int page, int size, String sortField) {
+    int offset = (page - 1) * size;
+    RowBounds rowBounds = new RowBounds(offset, size);
+    return userMapper.getAllUsers(rowBounds, sortField);
+  }
+}
+```
+
+（5）最后，在你的UserController类中，你可以添加一个新的方法来处理分页和排序的请求：
+
+* UserController.java
+
+```java
+import org.springframework.web.bind.annotation.GetMapping;
+
+// 在UserController类中
+@GetMapping("/getAllUsersPagedSorted")
+public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page, @RequestParam int size, @RequestParam String sortField) {
+        List<User> users = userService.getAllUsers(page, size, sortField);
+        List<UserDTO> userDTOs = users.stream().map(this::convertToDto).collect(Collectors.toList());
+        log.info("=======getAllUsersPagedSorted: " + userDTOs);
+        return BaseResponse.success(userDTOs);
+        }
+```
+
+在这个例子中，客户端可以通过发送一个GET请求到/getAllUsersPagedSorted，并在请求参数中指定page，size和sortField来获取分页和排序的用户列表。
+
+例如，发送一个请求到/getAllUsersPagedSorted?page=0&size=10&sortField=userName将返回第一页的10个用户，并按照userName字段进行排序。
+
 ## POST
 
 * 示例1：
@@ -270,6 +358,7 @@ java -jar lyc.springboot.demo.jar
 ```
 
 * 返回数据 Object
+
 
 <img width="400" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/50cf6d7a-f670-46bf-969e-4fc7512cc9d0">
 
@@ -1240,11 +1329,11 @@ public class InterceptorController {
 
 ## 安装
 
+（1）拉镜像
 ```shell
 docker pull  redis
 ```
-
-
+（2）启动容器
 ```shell
 docker run --name my-redis -d -p 6380:6379 redis redis-server --requirepass 123456
 ```

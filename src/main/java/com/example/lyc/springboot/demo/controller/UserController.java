@@ -9,7 +9,11 @@ import io.swagger.v3.oas.annotations.Parameter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.web.bind.annotation.GetMapping;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -203,6 +207,26 @@ public class UserController {
         return BaseResponse.success(new DeleteUserResponseDTO(id, updates));
     }
 
+
+
+
+
+
+    /**
+     * @author: liyinchi
+     * @description 分页查询
+     * @param page 页码
+     * @param size 每页显示条数
+     * @return object
+     * */
+    @GetMapping("/getAllUsersPagedSorted")
+    public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page, @RequestParam int size, @RequestParam String sortField) {
+        log.info("=======getAllUsersPagedSorted: page={}, size={}, sortField={}", page, size, sortField);
+        List<User> users = userService. getAllUsers(page, size, sortField);
+        List<UserDTO> userDTOs = users.stream().map(this::convertToDto).collect(Collectors.toList());
+        log.info("=======getAllUsersPagedSorted: " + userDTOs);
+        return BaseResponse.success(userDTOs);
+    }
 
 
     /**
