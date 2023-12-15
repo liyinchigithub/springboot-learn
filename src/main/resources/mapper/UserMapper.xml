@@ -6,7 +6,7 @@
         SELECT * FROM User WHERE id = #{id} FOR UPDATE
     </select>
     <select id="getAllUsers" resultType="com.example.lyc.springboot.demo.entity.User">
-        SELECT * FROM user ORDER BY ${sortField} LIMIT #{limit} OFFSET #{offset}
+        SELECT * FROM User ORDER BY ${sortField} LIMIT #{limit} OFFSET #{offset}
     </select>
     <select id="findAllUsers" resultType="com.example.lyc.springboot.demo.entity.User">
         SELECT * FROM User FOR UPDATE

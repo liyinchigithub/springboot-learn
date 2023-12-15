@@ -23,6 +23,6 @@ public interface UserMapper {
     int updateUser(User user);
 
     int deleteUser(int id);
-
-    List<User> getAllUsers(RowBounds rowBounds, String sortField);
+    // 分页查询
+    List<User> getAllUsers(int offset, int limit, String sortField);
 }

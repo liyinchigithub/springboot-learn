@@ -26,6 +26,6 @@ public interface UserService {
 
     @Transactional
     void insertUser(User user);
-
+    // 分页查询
     List<User> getAllUsers(int page, int size, String sortField);
 }

@@ -99,8 +99,7 @@ public class UserServiceImpl implements UserService {
         }
 
         int offset = page * size;
-        RowBounds rowBounds = new RowBounds(offset, size);
-        return userMapper.getAllUsers(rowBounds, sortField);
+        return userMapper.getAllUsers(offset, size, sortField);
     }
 
     /**

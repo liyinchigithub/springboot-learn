@@ -251,23 +251,23 @@ java -jar lyc.springboot.demo.jar
 （1）首先，你需要在UserMapper接口中添加一个新的方法，该方法接收一个RowBounds对象和一个排序字段名作为参数，并返回一个List<User>对象：
 
 * UserMapper.java
-```java
-import org.apache.ibatis.session.RowBounds;
-import java.util.List;
 
+```java
 public interface UserMapper {
     // 其他方法...
 
-    List<User> getAllUsers(RowBounds rowBounds, String sortField);
+    // 分页查询
+    List<User> getAllUsers(int offset, int limit, String sortField);
 }
 ```
 
 （2）然后，在你的UserMapper.xml文件中，你需要添加一个新的SQL查询，该查询使用ORDER BY子句来排序结果，并使用LIMIT和OFFSET子句来实现分页：
 
 * UserMapper.xml
+
 ```xml
 <select id="getAllUsers" resultType="com.example.lyc.springboot.demo.entity.User">
-  SELECT * FROM user ORDER BY ${sortField} LIMIT #{limit} OFFSET #{offset}
+  SELECT * FROM User ORDER BY ${sortField} LIMIT #{limit} OFFSET #{offset}
 </select>
 ```
 
@@ -276,13 +276,10 @@ public interface UserMapper {
 * UserService.java
 
 ```java
-import java.util.List;
-
-public interface UserService {
-  // 其他方法...
-
-  List<User> getAllUsers(int page, int size, String sortField);
-}
+    public interface UserService {
+    // 分页查询
+    List<User> getAllUsers(int page, int size, String sortField);
+                                }
 ```
 
 （4）然后，在你的UserServiceImpl类中实现这个方法：
@@ -290,24 +287,22 @@ public interface UserService {
 * UserServiceImpl.java
 
 ```java
-import org.apache.ibatis.session.RowBounds;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+ @Override
+public List<User> getAllUsers(int page, int size, String sortField) {
+        log.debug("page" + page + " size" + size + " sortField" + sortField);
+        // 检查page和size参数的有效性
+        if (page < 0 || size <= 0) {
+        throw new IllegalArgumentException("Page must be non-negative and size must be positive");
+        }
 
-@Service
-public class UserServiceImpl implements UserService {
-  @Autowired
-  private UserMapper userMapper;
+        // 检查sortField参数的有效性
+        if (sortField == null || sortField.isEmpty()) {
+        sortField = "id";  // 使用一个默认的排序字段
+        }
 
-  // 其他代码...
-
-  @Override
-  public List<User> getAllUsers(int page, int size, String sortField) {
-    int offset = (page - 1) * size;
-    RowBounds rowBounds = new RowBounds(offset, size);
-    return userMapper.getAllUsers(rowBounds, sortField);
-  }
-}
+        int offset = page * size;
+        return userMapper.getAllUsers(offset, size, sortField);
+                                                                    }
 ```
 
 （5）最后，在你的UserController类中，你可以添加一个新的方法来处理分页和排序的请求：
@@ -315,21 +310,24 @@ public class UserServiceImpl implements UserService {
 * UserController.java
 
 ```java
-import org.springframework.web.bind.annotation.GetMapping;
-
-// 在UserController类中
+    /**
+ * @author: liyinchi
+ * @description 分页查询
+ * @param page 页码
+ * @param size 每页显示条数
+ * @return object
+ * */
 @GetMapping("/getAllUsersPagedSorted")
 public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page, @RequestParam int size, @RequestParam String sortField) {
         List<User> users = userService.getAllUsers(page, size, sortField);
         List<UserDTO> userDTOs = users.stream().map(this::convertToDto).collect(Collectors.toList());
-        log.info("=======getAllUsersPagedSorted: " + userDTOs);
         return BaseResponse.success(userDTOs);
         }
 ```
 
 在这个例子中，客户端可以通过发送一个GET请求到/getAllUsersPagedSorted，并在请求参数中指定page，size和sortField来获取分页和排序的用户列表。
 
-例如，发送一个请求到/getAllUsersPagedSorted?page=0&size=10&sortField=userName将返回第一页的10个用户，并按照userName字段进行排序。
+例如，发送一个请求到/getAllUsersPagedSorted?page=0&size=10&sortField=userName将返回第一页的10个用户，并按照userName字段进行排序，例如：id。
 
 ## POST
 

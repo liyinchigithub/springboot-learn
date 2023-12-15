@@ -1,0 +1,1327 @@
+14:08:57.309 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:09:05.264 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:09:07.273 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:09:17.119 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:11:07.400 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:13:09.467 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:13:57.022 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:14:07.077 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:14:17.120 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:15:11.760 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:17:13.799 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:18:57.068 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:19:07.081 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:19:15.812 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:19:17.823 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:21:17.861 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:23:20.079 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:23:56.931 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:24:06.984 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:24:17.030 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:25:22.037 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:25:33.035 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:25:33.038 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:25:33.118 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:25:33.181 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:25:34.493 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 33661 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:25:34.494 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:25:34.494 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:25:35.650 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:25:35.651 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:25:35.652 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:25:35.703 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:25:35.774 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:25:35.889 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:25:35.889 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:25:35.889 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:25:35.890 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@328e54c2
+14:25:35.890 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@328e54c2增强版
+14:25:35.890 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:25:35.890 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+14:25:35.999 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:25:36.000 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:25:36.000 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:25:36.000 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@436e48c8
+14:25:36.000 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@436e48c8增强版
+14:25:36.000 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:25:36.000 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+14:25:36.145 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:25:36.145 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:25:36.145 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:25:36.145 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@7172dd58
+14:25:36.145 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@7172dd58增强版
+14:25:36.145 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:25:36.146 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+14:25:36.147 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:25:36.147 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:25:36.147 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:25:36.147 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@3a399413
+14:25:36.147 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@3a399413增强版
+14:25:36.147 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:25:36.147 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+14:25:36.319 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:25:36.937 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:25:37.004 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:25:37.035 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 2.764 seconds (process running for 6407.555)
+14:25:37.037 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:25:37.037 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+14:25:37.037 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:25:37.037 [restartedMain] DEBUG c.e.l.s.demo.listener.MyListener - 应用已启动完成
+14:25:37.037 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，但返回参数为 null
+14:25:37.037 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:25:37.037 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+14:26:56.764 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+14:26:56.895 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+14:26:56.896 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+14:26:56.896 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+14:26:56.897 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+14:26:56.897 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+14:26:56.897 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:26:56.898 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:26:56.898 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+14:26:56.898 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:26:56.898 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:26:56.898 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+14:26:56.899 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:26:56.899 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:26:56.899 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+14:26:56.899 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+14:26:56.899 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+14:26:56.899 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+14:26:56.914 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 45923 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:26:56.915 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:26:56.916 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:27:00.586 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:27:01.126 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:27:01.129 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:27:01.130 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:27:01.252 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:27:01.558 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:27:02.104 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:02.107 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:27:02.109 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:02.111 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@63eeb117
+14:27:02.112 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@63eeb117增强版
+14:27:02.112 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:02.113 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+14:27:02.877 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:02.878 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:27:02.878 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:02.900 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@62bae7f1
+14:27:02.901 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@62bae7f1增强版
+14:27:02.901 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:02.901 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+14:27:03.572 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:03.572 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:27:03.573 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:03.584 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@77108d6b
+14:27:03.585 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@77108d6b增强版
+14:27:03.585 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:03.586 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+14:27:03.592 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:03.592 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:27:03.593 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:03.593 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@5606e13c
+14:27:03.593 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@5606e13c增强版
+14:27:03.593 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:03.594 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+14:27:04.661 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:27:05.928 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:27:06.775 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:27:06.870 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 39.111 seconds (process running for 40.805)
+14:27:06.878 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:06.879 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+14:27:06.879 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:06.880 [restartedMain] DEBUG c.e.l.s.demo.listener.MyListener - 应用已启动完成
+14:27:06.880 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，但返回参数为 null
+14:27:06.880 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:06.881 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+14:27:11.123 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:27:11.123 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:27:11.128 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:27:11.140 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:27:11.308 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 45923 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:27:11.308 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:27:11.308 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:27:12.022 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:27:12.022 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:27:12.023 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:27:12.053 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:27:12.156 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:27:12.336 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:12.337 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:27:12.337 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:12.338 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@d9b9d69
+14:27:12.338 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@d9b9d69增强版
+14:27:12.339 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:12.339 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+14:27:12.482 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:12.483 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:27:12.483 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:12.484 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@54d97c95
+14:27:12.484 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@54d97c95增强版
+14:27:12.484 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:12.484 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+14:27:12.711 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:12.726 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:27:12.726 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:12.727 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@7a87b184
+14:27:12.727 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@7a87b184增强版
+14:27:12.727 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:12.727 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+14:27:12.729 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:12.730 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:27:12.730 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:12.730 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@1d9179da
+14:27:12.730 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@1d9179da增强版
+14:27:12.730 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:12.730 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+14:27:13.029 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:27:13.443 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:27:13.519 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:27:13.547 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 2.313 seconds (process running for 47.482)
+14:27:13.549 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:13.549 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+14:27:13.549 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:13.549 [restartedMain] DEBUG c.e.l.s.demo.listener.MyListener - 应用已启动完成
+14:27:13.550 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，但返回参数为 null
+14:27:13.550 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:13.550 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+14:27:18.593 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 32 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:27:19.709 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:19.709 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: requestInitialized，属于com.example.lyc.springboot.demo.listener.MyServletRequestListener包
+14:27:19.709 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:19.710 [http-nio-8088-exec-1] INFO  c.e.l.s.d.l.MyServletRequestListener - session id为：6BE45B57C895A569DD769C5C2C33CED0
+14:27:19.710 [http-nio-8088-exec-1] INFO  c.e.l.s.d.l.MyServletRequestListener - request url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted
+14:27:19.710 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestInitialized执行完毕，但返回参数为 null
+14:27:19.711 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:19.711 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestInitialized已经执行完
+14:27:19.719 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:27:19.745 [http-nio-8088-exec-1] INFO  c.e.l.s.d.c.I.MyInterceptor - ====拦截到了方法：getAllUsersPagedSorted，在该方法执行之前执行====
+14:27:19.765 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:19.765 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsersPagedSorted，属于com.example.lyc.springboot.demo.controller.UserController包
+14:27:19.765 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:27:19.765 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:19.765 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl包
+14:27:19.766 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:27:19.770 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.s.UserServiceImpl - page1 size10 sortFieldid
+14:27:19.772 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:19.772 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.mapper.UserMapper包
+14:27:19.772 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:27:19.838 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:27:20.465 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@de053af
+14:27:20.468 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:27:20.483 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.getAllUsers - ==>  Preparing: SELECT * FROM user ORDER BY id LIMIT ? OFFSET ?
+14:27:20.549 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.getAllUsers - ==> Parameters: 10(Integer), 10(Integer)
+14:27:20.837 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 执行方法getAllUsers出错，异常为：{}
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+### The error may exist in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/mapper/UserMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM user ORDER BY id LIMIT ? OFFSET ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy4/jdk.proxy4.$Proxy111.getAllUsers(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)
+	at jdk.proxy4/jdk.proxy4.$Proxy112.getAllUsers(Unknown Source)
+	at com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl.getAllUsers(UserServiceImpl.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl$$SpringCGLIB$$0.getAllUsers(<generated>)
+	at com.example.lyc.springboot.demo.controller.UserController.getAllUsersPagedSorted(UserController.java:224)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.controller.UserController$$SpringCGLIB$$0.getAllUsersPagedSorted(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:371)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at jdk.proxy5/jdk.proxy5.$Proxy118.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at jdk.proxy2/jdk.proxy2.$Proxy116.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 120 common frames omitted
+14:27:20.845 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:20.846 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+14:27:20.846 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 执行方法getAllUsers出错，异常为：{}
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+### The error may exist in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/mapper/UserMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM user ORDER BY id LIMIT ? OFFSET ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy4/jdk.proxy4.$Proxy111.getAllUsers(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)
+	at jdk.proxy4/jdk.proxy4.$Proxy112.getAllUsers(Unknown Source)
+	at com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl.getAllUsers(UserServiceImpl.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl$$SpringCGLIB$$0.getAllUsers(<generated>)
+	at com.example.lyc.springboot.demo.controller.UserController.getAllUsersPagedSorted(UserController.java:224)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.controller.UserController$$SpringCGLIB$$0.getAllUsersPagedSorted(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:371)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at jdk.proxy5/jdk.proxy5.$Proxy118.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at jdk.proxy2/jdk.proxy2.$Proxy116.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 120 common frames omitted
+14:27:20.848 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:20.849 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+14:27:20.849 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 执行方法getAllUsersPagedSorted出错，异常为：{}
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+### The error may exist in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/mapper/UserMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM user ORDER BY id LIMIT ? OFFSET ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy4/jdk.proxy4.$Proxy111.getAllUsers(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)
+	at jdk.proxy4/jdk.proxy4.$Proxy112.getAllUsers(Unknown Source)
+	at com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl.getAllUsers(UserServiceImpl.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl$$SpringCGLIB$$0.getAllUsers(<generated>)
+	at com.example.lyc.springboot.demo.controller.UserController.getAllUsersPagedSorted(UserController.java:224)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.controller.UserController$$SpringCGLIB$$0.getAllUsersPagedSorted(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:371)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at jdk.proxy5/jdk.proxy5.$Proxy118.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at jdk.proxy2/jdk.proxy2.$Proxy116.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 120 common frames omitted
+14:27:20.851 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:20.851 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsersPagedSorted已经执行完
+14:27:20.854 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:20.854 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: handleUnexpectedServer，属于com.example.lyc.springboot.demo.exception.GlobalExceptionHandler包
+14:27:20.854 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:27:20.855 [http-nio-8088-exec-1] ERROR c.e.l.s.d.e.GlobalExceptionHandler - 系统异常：
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+### The error may exist in file [/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes/mapper/UserMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM user ORDER BY id LIMIT ? OFFSET ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy4/jdk.proxy4.$Proxy111.getAllUsers(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)
+	at jdk.proxy4/jdk.proxy4.$Proxy112.getAllUsers(Unknown Source)
+	at com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl.getAllUsers(UserServiceImpl.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl$$SpringCGLIB$$0.getAllUsers(<generated>)
+	at com.example.lyc.springboot.demo.controller.UserController.getAllUsersPagedSorted(UserController.java:224)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lyc.springboot.demo.controller.UserController$$SpringCGLIB$$0.getAllUsersPagedSorted(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'springBootTest.user' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:371)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at jdk.proxy5/jdk.proxy5.$Proxy118.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at jdk.proxy2/jdk.proxy2.$Proxy116.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 120 common frames omitted
+14:27:20.857 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法handleUnexpectedServer执行完毕，返回参数为：BaseResponse(code=500, message=系统未知异常，请联系管理员, data=null)
+14:27:20.862 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：BaseResponse(code=500, message=系统未知异常，请联系管理员, data=null)增强版
+14:27:20.862 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:20.862 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法handleUnexpectedServer已经执行完
+14:27:20.988 [http-nio-8088-exec-1] INFO  c.e.l.s.d.c.I.MyInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+14:27:20.999 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:27:21.000 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: requestDestroyed，属于com.example.lyc.springboot.demo.listener.MyServletRequestListener包
+14:27:21.000 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:27:21.000 [http-nio-8088-exec-1] INFO  c.e.l.s.d.l.MyServletRequestListener - request end
+14:27:21.000 [http-nio-8088-exec-1] INFO  c.e.l.s.d.l.MyServletRequestListener - request域中保存的name值为：测试自定义事件监听器
+14:27:21.000 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestDestroyed执行完毕，但返回参数为 null
+14:27:21.000 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:27:21.000 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestDestroyed已经执行完
+14:27:52.605 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 64 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:28:08.419 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:28:08.419 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:28:08.420 [Thread-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:28:08.422 [Thread-7] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+14:28:08.423 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:28:08.430 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:28:08.436 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:28:08.448 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:28:42.360 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+14:28:42.403 [restartedMain] INFO  c.c.f.f.i.p.DefaultApplicationProvider - App ID is set to platform by app.id property from System Property
+14:28:42.404 [restartedMain] WARN  c.c.f.f.i.p.DefaultApplicationProvider - app.label is not available from System Property and /META-INF/app.properties. It is set to null
+14:28:42.404 [restartedMain] INFO  c.c.f.f.i.p.DefaultServerProvider - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+14:28:42.404 [restartedMain] INFO  c.c.f.a.i.DefaultMetaServerProvider - Located meta services from apollo.meta configuration: http://meta.apollo.xxx.cn!
+14:28:42.405 [restartedMain] INFO  c.c.f.apollo.core.MetaDomainConsts - Located meta server address http://meta.apollo.xxx.cn for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+14:28:42.405 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:28:42.405 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:28:42.405 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: application, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+application.properties].
+14:28:42.405 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:28:42.405 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:28:42.405 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: sensitive-config, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+sensitive-config.properties].
+14:28:42.405 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:28:42.406 [restartedMain] WARN  c.c.f.a.i.LocalFileConfigRepository - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:28:42.406 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Init Apollo Local Config failed - namespace: message, reason: Load config from local config failed! [Cause: Cannot read from local cache file /Users/liyinchi/workspace/java/lyc.springboot.demo/./config/platform/config-cache/platform+default+message.properties].
+14:28:42.406 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+14:28:42.406 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+14:28:42.406 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+14:28:42.422 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 46200 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:28:42.423 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:28:42.425 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:28:45.420 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:28:45.423 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:28:45.423 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:28:45.545 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:28:45.873 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:28:46.233 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:28:46.454 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:28:46.455 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:28:46.458 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:28:46.460 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@620c2951
+14:28:46.461 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@620c2951增强版
+14:28:46.462 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:28:46.462 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+14:28:46.981 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:28:46.982 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:28:46.982 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:28:46.999 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@390da866
+14:28:46.999 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@390da866增强版
+14:28:47.000 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:28:47.000 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+14:28:47.433 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:28:47.434 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:28:47.434 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:28:47.441 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@5e14a8e8
+14:28:47.441 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@5e14a8e8增强版
+14:28:47.441 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:28:47.441 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+14:28:47.444 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:28:47.444 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:28:47.444 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:28:47.445 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@28afd7ff
+14:28:47.445 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@28afd7ff增强版
+14:28:47.445 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:28:47.445 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+14:28:47.888 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:28:48.589 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:28:48.734 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:28:48.789 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 35.168 seconds (process running for 36.506)
+14:28:48.793 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:28:48.794 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+14:28:48.794 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:28:48.794 [restartedMain] DEBUG c.e.l.s.demo.listener.MyListener - 应用已启动完成
+14:28:48.794 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，但返回参数为 null
+14:28:48.795 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:28:48.795 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+14:29:04.242 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 32 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:29:38.484 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 64 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:30:44.496 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:31:55.754 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:31:55.755 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: requestInitialized，属于com.example.lyc.springboot.demo.listener.MyServletRequestListener包
+14:31:55.755 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:31:55.755 [http-nio-8088-exec-1] INFO  c.e.l.s.d.l.MyServletRequestListener - session id为：6BE45B57C895A569DD769C5C2C33CED0
+14:31:55.756 [http-nio-8088-exec-1] INFO  c.e.l.s.d.l.MyServletRequestListener - request url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted
+14:31:55.756 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestInitialized执行完毕，但返回参数为 null
+14:31:55.757 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:31:55.757 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestInitialized已经执行完
+14:31:55.771 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:31:55.806 [http-nio-8088-exec-1] INFO  c.e.l.s.d.c.I.MyInterceptor - ====拦截到了方法：getAllUsersPagedSorted，在该方法执行之前执行====
+14:31:55.828 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:31:55.829 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsersPagedSorted，属于com.example.lyc.springboot.demo.controller.UserController包
+14:31:55.829 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:31:55.829 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:31:55.830 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl包
+14:31:55.830 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:31:55.835 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.s.UserServiceImpl - page1 size10 sortFieldid
+14:31:55.836 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:31:55.836 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.mapper.UserMapper包
+14:31:55.836 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:31:55.901 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:31:56.366 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62f96397
+14:31:56.368 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:31:56.378 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.getAllUsers - ==>  Preparing: SELECT * FROM User ORDER BY id LIMIT ? OFFSET ?
+14:31:56.412 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.getAllUsers - ==> Parameters: 10(Integer), 10(Integer)
+14:31:56.484 [http-nio-8088-exec-1] DEBUG c.e.l.s.d.m.UserMapper.getAllUsers - <==      Total: 10
+14:31:56.492 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers执行完毕，返回参数为：[User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0)]
+14:31:56.512 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：[User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0)]增强版
+14:31:56.512 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:31:56.513 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+14:31:56.513 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers执行完毕，返回参数为：[User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0)]
+14:31:56.514 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：[User(id=18, userName=liyinchi18, password=88888888, updates=0), User(id=19, userName=liyinchi19, password=88888888, updates=0), User(id=20, userName=liyinchi, password=1111111, updates=0), User(id=21, userName=liyinchi, password=1111111, updates=0), User(id=22, userName=liyinchi, password=1111111, updates=0), User(id=23, userName=liyinchi, password=1111111, updates=0), User(id=24, userName=liyinchi, password=1111111, updates=0), User(id=25, userName=liyinchi, password=1111111111, updates=0), User(id=26, userName=liyinchi, password=1111111111, updates=0), User(id=27, userName=liyinchi, password=1111111111, updates=0)]增强版
+14:31:56.514 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:31:56.515 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+14:31:56.516 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=18, userName=liyinchi18, password=88888888)
+14:31:56.519 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=19, userName=liyinchi19, password=88888888)
+14:31:56.519 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=20, userName=liyinchi, password=1111111)
+14:31:56.519 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=21, userName=liyinchi, password=1111111)
+14:31:56.519 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=22, userName=liyinchi, password=1111111)
+14:31:56.519 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=23, userName=liyinchi, password=1111111)
+14:31:56.519 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=24, userName=liyinchi, password=1111111)
+14:31:56.520 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=25, userName=liyinchi, password=1111111111)
+14:31:56.520 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=26, userName=liyinchi, password=1111111111)
+14:31:56.520 [http-nio-8088-exec-1] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=27, userName=liyinchi, password=1111111111)
+14:31:56.520 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsersPagedSorted执行完毕，返回参数为：BaseResponse(code=0, message=success, data=[UserDTO(id=18, userName=liyinchi18, password=88888888), UserDTO(id=19, userName=liyinchi19, password=88888888), UserDTO(id=20, userName=liyinchi, password=1111111), UserDTO(id=21, userName=liyinchi, password=1111111), UserDTO(id=22, userName=liyinchi, password=1111111), UserDTO(id=23, userName=liyinchi, password=1111111), UserDTO(id=24, userName=liyinchi, password=1111111), UserDTO(id=25, userName=liyinchi, password=1111111111), UserDTO(id=26, userName=liyinchi, password=1111111111), UserDTO(id=27, userName=liyinchi, password=1111111111)])
+14:31:56.521 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：BaseResponse(code=0, message=success, data=[UserDTO(id=18, userName=liyinchi18, password=88888888), UserDTO(id=19, userName=liyinchi19, password=88888888), UserDTO(id=20, userName=liyinchi, password=1111111), UserDTO(id=21, userName=liyinchi, password=1111111), UserDTO(id=22, userName=liyinchi, password=1111111), UserDTO(id=23, userName=liyinchi, password=1111111), UserDTO(id=24, userName=liyinchi, password=1111111), UserDTO(id=25, userName=liyinchi, password=1111111111), UserDTO(id=26, userName=liyinchi, password=1111111111), UserDTO(id=27, userName=liyinchi, password=1111111111)])增强版
+14:31:56.521 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:31:56.521 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsersPagedSorted已经执行完
+14:31:56.596 [http-nio-8088-exec-1] INFO  c.e.l.s.d.c.I.MyInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+14:31:56.597 [http-nio-8088-exec-1] INFO  c.e.l.s.d.c.I.MyInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+14:31:56.599 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:31:56.599 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: requestDestroyed，属于com.example.lyc.springboot.demo.listener.MyServletRequestListener包
+14:31:56.599 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:31:56.599 [http-nio-8088-exec-1] INFO  c.e.l.s.d.l.MyServletRequestListener - request end
+14:31:56.599 [http-nio-8088-exec-1] INFO  c.e.l.s.d.l.MyServletRequestListener - request域中保存的name值为：测试自定义事件监听器
+14:31:56.599 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestDestroyed执行完毕，但返回参数为 null
+14:31:56.600 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:31:56.600 [http-nio-8088-exec-1] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestDestroyed已经执行完
+14:32:17.285 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:32:17.286 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: requestInitialized，属于com.example.lyc.springboot.demo.listener.MyServletRequestListener包
+14:32:17.286 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:32:17.287 [http-nio-8088-exec-2] INFO  c.e.l.s.d.l.MyServletRequestListener - session id为：6BE45B57C895A569DD769C5C2C33CED0
+14:32:17.287 [http-nio-8088-exec-2] INFO  c.e.l.s.d.l.MyServletRequestListener - request url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted
+14:32:17.287 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestInitialized执行完毕，但返回参数为 null
+14:32:17.287 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:32:17.288 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestInitialized已经执行完
+14:32:17.289 [http-nio-8088-exec-2] INFO  c.e.l.s.d.c.I.MyInterceptor - ====拦截到了方法：getAllUsersPagedSorted，在该方法执行之前执行====
+14:32:17.290 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:32:17.290 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsersPagedSorted，属于com.example.lyc.springboot.demo.controller.UserController包
+14:32:17.290 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:32:17.291 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:32:17.291 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl包
+14:32:17.291 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:32:17.291 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.s.UserServiceImpl - page2 size10 sortFieldid
+14:32:17.291 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:32:17.291 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.mapper.UserMapper包
+14:32:17.291 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:32:17.296 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.getAllUsers - ==>  Preparing: SELECT * FROM User ORDER BY id LIMIT ? OFFSET ?
+14:32:17.297 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.getAllUsers - ==> Parameters: 10(Integer), 20(Integer)
+14:32:17.310 [http-nio-8088-exec-2] DEBUG c.e.l.s.d.m.UserMapper.getAllUsers - <==      Total: 10
+14:32:17.311 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers执行完毕，返回参数为：[User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0)]
+14:32:17.311 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：[User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0)]增强版
+14:32:17.312 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:32:17.312 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+14:32:17.312 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers执行完毕，返回参数为：[User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0)]
+14:32:17.312 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：[User(id=28, userName=liyinchi, password=1111111111, updates=0), User(id=29, userName=liyinchi, password=1111111111, updates=0), User(id=30, userName=liyinchi, password=1111111111, updates=0), User(id=34, userName=liyinchi, password=1111111, updates=0), User(id=35, userName=liyinchi, password=1111111, updates=0), User(id=36, userName=liyinchi, password=1111111, updates=0), User(id=37, userName=liyinchi, password=1111111, updates=0), User(id=38, userName=liyinchi, password=1111111, updates=0), User(id=39, userName=liyinchi, password=1111111, updates=0), User(id=40, userName=liyinchi, password=1111111, updates=0)]增强版
+14:32:17.312 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:32:17.312 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+14:32:17.312 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=28, userName=liyinchi, password=1111111111)
+14:32:17.312 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=29, userName=liyinchi, password=1111111111)
+14:32:17.312 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=30, userName=liyinchi, password=1111111111)
+14:32:17.312 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=34, userName=liyinchi, password=1111111)
+14:32:17.312 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=35, userName=liyinchi, password=1111111)
+14:32:17.313 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=36, userName=liyinchi, password=1111111)
+14:32:17.313 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=37, userName=liyinchi, password=1111111)
+14:32:17.313 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=38, userName=liyinchi, password=1111111)
+14:32:17.313 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=39, userName=liyinchi, password=1111111)
+14:32:17.313 [http-nio-8088-exec-2] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=40, userName=liyinchi, password=1111111)
+14:32:17.313 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsersPagedSorted执行完毕，返回参数为：BaseResponse(code=0, message=success, data=[UserDTO(id=28, userName=liyinchi, password=1111111111), UserDTO(id=29, userName=liyinchi, password=1111111111), UserDTO(id=30, userName=liyinchi, password=1111111111), UserDTO(id=34, userName=liyinchi, password=1111111), UserDTO(id=35, userName=liyinchi, password=1111111), UserDTO(id=36, userName=liyinchi, password=1111111), UserDTO(id=37, userName=liyinchi, password=1111111), UserDTO(id=38, userName=liyinchi, password=1111111), UserDTO(id=39, userName=liyinchi, password=1111111), UserDTO(id=40, userName=liyinchi, password=1111111)])
+14:32:17.313 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：BaseResponse(code=0, message=success, data=[UserDTO(id=28, userName=liyinchi, password=1111111111), UserDTO(id=29, userName=liyinchi, password=1111111111), UserDTO(id=30, userName=liyinchi, password=1111111111), UserDTO(id=34, userName=liyinchi, password=1111111), UserDTO(id=35, userName=liyinchi, password=1111111), UserDTO(id=36, userName=liyinchi, password=1111111), UserDTO(id=37, userName=liyinchi, password=1111111), UserDTO(id=38, userName=liyinchi, password=1111111), UserDTO(id=39, userName=liyinchi, password=1111111), UserDTO(id=40, userName=liyinchi, password=1111111)])增强版
+14:32:17.313 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:32:17.313 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsersPagedSorted已经执行完
+14:32:17.316 [http-nio-8088-exec-2] INFO  c.e.l.s.d.c.I.MyInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+14:32:17.317 [http-nio-8088-exec-2] INFO  c.e.l.s.d.c.I.MyInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+14:32:17.317 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:32:17.317 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: requestDestroyed，属于com.example.lyc.springboot.demo.listener.MyServletRequestListener包
+14:32:17.317 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:32:17.318 [http-nio-8088-exec-2] INFO  c.e.l.s.d.l.MyServletRequestListener - request end
+14:32:17.318 [http-nio-8088-exec-2] INFO  c.e.l.s.d.l.MyServletRequestListener - request域中保存的name值为：测试自定义事件监听器
+14:32:17.318 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestDestroyed执行完毕，但返回参数为 null
+14:32:17.318 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:32:17.318 [http-nio-8088-exec-2] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestDestroyed已经执行完
+14:32:24.931 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:32:24.931 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: requestInitialized，属于com.example.lyc.springboot.demo.listener.MyServletRequestListener包
+14:32:24.932 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:32:24.932 [http-nio-8088-exec-3] INFO  c.e.l.s.d.l.MyServletRequestListener - session id为：6BE45B57C895A569DD769C5C2C33CED0
+14:32:24.933 [http-nio-8088-exec-3] INFO  c.e.l.s.d.l.MyServletRequestListener - request url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted
+14:32:24.934 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestInitialized执行完毕，但返回参数为 null
+14:32:24.938 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:32:24.939 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestInitialized已经执行完
+14:32:24.941 [http-nio-8088-exec-3] INFO  c.e.l.s.d.c.I.MyInterceptor - ====拦截到了方法：getAllUsersPagedSorted，在该方法执行之前执行====
+14:32:24.942 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:32:24.943 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsersPagedSorted，属于com.example.lyc.springboot.demo.controller.UserController包
+14:32:24.943 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:32:24.943 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:32:24.944 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl包
+14:32:24.944 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:32:24.944 [http-nio-8088-exec-3] DEBUG c.e.l.s.d.s.UserServiceImpl - page3 size10 sortFieldid
+14:32:24.944 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:32:24.944 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: getAllUsers，属于com.example.lyc.springboot.demo.mapper.UserMapper包
+14:32:24.944 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 用户请求的url为：http://127.0.0.1:8088/v1/users/getAllUsersPagedSorted，ip地址为：127.0.0.1
+14:32:24.954 [http-nio-8088-exec-3] DEBUG c.e.l.s.d.m.UserMapper.getAllUsers - ==>  Preparing: SELECT * FROM User ORDER BY id LIMIT ? OFFSET ?
+14:32:24.955 [http-nio-8088-exec-3] DEBUG c.e.l.s.d.m.UserMapper.getAllUsers - ==> Parameters: 10(Integer), 30(Integer)
+14:32:24.961 [http-nio-8088-exec-3] DEBUG c.e.l.s.d.m.UserMapper.getAllUsers - <==      Total: 10
+14:32:24.962 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers执行完毕，返回参数为：[User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0)]
+14:32:24.963 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：[User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0)]增强版
+14:32:24.963 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:32:24.963 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+14:32:24.964 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers执行完毕，返回参数为：[User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0)]
+14:32:24.964 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：[User(id=41, userName=liyinchi, password=1111111111, updates=0), User(id=42, userName=liyinchi, password=1111111111, updates=0), User(id=43, userName=liyinchi, password=1111111111, updates=0), User(id=44, userName=liyinchi, password=1111111111, updates=0), User(id=45, userName=liyinchi, password=1111111111, updates=0), User(id=46, userName=liyinchi, password=1111111111, updates=0), User(id=47, userName=liyinchi, password=1111111111, updates=0), User(id=48, userName=liyinchi, password=1111111111, updates=0), User(id=49, userName=liyinchi, password=1111111111, updates=0), User(id=50, userName=liyinchi, password=1111111111, updates=0)]增强版
+14:32:24.965 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:32:24.965 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsers已经执行完
+14:32:24.966 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=41, userName=liyinchi, password=1111111111)
+14:32:24.966 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=42, userName=liyinchi, password=1111111111)
+14:32:24.966 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=43, userName=liyinchi, password=1111111111)
+14:32:24.967 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=44, userName=liyinchi, password=1111111111)
+14:32:24.967 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=45, userName=liyinchi, password=1111111111)
+14:32:24.967 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=46, userName=liyinchi, password=1111111111)
+14:32:24.967 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=47, userName=liyinchi, password=1111111111)
+14:32:24.967 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=48, userName=liyinchi, password=1111111111)
+14:32:24.967 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=49, userName=liyinchi, password=1111111111)
+14:32:24.967 [http-nio-8088-exec-3] INFO  c.e.l.s.d.controller.UserController - =======convertToDto:UserDTO(id=50, userName=liyinchi, password=1111111111)
+14:32:24.968 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsersPagedSorted执行完毕，返回参数为：BaseResponse(code=0, message=success, data=[UserDTO(id=41, userName=liyinchi, password=1111111111), UserDTO(id=42, userName=liyinchi, password=1111111111), UserDTO(id=43, userName=liyinchi, password=1111111111), UserDTO(id=44, userName=liyinchi, password=1111111111), UserDTO(id=45, userName=liyinchi, password=1111111111), UserDTO(id=46, userName=liyinchi, password=1111111111), UserDTO(id=47, userName=liyinchi, password=1111111111), UserDTO(id=48, userName=liyinchi, password=1111111111), UserDTO(id=49, userName=liyinchi, password=1111111111), UserDTO(id=50, userName=liyinchi, password=1111111111)])
+14:32:24.970 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：BaseResponse(code=0, message=success, data=[UserDTO(id=41, userName=liyinchi, password=1111111111), UserDTO(id=42, userName=liyinchi, password=1111111111), UserDTO(id=43, userName=liyinchi, password=1111111111), UserDTO(id=44, userName=liyinchi, password=1111111111), UserDTO(id=45, userName=liyinchi, password=1111111111), UserDTO(id=46, userName=liyinchi, password=1111111111), UserDTO(id=47, userName=liyinchi, password=1111111111), UserDTO(id=48, userName=liyinchi, password=1111111111), UserDTO(id=49, userName=liyinchi, password=1111111111), UserDTO(id=50, userName=liyinchi, password=1111111111)])增强版
+14:32:24.970 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:32:24.970 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法getAllUsersPagedSorted已经执行完
+14:32:24.972 [http-nio-8088-exec-3] INFO  c.e.l.s.d.c.I.MyInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+14:32:24.973 [http-nio-8088-exec-3] INFO  c.e.l.s.d.c.I.MyInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+14:32:24.973 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:32:24.973 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: requestDestroyed，属于com.example.lyc.springboot.demo.listener.MyServletRequestListener包
+14:32:24.973 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:32:24.974 [http-nio-8088-exec-3] INFO  c.e.l.s.d.l.MyServletRequestListener - request end
+14:32:24.974 [http-nio-8088-exec-3] INFO  c.e.l.s.d.l.MyServletRequestListener - request域中保存的name值为：测试自定义事件监听器
+14:32:24.974 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestDestroyed执行完毕，但返回参数为 null
+14:32:24.974 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:32:24.974 [http-nio-8088-exec-3] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法requestDestroyed已经执行完
+14:32:46.604 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:33:20.158 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:33:30.198 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:33:40.238 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:34:20.353 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:34:20.354 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:34:20.356 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:34:20.362 [Thread-5] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+14:34:20.365 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:34:20.378 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:34:20.441 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:34:20.612 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:34:21.175 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 46200 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:34:21.177 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:34:21.177 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:34:22.764 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:34:22.765 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:34:22.765 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:34:22.801 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:34:22.981 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:34:23.273 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:34:23.274 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:34:23.274 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:34:23.275 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@2ec3f10c
+14:34:23.275 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@2ec3f10c增强版
+14:34:23.276 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:34:23.276 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+14:34:23.514 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:34:23.514 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:34:23.516 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:34:23.520 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@330d58d4
+14:34:23.520 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@330d58d4增强版
+14:34:23.521 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:34:23.521 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+14:34:23.847 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:34:23.847 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:34:23.847 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:34:23.847 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@1cd8b540
+14:34:23.847 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@1cd8b540增强版
+14:34:23.848 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:34:23.848 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+14:34:23.850 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:34:23.850 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:34:23.850 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:34:23.851 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@5ba4c778
+14:34:23.851 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@5ba4c778增强版
+14:34:23.851 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:34:23.851 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+14:34:24.152 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:34:24.762 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:34:24.864 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:34:24.893 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 3.982 seconds (process running for 372.611)
+14:34:24.895 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:34:24.895 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+14:34:24.895 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:34:24.895 [restartedMain] DEBUG c.e.l.s.demo.listener.MyListener - 应用已启动完成
+14:34:24.895 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，但返回参数为 null
+14:34:24.895 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:34:24.895 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+14:34:48.891 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:35:59.131 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:35:59.132 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:35:59.133 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:35:59.140 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:35:59.332 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 46200 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:35:59.333 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:35:59.333 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:36:00.293 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:36:00.294 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:36:00.294 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:36:00.319 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:36:00.424 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:36:00.578 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:36:00.578 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:36:00.579 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:36:00.579 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@356c19f3
+14:36:00.580 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@356c19f3增强版
+14:36:00.580 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:36:00.580 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+14:36:00.772 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:36:00.772 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:36:00.772 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:36:00.772 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@3c4ef0e7
+14:36:00.772 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@3c4ef0e7增强版
+14:36:00.773 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:36:00.773 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+14:36:01.265 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:36:01.265 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:36:01.266 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:36:01.267 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@78d29632
+14:36:01.267 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@78d29632增强版
+14:36:01.268 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:36:01.268 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+14:36:01.270 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:36:01.270 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:36:01.270 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:36:01.271 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@4cf077b6
+14:36:01.271 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@4cf077b6增强版
+14:36:01.271 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:36:01.271 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+14:36:01.629 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:36:02.134 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:36:02.246 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:36:02.274 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 3.017 seconds (process running for 469.992)
+14:36:02.276 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:36:02.276 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+14:36:02.276 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:36:02.276 [restartedMain] DEBUG c.e.l.s.demo.listener.MyListener - 应用已启动完成
+14:36:02.276 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，但返回参数为 null
+14:36:02.276 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:36:02.276 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+14:36:50.942 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:37:15.321 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+14:37:15.322 [Thread-11] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:37:15.327 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+14:37:15.335 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+14:37:15.469 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 46200 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+14:37:15.469 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+14:37:15.469 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+14:37:16.006 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+14:37:16.006 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:37:16.007 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+14:37:16.026 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:37:16.107 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+14:37:16.209 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:37:16.209 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:37:16.209 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:37:16.210 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@285ae05d
+14:37:16.210 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@285ae05d增强版
+14:37:16.210 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:37:16.210 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法userService已经执行完
+14:37:16.336 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:37:16.337 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包
+14:37:16.337 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:37:16.337 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@6f3e3a62
+14:37:16.337 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.modelmapper.ModelMapper@6f3e3a62增强版
+14:37:16.337 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:37:16.337 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法modelMapper已经执行完
+14:37:16.486 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:37:16.487 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:37:16.487 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:37:16.487 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@66d3f021
+14:37:16.487 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@66d3f021增强版
+14:37:16.487 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:37:16.487 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法publicApi已经执行完
+14:37:16.489 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:37:16.489 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包
+14:37:16.489 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:37:16.490 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@70b8e709
+14:37:16.490 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@70b8e709增强版
+14:37:16.490 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:37:16.490 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法privateApi已经执行完
+14:37:16.650 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+14:37:17.014 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:37:17.080 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+14:37:17.110 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 1.688 seconds (process running for 544.828)
+14:37:17.111 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doBefore方法进入了====
+14:37:17.111 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包
+14:37:17.112 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+14:37:17.112 [restartedMain] DEBUG c.e.l.s.demo.listener.MyListener - 应用已启动完成
+14:37:17.112 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent执行完毕，但返回参数为 null
+14:37:17.112 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ====doAfter方法进入了====
+14:37:17.112 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - 方法onApplicationEvent已经执行完
+14:38:20.172 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:38:30.196 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:38:40.238 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:38:53.009 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:40:55.051 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:42:57.088 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:43:20.212 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:43:30.266 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+14:43:40.306 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=10.224.0.20 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
