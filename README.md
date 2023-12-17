@@ -146,6 +146,8 @@ spring:
     active:
       - dev
 ```  
+生效配置：
+>src/main/resources/application-dev.yml
 
 产线环境
 ```yaml
@@ -154,6 +156,8 @@ spring:
     active:
       - prod
 ```
+生效配置：
+>src/main/resources/application-prod.yml
 
 ## 启动
 * dev
@@ -1325,7 +1329,13 @@ public class InterceptorController {
 
 # Redis
 
-## 安装
+## 阿里云云原生redis
+
+
+
+
+## 本地安装redis 
+
 
 （1）拉镜像
 ```shell
@@ -1333,7 +1343,7 @@ docker pull  redis
 ```
 （2）启动容器
 ```shell
-docker run --name my-redis -d -p 6380:6379 redis redis-server --requirepass 123456
+docker run --name my-redis -d -p 6379:6379 redis redis-server --protected-mode yes --requirepass 123456
 ```
 
 ## 配置redis
@@ -1371,6 +1381,11 @@ docker inspect my-redis
 ```shell
 redis-cli -h 127.0.0.1 -p 6379
 ```
+
+```shell
+nc -zv 127.0.0.1 6380
+```
+
 
 
 ## 常用redis方法

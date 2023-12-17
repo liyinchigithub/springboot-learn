@@ -33,6 +33,43 @@
 					"response": []
 				},
 				{
+					"name": "/v1/users/getAllUsersPagedSorted?page=0&size=10分页查询+排序",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8088/v1/users/getAllUsersPagedSorted?page=4&size=10&sortField=id",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8088",
+							"path": [
+								"v1",
+								"users",
+								"getAllUsersPagedSorted"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "4"
+								},
+								{
+									"key": "size",
+									"value": "10"
+								},
+								{
+									"key": "sortField",
+									"value": "id"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "/v1/users/getUserById/{id}",
 					"request": {
 						"method": "GET",
@@ -259,6 +296,38 @@
 								"v1",
 								"users",
 								"addUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/v1/insertUser/运行时异常，事务回滚",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"password\": \"1111111\",\n        \"userName\": \"liyinchi777777\"\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8088/v1/users/insertUser",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8088",
+							"path": [
+								"v1",
+								"users",
+								"insertUser"
 							]
 						}
 					},
@@ -588,6 +657,119 @@
 								"v1",
 								"fileUpload",
 								"upload"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "监听器",
+			"item": [
+				{
+					"name": "获取在线人数（cookie sessionid）",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8088/listener/total2",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8088",
+							"path": [
+								"listener",
+								"total2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取在线人数（重置）",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8088/listener/total",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8088",
+							"path": [
+								"listener",
+								"total"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "自定义监听事件",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "127.0.0.1:8088/listener/request",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8088",
+							"path": [
+								"listener",
+								"request"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "拦截器",
+			"item": [
+				{
+					"name": "/v1/test/interceptor",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8088/v1/test/interceptor",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8088",
+							"path": [
+								"v1",
+								"test",
+								"interceptor"
 							]
 						}
 					},
