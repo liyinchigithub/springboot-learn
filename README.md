@@ -1410,10 +1410,58 @@ nc -zv 127.0.0.1 6380
 
 # activeMQ
 
+JMS 即 Java 消息服务（Java Message Service）应用程序接口，是一个Java平台中关于面向消息中间件（MOM）的 API，用于在两个应用程序之间，或分布式系统中发送消息，进行异步通信。
+Java 消息服务是一个与具体平台无关的 API，绝大多数 MOM 提供商都对 JMS 提供支持。
 
+JMS 只是接口，不同的提供商或者开源组织对其有不同的实现，ActiveMQ 就是其中之一，它支持JMS，是 Apache 推出的。JMS 中有几个对象模型：
 
+```xml
+连接工厂：ConnectionFactory
+JMS连接：Connection
+JMS会话：Session
+JMS目的：Destination
+JMS生产者：Producer
+JMS消费者：Consumer
+JMS消息两种类型：点对点 和 发布/订阅。
+```
 
+可以看出 JMS 实际上和 JDBC 有点类似，JDBC 是可以用来访问许多不同关系数据库的 API，而 JMS 则提供同样与厂商无关的访问方法，以访问消息收发服务。
+本项目主要使用 ActiveMQ，其他像是rocketMQ，kafka等。
 
+1. 生产者（Producer）：消息的发送者，负责创建消息，并将其发送到消息队列中。
+2. 消费者（Consumer）：消息的接收者，负责从消息队列中获取消息。
+3. 消息队列（Message Queue）：用来存储消息，**消息队列是 JMS 的核心**，生产者将消息发送到消息队列， 消费者从消息队列中获取消息。
+4. 连接工厂（Connection Factory）：用来创建生产者与消费者与消息队列之间的连接。 
+5. 连接（Connection）：生产者与消费者与消息队列之间的一个TCP连接。 
+6. 会话（Session）：生产者与消费者与消息队列之间的一个连接，可以创建消息，发送消息，接收消息。 
+7. 目的地（Destination）：消息队列的名称，或者队列或主题。 
+8. 消息（Message）：消息队列中传输的数据，由消息头和消息体组成。 
+9. 消息头（Message Header）：消息的属性，包括消息的优先级，消息的创建时间，消息的过期时间，消息的重复次数 
+10. 消息体（Message Body）：消息的内容。 
+11. 消息属性（Message Properties）：消息的属性，包括消息的优先级，消息的创建时间，消息的过期时间，消息的重复次数。 
+12. 消息类型（Message Type）：消息的类型，包括队列和主题。 
+13. 消息模式（Message Pattern）：消息的模式，包括点对点和发布/订阅。 
+14. 消息驱动者（Message Driven）：消息驱动者，消息生产者，消息消费者。
+
+   
+## 安装
+
+### docker 安装
+
+```bash
+docker pull rmohr/activemq
+```
+
+```shell
+docker run -d --name activemq -p 61616:61616 -p 8161:8161 rmohr/activemq
+```
+将容器的61616端口（ActiveMQ的默认端口）和8161端口（ActiveMQ的管理界面端口）映射到你的主机的相应端口。
+
+在浏览器中访问http://localhost:8161 来查看ActiveMQ的管理界面。
+
+>http://localhost:8161/admin/
+
+默认的用户名和密码都是admin。
 
 
 
@@ -1423,11 +1471,9 @@ nc -zv 127.0.0.1 6380
 1.端口占用
 
 mac 查看进程占用
-```bash
-
+```bas
 lsof -i:8088
 kill -s 9 进程号
-
 ```
 
 
