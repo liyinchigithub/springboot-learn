@@ -1558,4 +1558,27 @@ kill -s 9 进程号
 ```
 
 
+2. ActiveMQ如何使用topic和consumerGroup？
+   在ActiveMQ中，主题（Topic）和消费者组（Consumer Group）的概念与RocketMQ中的稍有不同。
+   RocketMQ才有topic和consumerGroup，不同项目都订阅了主题，但如果在同一个消费组，则只有一个消费者能消费到消息。
+   而ActiveMQ使用JMS（Java Message Service）规范，其中定义了两种消息模型：点对点（Point-to-Point）和发布/订阅（Publish/Subscribe）。
 
+   * 主题（Topic）：
+  在发布/订阅模型中，消息生产者（Publisher）将消息发布到主题（Topic），所有订阅了该主题的消费者（Subscriber）都会接收到这些消息。这与RocketMQ中的主题概念相似。
+
+  * 消费者组（Consumer Group）：
+  然而，ActiveMQ并没有消费者组（Consumer Group）的概念。 在ActiveMQ中，每个消费者都是独立的，每个消费者都会接收到所有发布到它订阅的主题的消息。
+
+  RocketMQ中的消费者组（Consumer Group）与ActiveMQ中的消费者（Consumer）的概念是类似的。
+
+  在ActiveMQ中，消费者组（Consumer Group）与消费者（Consumer）的关系类似于RocketMQ中的主题（Topic）与订阅关系（Subscription）。
+
+3. 在ActiveMQ中我有多个项目，是不是只要每个项目消费者，订阅了该主题都能够收到生产者发送的消息？
+
+是的，你的理解是正确的。
+在ActiveMQ中，主题（Topic）是实现发布-订阅模型的方式。
+如果生产者发送消息到一个主题，那么所有订阅了这个主题的消费者都会接收到这个消息，无论这些消费者属于哪个项目。
+这种模型非常适合广播类型的消息，例如，你想将一个消息发送给多个接收者。（**有点像安卓广播组件**）
+**请注意，这与队列（Queue）模型是不同的**。
+在队列模型中，每个消息只会被一个消费者接收。
+这种模型适合点对点类型的消息。

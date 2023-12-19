@@ -2,17 +2,16 @@ package com.example.lyc.springboot.demo.consumer;
 
 import com.example.lyc.springboot.demo.config.ActiveMqConfig;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Service;
 
 /**
- * 消息消费者
+ * ActiveMQ 消息消费者
  * @author liyinchi
  */
 @Slf4j
 @Service
-public class QueueConsumer {
+public class ActiveMqQueueConsumer {
 
     /**
      * 接收点对点消息

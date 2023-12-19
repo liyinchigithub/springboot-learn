@@ -1,17 +1,7 @@
 
 app:
   id: platform
-apollo:
-  # 就是apollo config server的地址
-  meta: http://meta.apollo.xxx.cn
-  bootstrap:
-    # 是否开启 Apollo
-    enabled: true
-    eagerLoad:
-      # 将 Apollo 加载提到初始化日志系统之前，如果设置为false，则配置中心中修改日志信息不会生效
-      enabled: true
-    namespaces: application, sensitive-config, message
-  cacheDir: ./config
+
 # 开发环境配置
 server:
   # 服务器的HTTP端口，默认为80
@@ -29,7 +19,18 @@ server:
       max: 800
       # Tomcat启动初始化的线程数，默认值10
       min-spare: 100
-
+# 配置中心
+apollo:
+  # 就是apollo config server的地址
+  meta: http://meta.apollo.xxx.cn
+  bootstrap:
+    # 是否开启 Apollo
+    enabled: true
+    eagerLoad:
+      # 将 Apollo 加载提到初始化日志系统之前，如果设置为false，则配置中心中修改日志信息不会生效
+      enabled: true
+    namespaces: application, sensitive-config, message
+  cacheDir: ./config
 # 配置微服务的地址
 microservice:
   url:
@@ -99,30 +100,46 @@ springdoc:
     enabled: true
 
 # 阿里云
-aliyun:
-  oss:
-    endpoint: <your-oss-endpoint>
-    accessKeyId: <your-access-key-id>
-    accessKeySecret: <your-access-key-secret>
-    bucketName: <your-bucket-name>
+#aliyun:
+#  oss:
+#    endpoint: <your-oss-endpoint>
+#    accessKeyId: <your-access-key-id>
+#    accessKeySecret: <your-access-key-secret>
+#    bucketName: <your-bucket-name>
 
 
 #redis相关配置
-
-redis:
-  database: 0 #  数据库索引，Redis默认提供16个数据库，编号从0到15。当你连接到Redis时，你会默认连接到0号数据库。你可以使用SELECT命令来切换到其他的数据库。
-  # 配置redis的主机地址，需要修改成自己的
-  host: 127.0.0.1
-  port: 6379   # 默认是6379
-  password: 123456
-  timeout: 15000
-  jedis:
+spring:
+  #  配置ActiveMQ
+  activemq:
+    # activemq url
+    broker-url: tcp://localhost:61616
+    in-memory: true
     pool:
-      # 连接池中的最大空闲连接，默认值也是8。
-      max-idle: 500
-      # 连接池中的最小空闲连接，默认值也是0。
-      min-idle: 50
-      # 如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)
-      max-active: 1000
-      # 等待可用连接的最大时间，单位毫秒，默认值为-1，表示永不超时。如果超过等待时间，则直接抛出JedisConnectionException
-      max-wait: 2000
+      # 如果此处设置为true，需要添加activemq-pool的依赖包，否则会自动配置失败，无法注入JmsMessagingTemplate
+      enabled: false
+  #  配置RocketMQ
+  rocketmq:
+    name-server: 127.0.0.1:9876
+    producer:
+      group: my-producer-group
+  # jms
+  jms:
+    pub-sub-domain: true #   默认情况下，JMS消息队列模型是点对点模型，如果设置为true，则变成发布订阅模型
+  redis:
+    # 配置redis的主机地址，需要修改成自己的
+    host: 127.0.0.1
+    port: 6379   # 默认是6379
+    password: 123456
+    timeout: 5000
+    database: 0 #  数据库索引，Redis默认提供16个数据库，编号从0到15。当你连接到Redis时，你会默认连接到0号数据库。你可以使用SELECT命令来切换到其他的数据库。
+    lettuce:
+      pool:
+        # 连接池中的最大空闲连接，默认值也是8。
+        max-idle: 500
+        # 连接池中的最小空闲连接，默认值也是0。
+        min-idle: 50
+        # 如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)
+        max-active: 1000
+        # 等待可用连接的最大时间，单位毫秒，默认值为-1，表示永不超时。如果超过等待时间，则直接抛出JedisConnectionException
+        max-wait: 5000

@@ -7,11 +7,11 @@ import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.stereotype.Service;
 
 /**
- * 消息发送者
+ * ActiveMQ 消息发送者
  * @author liyinchi
  */
 @Service
-public class MsgProducer {
+public class ActiveMqMyProducer {
 
     @Resource
     private JmsMessagingTemplate jmsMessagingTemplate;

@@ -1,6 +1,6 @@
 package com.example.lyc.springboot.demo.controller;
 
-import com.example.lyc.springboot.demo.producer.MsgProducer;
+import com.example.lyc.springboot.demo.producer.ActiveMqMyProducer;
 import jakarta.annotation.Resource;
 import jakarta.jms.Destination;
 import lombok.extern.slf4j.Slf4j;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * ActiveMQ controller
+ * ActiveMQ 控制器
  * @author liyinchi
  */
 @Slf4j
@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ActiveMqController {
     private static final Logger logger = LoggerFactory.getLogger(ActiveMqController.class);
     @Resource
-    private MsgProducer producer;
+    private ActiveMqMyProducer producer;
     @Resource
     private Destination queue;
 

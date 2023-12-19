@@ -110,6 +110,7 @@ springdoc:
 
 #redis相关配置
 spring:
+  #  配置ActiveMQ
   activemq:
     # activemq url
     broker-url: tcp://localhost:61616
@@ -117,6 +118,16 @@ spring:
     pool:
       # 如果此处设置为true，需要添加activemq-pool的依赖包，否则会自动配置失败，无法注入JmsMessagingTemplate
       enabled: false
+  #  配置RocketMQ
+#  rocketmq:
+#    name-server: 127.0.0.1:9876
+#    producer:
+#      group: my-producer-group
+#      access-key: yourAccessKey
+#      secret-key: yourSecretKey
+  # jms
+  jms:
+    pub-sub-domain: true #   默认情况下，JMS消息队列模型是点对点模型，如果设置为true，则变成发布订阅模型
   redis:
     # 配置redis的主机地址，需要修改成自己的
     host: 127.0.0.1
