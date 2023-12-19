@@ -1464,6 +1464,87 @@ docker run -d --name activemq -p 61616:61616 -p 8161:8161 rmohr/activemq
 默认的用户名和密码都是admin。
 
 
+### 生产者
+
+MsgProducer.java
+
+>com/example/lyc/springboot/demo/producer/MsgProducer.java
+
+```java
+@Service
+public class MsgProducer {
+
+    @Resource
+    private JmsMessagingTemplate jmsMessagingTemplate;
+
+    public void sendMessage(Destination destination, String msg) {
+        jmsMessagingTemplate.convertAndSend(destination, msg);
+    }
+}
+```
+
+### 消费者
+
+QueueConsumer.java
+
+>com/example/lyc/springboot/demo/consumer/QueueConsumer.java
+
+```java
+@Slf4j
+@Service
+public class QueueConsumer {
+
+    /**
+     * 接收点对点消息
+     * @param msg
+     */
+    @JmsListener(destination = ActiveMqConfig.QUEUE_NAME)//
+    public void receiveQueueMsg(String msg) {
+        log.info("消费者 收到的消息为：" + msg);
+    }
+}
+
+```
+
+
+### Controller
+
+ActiveMqController.java
+
+>com/example/lyc/springboot/demo/controller/ActiveMqController.java
+
+```java
+
+@Slf4j
+@RestController
+@RequestMapping("/activemq")
+public class ActiveMqController {
+    private static final Logger logger = LoggerFactory.getLogger(ActiveMqController.class);
+    @Resource
+    private MsgProducer producer;
+    @Resource
+    private Destination queue;
+
+    @GetMapping("/send/queue")
+    public String sendQueueMessage() {
+        logger.info("===开始发送点对点消息===");
+        producer.sendMessage(queue, "Queue: hello activemq!");
+        log.info("===生产者 发送点对点消息===");
+        return "success";
+    }
+}
+```
+
+
+
+<img width="1346" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/1c40c36b-aca2-4d31-b42f-15f362b25bf3">
+
+
+
+
+
+
+
 
 
 # 常见问题
