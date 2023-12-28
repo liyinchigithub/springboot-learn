@@ -19,6 +19,6 @@ public class ActiveMqQueueConsumer {
      */
     @JmsListener(destination = ActiveMqConfig.QUEUE_NAME)//
     public void receiveQueueMsg(String msg) {
-        log.info("消费者 收到的消息为：" + msg);
+        log.info("ActiveMqQueueConsumer 消费者 收到的消息为：" + msg);
     }
 }

@@ -928,6 +928,42 @@ public void annotationCut() {}
 
 Spring Boot 的默认静态目录为 resources/static
 
+### 配置静态资源路径
+
+
+
+application.yml 文件中添加配置
+
+>src/main/resources/application-dev.yml
+
+```yaml
+spring:
+  resources:
+    static-locations: [classpath:/static/]
+```
+
+代码中
+>
+```java
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@Configuration
+public class MvcConfig implements WebMvcConfigurer {
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/files/**")
+                .addResourceLocations("file:/absolute/path/to/your/directory/");
+    }
+}
+
+```
+
+接口
+>com/example/lyc/springboot/demo/controller/ImageController.java
+
 
 # 事务
 
@@ -1558,16 +1594,17 @@ kill -s 9 进程号
 ```
 
 
-2. ActiveMQ如何使用topic和consumerGroup？
-   在ActiveMQ中，主题（Topic）和消费者组（Consumer Group）的概念与RocketMQ中的稍有不同。
-   RocketMQ才有topic和consumerGroup，不同项目都订阅了主题，但如果在同一个消费组，则只有一个消费者能消费到消息。
-   而ActiveMQ使用JMS（Java Message Service）规范，其中定义了两种消息模型：点对点（Point-to-Point）和发布/订阅（Publish/Subscribe）。
+2. ActiveMQ如何使用**topic**和**consumerGroup**？
+   在ActiveMQ中，**主题（Topic）**和**消费者组（Consumer Group）** 的概念与RocketMQ中的稍有不同。
+   RocketMQ才有**topic**和**consumerGroup**，不同项目都订阅了主题，但如果在同一个消费组，则只有一个消费者能消费到消息。
+   而ActiveMQ使用JMS（Java Message Service）规范，其中定义了[两种消息模型]：**点对点**（Point-to-Point）和**发布/订阅**（Publish/Subscribe）。
 
    * 主题（Topic）：
-  在发布/订阅模型中，消息生产者（Publisher）将消息发布到主题（Topic），所有订阅了该主题的消费者（Subscriber）都会接收到这些消息。这与RocketMQ中的主题概念相似。
+  在**发布/订阅**模型中，消息**生产者**（Publisher）将消息发布到**主题**（Topic），所有订阅了该主题的**消费者**（Subscriber）都会接收到这些消息，这与RocketMQ中的主题概念相似。
 
   * 消费者组（Consumer Group）：
-  然而，ActiveMQ并没有消费者组（Consumer Group）的概念。 在ActiveMQ中，每个消费者都是独立的，每个消费者都会接收到所有发布到它订阅的主题的消息。
+  
+  然而，ActiveMQ并没有消费者组（Consumer Group）的概念，在ActiveMQ中，每个消费者都是独立的，每个消费者都会接收到所有发布到它订阅的主题的消息。
 
   RocketMQ中的消费者组（Consumer Group）与ActiveMQ中的消费者（Consumer）的概念是类似的。
 
@@ -1579,6 +1616,34 @@ kill -s 9 进程号
 在ActiveMQ中，主题（Topic）是实现发布-订阅模型的方式。
 如果生产者发送消息到一个主题，那么所有订阅了这个主题的消费者都会接收到这个消息，无论这些消费者属于哪个项目。
 这种模型非常适合广播类型的消息，例如，你想将一个消息发送给多个接收者。（**有点像安卓广播组件**）
+
 **请注意，这与队列（Queue）模型是不同的**。
 在队列模型中，每个消息只会被一个消费者接收。
 这种模型适合点对点类型的消息。
+
+4. 通常情况下，我们会在启动应用时自动启动消息监听，而不是通过Controller触发，那么要如何修改？
+
+在Spring Boot应用中，你可以使用**@JmsListener**注解来自动注册消息监听器。
+这个注解应该被添加到你希望用来处理消息的方法上。
+当应用启动时，Spring会自动注册这些方法为消息监听器。
+
+```java
+import org.springframework.jms.annotation.JmsListener;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Consumer {
+    @JmsListener(destination = "queue.sample")
+    public void receive(String message) {
+        System.out.println("Received message: " + message);
+    }
+}
+```
+
+在这个示例中，receive方法被注解为一个消息监听器，它会监听名为queue.sample的队列。
+当这个队列中有新的消息时，receive方法会被自动调用，参数message就是接收到的消息。
+需要确保你的消费者类被Spring管理（例如，通过@Component注解），并且@JmsListener注解的方法有正确的签名。
+具体来说，方法的参数应该与发送的消息类型相匹配。
+例如，如果你发送的是文本消息，那么方法的参数应该是String。
+
+如果你的消费者是通过Controller触发的，你可能需要将其改为上述方式，**以便在应用启动时自动启动消息监听**。

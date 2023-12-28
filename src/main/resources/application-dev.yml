@@ -99,14 +99,6 @@ springdoc:
     path: /swagger-docs
     enabled: true
 
-# 阿里云
-#aliyun:
-#  oss:
-#    endpoint: <your-oss-endpoint>
-#    accessKeyId: <your-access-key-id>
-#    accessKeySecret: <your-access-key-secret>
-#    bucketName: <your-bucket-name>
-
 
 #redis相关配置
 spring:
@@ -145,3 +137,13 @@ spring:
         max-active: 1000
         # 等待可用连接的最大时间，单位毫秒，默认值为-1，表示永不超时。如果超过等待时间，则直接抛出JedisConnectionException
         max-wait: 5000
+  #  配置OSS
+#  resources:
+#    static-locations: [classpath:/upload/]
+  # 阿里云OSS
+#  aliyun:
+#    oss:
+#      endpoint: http://oss-cn-beijing.aliyuncs.com
+#      accessKeyId: yourAccessKeyId
+#      accessKeySecret: yourAccessKeySecret
+#      bucketName: yourBucketName
