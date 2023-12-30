@@ -1647,29 +1647,31 @@ MyWebSocketHandler.java
 
 （1）首次，客户端发送一个HTTP请求到服务器，请求头包含Upgrade: websocket和Connection: Upgrade，表示客户端希望升级协议到WebSocket。
 
-<img width="500"  height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/28d09fe2-f7a5-464f-9254-fd34d642485c">
+<img width="700"  height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/28d09fe2-f7a5-464f-9254-fd34d642485c">
 
 如果服务器支持WebSocket，它会返回一个状态码为101 Switching Protocols的HTTP响应，响应头也包含Upgrade: websocket和Connection: Upgrade，表示服务器同意切换到WebSocket协议。
 
 
 （2） 握手成功后，客户端和服务器之间的通信就会切换到WebSocket协议，可以进行全双工的通信。
 
-<img width="500"  height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/2afd0e06-18d8-4171-afcb-d3d64ba0658a">
+<img width="700"  height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/2afd0e06-18d8-4171-afcb-d3d64ba0658a">
 
 
 （3）客户端（前端）发送和接收内容
 
-<img width="500"  height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/e8b735ad-98ab-41d5-b6b5-7499b8507b3f">
+<img width="700"  height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/e8b735ad-98ab-41d5-b6b5-7499b8507b3f">
 
 
 
 * 服务端
 
 **建立连接**
-<img width="500" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/9400f385-c07c-47af-a73a-0684f1361ed9">
+
+<img width="700" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/9400f385-c07c-47af-a73a-0684f1361ed9">
 
 **关闭连接**
-<img width="500" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/9400f385-c07c-47af-a73a-0684f1361ed9">
+
+<img width="700" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/9400f385-c07c-47af-a73a-0684f1361ed9">
 
 
 
