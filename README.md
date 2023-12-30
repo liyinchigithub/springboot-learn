@@ -1,4 +1,4 @@
-# springboot-learn
+![image](https://github.com/liyinchigithub/springboot-learn/assets/19643260/3fffee24-4a37-4c96-90a1-63aa17ce9222)# springboot-learn
 
 这是一个学习SpringBoot入门项目
 
@@ -1643,6 +1643,15 @@ MyWebSocketHandler.java
 
 在Spring Boot中，你可以使用WebSocketSession的isOpen方法来检查连接是否开启，使用close方法来关闭连接。在TextWebSocketHandler的afterConnectionEstablished和afterConnectionClosed方法中，你可以添加自定义的逻辑来处理连接开启和关闭的事件。
 
+
+
+* 客户端（前端）
+>TestWebSocket.html
+<img width="500"  height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/2afd0e06-18d8-4171-afcb-d3d64ba0658a">
+
+
+* 服务端
+<img width="500" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/9400f385-c07c-47af-a73a-0684f1361ed9">
 
 
 
