@@ -8,7 +8,6 @@ import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
 /**
  * WebSocket处理类
- *
  * */
 public class MyWebSocketHandler extends TextWebSocketHandler {
 
@@ -30,9 +29,11 @@ public class MyWebSocketHandler extends TextWebSocketHandler {
      * */
     @Override
     protected void handleTextMessage(WebSocketSession session, TextMessage message) throws Exception {
+        //  处理接收到的消息
         logger.info("Received message: {}", message.getPayload());
+        //  构造返回消息
         TextMessage returnMessage = new TextMessage("Message '" + message.getPayload() + "' received at server");
-        // 发送
+        // 发送给客户端
         session.sendMessage(returnMessage);
     }
 

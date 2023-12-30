@@ -1579,28 +1579,26 @@ public class ActiveMqController {
 
 # WebSocket
 
-* WebSocketConfig.java
+* 1.WebSocketConfig.java
 >com/example/lyc/springboot/demo/config/WebSocketConfig.java
 
 
-* MyWebSocketHandler.java
+* 2.MyWebSocketHandler.java
 >com/example/lyc/springboot/demo/handler/MyWebSocketHandler.java
 
 
-* 前端测试html
+* 3.测试webSocket
 >TestWebSocket.html
 
 
 
-### ws跨域问题
+## webSocket跨域问题
 
 如果你的前端应用和后端应用不在同一个域，可能会遇到跨域问题。
-你需要在Spring Boot应用中配置跨域支持。在registerWebSocketHandlers方法中，可以调用setAllowedOrigins方法来设置允许的跨域源。
+你需要在Spring Boot应用中配置跨域支持。
+在registerWebSocketHandlers方法中，可以调用setAllowedOrigins方法来设置允许的跨域源。
 
-
-
-
-### 状态码101 Switching Protocols 当我发起content时
+## 状态码101 Switching Protocols 当我发起content时
 
 状态码101 Switching Protocols是一个正常的响应，它表示服务器理解了客户端的请求，并且正在切换协议，这在WebSocket握手过程中是常见的。
 
@@ -1651,8 +1649,12 @@ MyWebSocketHandler.java
 
 
 * 服务端
+
+**建立连接**
 <img width="500" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/9400f385-c07c-47af-a73a-0684f1361ed9">
 
+**关闭连接**
+<img width="500" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/9400f385-c07c-47af-a73a-0684f1361ed9">
 
 
 
