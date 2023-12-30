@@ -1577,6 +1577,72 @@ public class ActiveMqController {
 
 
 
+# WebSocket
+
+* WebSocketConfig.java
+>com/example/lyc/springboot/demo/config/WebSocketConfig.java
+
+
+* MyWebSocketHandler.java
+>com/example/lyc/springboot/demo/handler/MyWebSocketHandler.java
+
+
+* 前端测试html
+>TestWebSocket.html
+
+
+
+### ws跨域问题
+
+如果你的前端应用和后端应用不在同一个域，可能会遇到跨域问题。
+你需要在Spring Boot应用中配置跨域支持。在registerWebSocketHandlers方法中，可以调用setAllowedOrigins方法来设置允许的跨域源。
+
+
+
+
+### 状态码101 Switching Protocols 当我发起content时
+
+状态码101 Switching Protocols是一个正常的响应，它表示服务器理解了客户端的请求，并且正在切换协议，这在WebSocket握手过程中是常见的。
+
+当你的客户端发起一个WebSocket连接请求时，它会首先发送一个HTTP请求到服务器，这个请求的头部包含一个"Upgrade: websocket"，表示客户端希望升级协议到WebSocket。
+
+如果服务器支持WebSocket，它会返回一个状态码101 Switching Protocols的响应，同时响应的头部也会包含"Upgrade: websocket"，表示服务器同意切换到WebSocket协议。
+
+这个过程被称为WebSocket的握手过程。握手成功后，客户端和服务器之间的通信就会切换到WebSocket协议，可以进行全双工的通信。
+
+所以，如果你在发起连接时看到状态码101，那么这是正常的，表示你的WebSocket连接正在被建立。
+
+
+### webSocket调试输出
+
+在调试过程中，可以使用日志输出来查看WebSocket的**握手过程**和**通信状态**。
+
+你可以通过配置日志输出级别为DEBUG，来
+
+MyWebSocketHandler.java
+
+### websocket ***握手过程**和**通讯状态**
+
+1. 握手过程：
+
+- 客户端发送一个HTTP请求到服务器，请求头包含Upgrade: websocket和Connection: Upgrade，表示客户端希望升级协议到WebSocket。
+
+- 如果服务器支持WebSocket，它会返回一个状态码为101 Switching Protocols的HTTP响应，响应头也包含Upgrade: websocket和Connection: Upgrade，表示服务器同意切换到WebSocket协议。
+
+- 握手成功后，客户端和服务器之间的通信就会切换到WebSocket协议，可以进行全双工的通信。
+
+2. 通讯状态：
+
+- OPEN：连接已经开启并准备好进行通信。
+
+- CLOSING：连接正在关闭的过程中，即已经收到了一个关闭帧，并正在等待对方的关闭帧。
+
+- CLOSED：连接已经关闭或者无法打开。
+
+- CONNECTING：连接还没有开启，握手还在继续。
+
+在Spring Boot中，你可以使用WebSocketSession的isOpen方法来检查连接是否开启，使用close方法来关闭连接。在TextWebSocketHandler的afterConnectionEstablished和afterConnectionClosed方法中，你可以添加自定义的逻辑来处理连接开启和关闭的事件。
+
 
 
 
