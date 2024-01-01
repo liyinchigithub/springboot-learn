@@ -1,11 +1,13 @@
 package com.example.lyc.springboot.demo.commons.api;
 
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
 
 /**
  * csdn 教程统一返回json类
  * */
+@Data
 @Component
 public class JsonResult<T> {
     private T data;// 返回数据

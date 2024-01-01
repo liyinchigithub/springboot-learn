@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.resource.ResourceHttpRequestHandler;
 
 import java.lang.reflect.Method;
 
@@ -31,13 +32,14 @@ public class MyInterceptor implements HandlerInterceptor {
      * */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        // 获取处理当前请求的方法
-        HandlerMethod handlerMethod = (HandlerMethod) handler;
-        Method method = handlerMethod.getMethod();
-        String methodName = method.getName();
-        // 记录日志，显示被拦截的方法名
-        logger.info("====拦截到了方法：{}，在该方法执行之前执行====", methodName);
-        // 返回true才会继续执行，返回false则取消当前请求
+        if (handler instanceof HandlerMethod) {
+            HandlerMethod handlerMethod = (HandlerMethod) handler;
+            Method method = handlerMethod.getMethod();
+            String methodName = method.getName();
+            logger.info("====拦截到了方法：{}，在该方法执行之前执行====", methodName);
+        } else if (handler instanceof ResourceHttpRequestHandler) {
+            logger.info("====拦截到了静态资源请求，跳过处理====");
+        }
         return true;
     }
 

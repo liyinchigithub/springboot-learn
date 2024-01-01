@@ -1677,6 +1677,8 @@ MyWebSocketHandler.java
 
 
 
+
+
 # 常见问题
 
 1.端口占用
@@ -1741,3 +1743,101 @@ public class Consumer {
 例如，如果你发送的是文本消息，那么方法的参数应该是String。
 
 如果你的消费者是通过Controller触发的，你可能需要将其改为上述方式，**以便在应用启动时自动启动消息监听**。
+
+
+
+5.接口返回一个html页面
+
+>src/main/resources/templates/TestPage.html
+
+```java
+package com.example.lyc.springboot.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class IoTController {
+
+    @GetMapping("/page")
+    public String getPage() {
+        return "TestPage";
+    }
+
+}
+```
+
+
+6. 接口存储某个值，用于其他接口来获取这个isGo的值
+
+用Spring的@SessionAttribute或者@SessionAttributes来在多个请求之间共享数据。
+
+
+（1）首先，你需要在你的控制器类上添加@SessionAttributes注解，并指定你想要存储在session中的属性名称，
+
+```java
+@Controller
+@SessionAttributes("isGo")
+public class IoTController {
+    // ...
+}
+```
+
+（2）然后，你可以在你的doAction方法中将isGo参数的值存储到session中：
+```java
+@GetMapping("/action")
+public String doAction(@RequestParam boolean isGo, Model model) {
+    model.addAttribute("isGo", isGo);
+    return "actionResult";
+}
+
+```
+
+（3）最后，你可以在你的新接口中获取session中的isGo值：
+```java
+@GetMapping("/getIsGo")
+public String getIsGo(Model model) {
+        Boolean isGo = (Boolean) model.getAttribute("isGo");
+        // 在这里处理isGo值
+        return "getIsGoResult";
+        }
+```
+
+
+（4）使用JsonResult类来封装你的接口返回结果。
+
+在IoTController类中，你需要将String类型的返回值改为JsonResult类型的返回值。
+然后，你可以使用JsonResult的构造函数来创建返回结果。
+这是修改后的IoTController类：
+
+```java
+import com.example.lyc.springboot.demo.commons.api.JsonResult;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.ui.Model;
+
+@Controller
+@RequestMapping("/v1")
+@SessionAttributes("isGo")
+public class IoTController {
+
+    @GetMapping("/page")
+    public String getPage() {
+        return "TestPage";
+    }
+
+    @GetMapping("/action")
+    public JsonResult<String> doAction(@RequestParam boolean isGo, Model model) {
+        model.addAttribute("isGo", isGo);
+        return new JsonResult<>("actionResult");
+    }
+
+    @GetMapping("/getIsGo")
+    public JsonResult<Boolean> getIsGo(Model model) {
+        Boolean isGo = (Boolean) model.getAttribute("isGo");
+        return new JsonResult<>(isGo);
+    }
+}
+```
+
+
