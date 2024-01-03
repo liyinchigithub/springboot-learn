@@ -928,20 +928,19 @@ Spring Boot 的默认静态目录为 resources/static
 
 ### 配置静态资源路径
 
-
-
-application.yml 文件中添加配置
+第一种方式：application.yml 文件中添加配置
 
 >src/main/resources/application-dev.yml
 
+图片
 ```yaml
 spring:
   resources:
     static-locations: [classpath:/static/]
 ```
 
-代码中
->
+第二种方式：代码中
+>com/example/lyc/springboot/demo/config/MvcConfig.java
 ```java
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -961,6 +960,124 @@ public class MvcConfig implements WebMvcConfigurer {
 
 接口
 >com/example/lyc/springboot/demo/controller/ImageController.java
+
+
+
+#### 配置多媒体音频文件
+
+代码中
+>com/example/lyc/springboot/demo/config/MvcConfig.java
+
+```java
+@Override
+  public void addResourceHandlers(ResourceHandlerRegistry registry) {
+  registry.addResourceHandler("/files/**")
+  .addResourceLocations("file:./upload/");
+  registry.addResourceHandler("/mp3/**")
+  .addResourceLocations("file:/src/main/resource/media/");
+}
+```
+
+图片+音频
+
+>src/main/resources/application-dev.yml
+
+```yaml
+
+spring:
+  #  配置静态资源路径
+  resources:
+    static-locations:
+      - classpath:/static/
+      - classpath:/media/
+```
+
+
+
+配置pom.xml
+
+```xml
+ <resources>
+        <resource>
+            <directory>src/main/resources</directory>
+        </resource>
+        <resource>
+            <directory>src/main/resources/media</directory>
+        </resource>
+    </resources>
+```
+如果你正在使用Spring Boot的内置Tomcat服务器，那么你可能需要将src/main/resources/media目录添加到你的项目的资源路径中。你可以在你的pom.xml文件中添加以下内容：
+
+
+#### 音频在线可播放
+
+```java
+import org.springframework.http.MediaType;
+import org.springframework.http.HttpHeaders;
+
+@GetMapping("/media/{filename:.+}")
+public ResponseEntity<Resource> serveFile(@PathVariable String filename) {
+
+    Resource file = new ClassPathResource("src/main/resources/media/" + filename);
+    try {
+        file.getInputStream(); // check if file exists
+
+        // Set the content type to audio/mpeg (for .mp3 files)
+        // Adjust this to match the type of audio file you are serving (e.g., audio/ogg for .ogg files)
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.parseMediaType("audio/mpeg"));
+        headers.add(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=\"" + file.getFilename() + "\"");
+
+        return ResponseEntity.ok().headers(headers).body(file);
+    } catch (IOException e) {
+        log.error("File not found: {}", filename, e);
+        return ResponseEntity.notFound().build();
+    }
+}
+
+```
+
+在这个示例中，我们设置了 Content-Type 头为 audio/mpeg，这是 .mp3 文件的 MIME 类型。
+
+你需要根据你的音频文件的实际类型来调整这个值。
+
+我们还设置了 Content-Disposition 头为 inline，这意味着浏览器应尝试在页面上直接播放音频，而不是下载文件。
+
+
+
+#### 音频下载
+
+
+如果你想让音频文件被下载而不是在线播放，你可以将 Content-Disposition 头的值从 inline 改为 attachment。
+
+这将提示浏览器下载文件而不是尝试在页面上播放它。
+
+```java
+import org.springframework.http.MediaType;
+import org.springframework.http.HttpHeaders;
+
+@GetMapping("/media/{filename:.+}")
+public ResponseEntity<Resource> serveFile(@PathVariable String filename) {
+
+    Resource file = new ClassPathResource("src/main/resources/media/" + filename);
+    try {
+        file.getInputStream(); // check if file exists
+
+        // Set the content type to audio/mpeg (for .mp3 files)
+        // Adjust this to match the type of audio file you are serving (e.g., audio/ogg for .ogg files)
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.parseMediaType("audio/mpeg"));
+        headers.add(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + file.getFilename() + "\"");
+
+        return ResponseEntity.ok().headers(headers).body(file);
+    } catch (IOException e) {
+        log.error("File not found: {}", filename, e);
+        return ResponseEntity.notFound().build();
+    }
+}
+```
+
+
 
 
 # 事务

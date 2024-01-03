@@ -101,7 +101,13 @@ springdoc:
 
 
 #redis相关配置
+
 spring:
+  #  配置静态资源路径
+  resources:
+    static-locations:
+      - classpath:/static/
+      - classpath:/media/
   #  配置ActiveMQ
   activemq:
     # activemq url
@@ -137,10 +143,9 @@ spring:
         max-active: 1000
         # 等待可用连接的最大时间，单位毫秒，默认值为-1，表示永不超时。如果超过等待时间，则直接抛出JedisConnectionException
         max-wait: 5000
-  #  配置OSS
-#  resources:
+#  配置OSS/文件资源访问:
 #    static-locations: [classpath:/upload/]
-  # 阿里云OSS
+
 #  aliyun:
 #    oss:
 #      endpoint: http://oss-cn-beijing.aliyuncs.com
