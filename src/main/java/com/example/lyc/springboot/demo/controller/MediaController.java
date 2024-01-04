@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.MediaType;
 import org.springframework.http.HttpHeaders;
 import java.io.IOException;
-
 @Slf4j
 @RestController
 @RequestMapping("/v1")
@@ -38,4 +37,7 @@ public class MediaController {
             return ResponseEntity.notFound().build();
         }
     }
+
+
+
 }
