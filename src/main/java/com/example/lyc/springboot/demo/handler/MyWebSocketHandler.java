@@ -31,6 +31,8 @@ public class MyWebSocketHandler extends TextWebSocketHandler {
     protected void handleTextMessage(WebSocketSession session, TextMessage message) throws Exception {
         //  处理接收到的消息
         logger.info("Received message: {}", message.getPayload());
+        // 等待10秒后再返回消息
+        Thread.sleep(1000);
         //  构造返回消息
         TextMessage returnMessage = new TextMessage("Message '" + message.getPayload() + "' received at server");
         // 发送给客户端
