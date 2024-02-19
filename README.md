@@ -81,22 +81,26 @@ lyc.springboot.demo
 
 ##  项目结构
 * common
+  * BaseResponse
+    * 统一响应返回
+  * JsonResult
+    * 统一响应返回
 * service层 
-  * 用于通用业务逻辑
+  * 用于**通用业务逻辑**
 * controller层
-  * 用于对外暴露接口
+  * 用于**对外暴露接口**
 * dao层
-  * 用于数据库操作
+  * 用于**数据库操作**
 * entity层 
   * 实体类
 * mapper层 
-  * 用于数据库操作
+  * 用于**数据库操作**
 * service.impl层 
-  * service接口实现类
+  * service**接口实现类**
 * dto层
-  *  用于数据传输
+  *  用于**数据传输**
 * config
-  *  用于配置文件
+  *  用于**配置文件**
 * utils类
   *  工具类
 * exception类
