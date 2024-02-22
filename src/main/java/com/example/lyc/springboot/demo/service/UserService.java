@@ -24,7 +24,7 @@ public interface UserService {
 
     int deleteUser(int id);
 
-    @Transactional
+    @Transactional // 在Spring事务管理器中执行。确保在方法执行过程中，如果发生异常，可以进行事务回滚，从而保证数据的一致性。
     void insertUser(User user);
     // 分页查询
     List<User> getAllUsers(int page, int size, String sortField);

@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
  * User 控制器
  * 层级：控制器->服务层->数据访问层
  * 作用：处理用户相关的请求
- * 在这个例子中，UserController中的每个方法都会将User对象转换为UserDTO对象，然后返回UserDTO对象。
+ * 在这个例子中，UserController中的每个方法都会将 User对象 转换为 UserDTO对象，然后返回UserDTO对象。
  * convertToDto和convertToEntity方法用于在User和UserDTO之间进行转换。
  * */
 @Slf4j

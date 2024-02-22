@@ -28,6 +28,6 @@ public class User {
     private String password;
     private int updates;
 
-    /* 省略get、set和带参构造方法、无参构造函数 */
+    /* 省略get、set 和 带参构造方法、无参构造函数 */
 
 }

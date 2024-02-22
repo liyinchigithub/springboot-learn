@@ -28,7 +28,7 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private final UserMapper userMapper;//
     @Resource
-    private ApplicationContext applicationContext;
+    private ApplicationContext applicationContext;// 使用ApplicationContext来访问Spring容器中的Bean和资源，如数据库连接、消息服务、定时任务等。通过注入ApplicationContext实例，可以方便地在代码中使用这些资源。
 
     /**
      * 构造函数
