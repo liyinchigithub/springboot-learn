@@ -4,7 +4,7 @@ app:
   name: learning springboot
   version: 1.0.0
 
-  # 指定环境
+  # 读取指定环境
 spring:
   profiles:
     active: dev

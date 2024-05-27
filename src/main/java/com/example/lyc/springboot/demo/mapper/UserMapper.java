@@ -7,10 +7,10 @@ import org.apache.ibatis.session.RowBounds;
 import java.util.List;
 
 /**
- * 定义接口（即数据库访问对象）
+ * 定义接口（即"数据库访问对象"）
  * 层级：接口层
- * 作用：定义接口，供外部调用
- * 通常
+ * 通常来说，接口中的方法与数据库中的表字段一一对应
+ * 接口中定义的方法，需要与Mapper.xml中的SQL语句相对应
  *
  * */
 public interface UserMapper {

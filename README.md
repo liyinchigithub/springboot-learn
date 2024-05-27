@@ -108,7 +108,7 @@ lyc.springboot.demo
 * 切面类
   *  日志切面
 
-User实体类 -> UserController ->  UserService.interface ->  UserServiceImpl.java -> UserMapper.interface -> UserMapper.xml
+**User实体类** -> **UserController** ->  **UserService.interface** ->  **UserServiceImpl.java** -> **UserMapper.interface** -> **UserMapper.xml**
 
 在一个典型的Spring Boot和MyBatis的项目中，这些类和接口通常位于以下的层：
 
@@ -179,6 +179,38 @@ mvn clean package -Dmaven.test.skip=true
 
 ```bash
 java -jar lyc.springboot.demo.jar
+```
+
+
+# 数据库
+
+# 表
+
+- User表
+```sql
+CREATE TABLE `User` (
+  `id` int(100) NOT NULL AUTO_INCREMENT,
+  `userName` varchar(100) DEFAULT NULL,
+  `password` varchar(100) DEFAULT NULL,
+  `created` DATETIME DEFAULT CURRENT_TIMESTAMP,
+  `isEnalbe` BOOLEAN DEFAULT 1,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+SHOW CREATE TABLE User
+
+drop  table User
+
+```
+- Orders表
+```sql
+CREATE TABLE `Orders` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(255) NOT NULL,
+    `quantity` INT NOT NULL,
+    `status` VARCHAR(100) NOT NULL
+);
+
 ```
 
 # restfull API

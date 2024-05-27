@@ -33,17 +33,6 @@ public class GlobalExceptionHandler {
     }
 
     /**
-     * @Description: 处理 所有不可知的异常
-     * @param ex
-     * @return
-     */
-//    @ExceptionHandler(HttpMessageNotReadableException.class)
-//    public ResponseEntity<String> handleHttpMessageNotReadableException(HttpMessageNotReadableException ex) {
-//        // 这里可以记录日志，发送通知等
-//        return new ResponseEntity<>("请求参数错误", HttpStatus.BAD_REQUEST);
-//    }
-
-    /**
      * @Description 处理空指针异常
      * @param ex NullPointerException
      * @return
@@ -52,8 +41,13 @@ public class GlobalExceptionHandler {
     @ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
     public BaseResponse handleTypeMismatchException(NullPointerException ex) {
         log.error("空指针异常，{}", ex.getMessage());
-        return new BaseResponse(500, "空指针异常了");
+        // 不使用枚举
+//        return new BaseResponse(500, "空指针异常了");
+        // 使用枚举
+        return new BaseResponse(Integer.parseInt(BusinessMsgEnum.NULL_POINTER.getCode()),
+                BusinessMsgEnum.NULL_POINTER.getMsg());// 业务枚举处理异常
     }
+
 
 
     /**
@@ -81,6 +75,14 @@ public class GlobalExceptionHandler {
         return new BaseResponse(500, "系统未知异常，请联系管理员");
     }
 
-
-
+    /**
+     * @Description: 处理 所有不可知的异常
+     * @param ex
+     * @return
+     */
+//    @ExceptionHandler(HttpMessageNotReadableException.class)
+//    public ResponseEntity<String> handleHttpMessageNotReadableException(HttpMessageNotReadableException ex) {
+//        // 这里可以记录日志，发送通知等
+//        return new ResponseEntity<>("请求参数错误", HttpStatus.BAD_REQUEST);
+//    }
 }

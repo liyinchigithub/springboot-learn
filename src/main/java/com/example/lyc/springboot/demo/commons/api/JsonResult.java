@@ -5,7 +5,8 @@ import org.springframework.stereotype.Component;
 
 
 /**
- * csdn 教程统一返回json类
+ * CSDN教程
+ * 统一返回json类
  * */
 @Data
 @Component
@@ -23,7 +24,7 @@ public class JsonResult<T> {
     }
 
     /**
-     * 若没有数据返回，可以人为指定状态码和提示信息
+     * 若没有数据返回，可以人为指定【状态码】和【提示信息】
      * @param code
      * @param msg
      */
@@ -43,7 +44,7 @@ public class JsonResult<T> {
     }
 
     /**
-     * 有数据返回，状态码为0，人为指定提示信息
+     * 有数据返回，状态码为0，人为指定【提示信息】
      * @param data
      * @param msg
      */
