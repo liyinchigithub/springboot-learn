@@ -10,7 +10,6 @@ import org.springframework.transaction.annotation.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import java.util.List;
 
-
 @Slf4j
 @Service
 public class OrderServiceImpl implements OrderService {
@@ -32,6 +31,9 @@ public class OrderServiceImpl implements OrderService {
     @Override
     @Transactional(rollbackFor = Exception.class)
     public int addOrder(Order order) {
+        if (order.getTotalPrice() == null) {
+            throw new IllegalArgumentException("Total price cannot be null");
+        }
         orderMapper.insertOrder(order);
         return order.getId();
     }
@@ -57,7 +59,6 @@ public class OrderServiceImpl implements OrderService {
         throw new RuntimeException(); // 手动抛出异常以测试事务回滚
     }
 
-
     @Override
     public List<Order> getAllOrders(int page, int size, String sortField) {
         log.debug("page" + page + " size" + size + " sortField" + sortField);
@@ -68,7 +69,7 @@ public class OrderServiceImpl implements OrderService {
 
         // 检查sortField参数的有效性
         if (sortField == null || sortField.isEmpty()) {
-            sortField = "id";  // 使用一个默认的排序字段
+            sortField = "id"; // 使用一个默认的排序字段
         }
 
         int offset = page * size;

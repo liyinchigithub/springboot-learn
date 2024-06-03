@@ -204,11 +204,14 @@ drop  table User
 ```
 - Orders表
 ```sql
-CREATE TABLE `Orders` (
-    `id` INT AUTO_INCREMENT PRIMARY KEY,
-    `name` VARCHAR(255) NOT NULL,
-    `quantity` INT NOT NULL,
-    `status` VARCHAR(100) NOT NULL
+CREATE TABLE Orders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    userId INT,
+    totalPrice DECIMAL(10, 2) NOT NULL,
+    status VARCHAR(50),
+    createTime DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updateTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (userId) REFERENCES User(id)
 );
 
 ```
@@ -549,6 +552,8 @@ public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page
 * 返回数据 
 
 <img width="400" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/36db82b5-e195-4bf3-a4c7-f3551b30f47f">
+
+
 
 
 
@@ -1993,4 +1998,58 @@ public class IoTController {
 }
 ```
 
+7. 数据库字段是下划线而实体类是驼峰形式
 
+- 在 Java 实体类和数据库字段之间的映射中，确实常见的问题是命名风格的不一致。- 在 Java 中通常使用驼峰命名法（如 userId），而在数据库中则常用下划线命名法（如 user_id）。MyBatis 可以很好地处理这种命名风格的转换，但是需要确保配置正确。
+- 在 MyBatis 中，默认情况下，它会尝试将驼峰命名自动转换为下划线命名。这意味着如果你的实体类字段是 userId，MyBatis 会在生成 SQL 时自动查找 user_id 字段。这通常是通过 MyBatis 的配置项 mapUnderscoreToCamelCase 来控制的，确保它被设置为 true（这通常是默认设置）。
+
+- 确保 MyBatis 配置正确
+
+在你的 MyBatis 配置文件中（通常是 mybatis-config.xml），你可以添加或确认以下设置：
+```XML
+<settings>
+    <setting name="mapUnderscoreToCamelCase" value="true"/>
+</settings>
+```
+
+这个设置确保 MyBatis 在处理数据库列名和 Java 属性名时，会自动进行驼峰和下划线的转换。
+
+- 检查 MyBatis 映射文件
+
+在你的 OrderMapper.xml 文件中，确保 SQL 语句使用的是数据库的列名，例如：
+```XML
+<insert id="insertOrder" parameterType="com.example.lyc.springboot.demo.entity.Order">
+    INSERT INTO Orders (user_id, total_price, status) VALUES (#{userId}, #{totalPrice}, #{status})
+</insert>
+```
+
+在这里，#{userId}, #{totalPrice}, 和 #{status} 是 MyBatis 参数占位符，它们将自动映射到 Order 类的 userId, totalPrice, 和 status 属性。
+
+
+8. 如何在 Java 中使用 BigDecimal 类型与数据库中的 DECIMAL 类型相匹配？
+
+在 Java 中使用 BigDecimal 类型与数据库中的 DECIMAL 类型相匹配是常见的做法，因为 BigDecimal 提供了精确的小数运算，非常适合处理金融数据。在 MyBatis 中，BigDecimal 类型可以直接映射到 SQL 的 DECIMAL 类型，因此这种类型的映射通常不会引起问题。
+
+Java BigDecimal 对应于 SQL DECIMAL 是标准的映射，MyBatis 会自动处理这种类型转换。
+在 MyBatis 的结果映射中，resultType 或 resultMap 通常能够正确地处理 BigDecimal 与 DECIMAL 之间的转换。
+
+
+（1）
+```java
+private BigDecimal totalPrice 
+```
+
+（2）数据库表
+
+```sql
+total_price DECIMAL(10, 2) NOT NULL,
+```
+
+
+9. 
+
+
+10. 
+
+
+11. 

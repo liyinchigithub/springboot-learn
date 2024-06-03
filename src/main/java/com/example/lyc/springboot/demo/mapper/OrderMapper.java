@@ -16,11 +16,11 @@ public interface OrderMapper {
 
     Order findOrderById(int id);// 返回 类对象
 
-    int insertOrder(Order order);
+    int insertOrder(Order order);// 插入
 
-    int updateOrder(Order order);
+    int updateOrder(Order order);// 更新
 
-    int deleteOrder(int id);
-    // 分页查询
-    List<Order> getAllOrders(int offset, int limit, String sortField);
+    int deleteOrder(int id);// 删除
+
+    List<Order> getAllOrders(int offset, int limit, String sortField);// 分页查询
 }
