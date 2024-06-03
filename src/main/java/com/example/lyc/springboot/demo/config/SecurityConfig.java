@@ -27,7 +27,7 @@ public class SecurityConfig {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
             .authorizeRequests(authorize -> authorize
-                .requestMatchers("/", "/home", "/login", "/login/wechat", "/login/wechat/callback", "/login/perform_login").permitAll()
+                .requestMatchers("/", "/home", "/login", "/login/wechat", "/login/wechat/callback", "/login/perform_login","/v1/users/addUser").permitAll()// 允许未认证访问
                 .anyRequest().authenticated()
             )
             .formLogin(form -> form
@@ -39,7 +39,6 @@ public class SecurityConfig {
                 .permitAll()
             )
             .csrf().disable();  // 如果你使用POST方法，可能需要禁用CSRF保护
-
         return http.build();
     }
     @Bean

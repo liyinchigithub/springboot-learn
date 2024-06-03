@@ -202,6 +202,7 @@ SHOW CREATE TABLE User
 drop  table User
 
 ```
+
 - Orders表
 ```sql
 CREATE TABLE Orders (
@@ -217,6 +218,43 @@ CREATE TABLE Orders (
 ```
 
 # restfull API
+
+## 登录接口（JWT）
+
+>com/example/lyc/springboot/demo/config/SecurityConfig.java
+
+- 配置允许未认证访问的接口
+```java
+ @Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        http
+            .authorizeRequests(authorize -> authorize
+                .requestMatchers("/", "/home", "/login", "/login/wechat", "/login/wechat/callback", "/login/perform_login","/v1/users/addUser").permitAll()// 允许未认证访问 
+                .anyRequest().authenticated()
+            )
+            .formLogin(form -> form
+                .loginPage("/login")
+                .defaultSuccessUrl("/home")
+                .permitAll()
+            )
+            .logout(logout -> logout
+                .permitAll()
+            )
+            .csrf().disable();  // 如果你使用POST方法，可能需要禁用CSRF保护
+        return http.build();
+    }
+
+```
+
+```java
+
+```
+
+```java
+
+```
+
+
 
 >com.example.lyc.springboot.demo.controller.UserController
 

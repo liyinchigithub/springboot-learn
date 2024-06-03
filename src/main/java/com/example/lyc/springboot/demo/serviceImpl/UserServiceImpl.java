@@ -8,6 +8,7 @@ import org.apache.ibatis.session.RowBounds;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import com.example.lyc.springboot.demo.mapper.UserMapper;
 import com.example.lyc.springboot.demo.entity.User;
 import org.springframework.transaction.annotation.Transactional;
@@ -27,6 +28,11 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
     @Autowired
     private final UserMapper userMapper;//
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;  // 自动注入PasswordEncoder
+
+
     @Resource
     private ApplicationContext applicationContext;// 使用ApplicationContext来访问Spring容器中的Bean和资源，如数据库连接、消息服务、定时任务等。通过注入ApplicationContext实例，可以方便地在代码中使用这些资源。
 
@@ -54,9 +60,12 @@ public class UserServiceImpl implements UserService {
     @Override
     @Transactional(rollbackFor = Exception.class)
     public int addUser(User user) {
+        // 加密密码
+        String encodedPassword = passwordEncoder.encode(user.getPassword());
+        user.setPassword(encodedPassword);  // 设置加密后的密码
+
         userMapper.insertUser(user);
-        // 返回新生成的ID
-        return user.getId();
+        return user.getId();  // 返回新生成的用户ID
     }
 
     @Override
