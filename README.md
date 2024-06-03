@@ -246,12 +246,18 @@ CREATE TABLE Orders (
 
 ```
 
-```java
+配置your_secret_key
 
+src/main/java/com/example/lyc/springboot/demo/util/JwtUtil.java
+
+```java
+private static final String SECRET_KEY = "your_secret_key";
 ```
 
-```java
+src/main/java/com/example/lyc/springboot/demo/security/JwtAuthenticationFilter.java
 
+```java
+private final String secretKey = "your_secret_key";
 ```
 
 

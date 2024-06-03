@@ -16,7 +16,7 @@ import java.io.IOException;
 // JWT 过滤器
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
-    private final String secretKey = "your_secret_key";
+    private final String secretKey = "your_secret_key";//
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {

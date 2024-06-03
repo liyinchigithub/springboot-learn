@@ -148,6 +148,7 @@
             <version>4.0.4</version>
             <scope>provided</scope>
         </dependency>
+        <!-- Servlet API -->
         <dependency>
         <groupId>javax.servlet</groupId>
         <artifactId>javax.servlet-api</artifactId>
