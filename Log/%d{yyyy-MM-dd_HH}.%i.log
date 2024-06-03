@@ -5010,3 +5010,109 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto
 23:40:12.054 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 8700 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
 23:40:12.055 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
 23:40:12.055 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+23:40:13.682 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:40:13.682 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+23:40:13.769 [restartedMain] INFO  o.a.c.c.C.[Tomcat-8].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:40:14.212 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.212 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: queue，属于com.example.lyc.springboot.demo.config.ActiveMqConfig包==============
+23:40:14.212 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.212 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法queue执行完毕，返回参数为：queue://activemq.queue==============
+23:40:14.213 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============对返回参数进行业务上的增强：queue://activemq.queue增强版==============
+23:40:14.213 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.213 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法queue已经执行完==============
+23:40:14.237 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: microservice.url.orderUrl, beanName: jsonController, field: com.example.lyc.springboot.demo.controller.JsonController.orderUrl
+23:40:14.369 [restartedMain] INFO  c.e.l.s.demo.service.RedisService - redis port: 6379
+23:40:14.379 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.379 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: userService，属于com.example.lyc.springboot.demo.config.AppConfig包==============
+23:40:14.379 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.380 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法userService执行完毕，返回参数为：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@260b4756==============
+23:40:14.380 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============对返回参数进行业务上的增强：com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl@260b4756增强版==============
+23:40:14.380 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.380 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法userService已经执行完==============
+23:40:14.381 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.381 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: passwordEncoder，属于com.example.lyc.springboot.demo.config.SecurityConfig包==============
+23:40:14.381 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.382 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法passwordEncoder执行完毕，返回参数为：org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@369ff17f==============
+23:40:14.382 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============对返回参数进行业务上的增强：org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@369ff17f增强版==============
+23:40:14.382 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.382 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法passwordEncoder已经执行完==============
+23:40:14.405 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.405 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: authenticationProvider，属于com.example.lyc.springboot.demo.config.SecurityConfig包==============
+23:40:14.405 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.406 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.406 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: userDetailsService，属于com.example.lyc.springboot.demo.config.SecurityConfig包==============
+23:40:14.406 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.406 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法userDetailsService执行完毕，返回参数为：org.springframework.security.provisioning.JdbcUserDetailsManager@6ca6d89d==============
+23:40:14.406 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============对返回参数进行业务上的增强：org.springframework.security.provisioning.JdbcUserDetailsManager@6ca6d89d增强版==============
+23:40:14.406 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.406 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法userDetailsService已经执行完==============
+23:40:14.417 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法authenticationProvider执行完毕，返回参数为：org.springframework.security.authentication.dao.DaoAuthenticationProvider@22f00c1b==============
+23:40:14.417 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============对返回参数进行业务上的增强：org.springframework.security.authentication.dao.DaoAuthenticationProvider@22f00c1b增强版==============
+23:40:14.417 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.417 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法authenticationProvider已经执行完==============
+23:40:14.436 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.437 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: authenticationManager，属于com.example.lyc.springboot.demo.config.SecurityConfig包==============
+23:40:14.437 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.437 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法authenticationManager执行完毕，返回参数为：org.springframework.security.authentication.ProviderManager@7f3fc0e2==============
+23:40:14.437 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============对返回参数进行业务上的增强：org.springframework.security.authentication.ProviderManager@7f3fc0e2增强版==============
+23:40:14.437 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.438 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法authenticationManager已经执行完==============
+23:40:14.455 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.456 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: topic，属于com.example.lyc.springboot.demo.config.ActiveMqConfig包==============
+23:40:14.456 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.456 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法topic执行完毕，返回参数为：topic://activemq.topic==============
+23:40:14.456 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============对返回参数进行业务上的增强：topic://activemq.topic增强版==============
+23:40:14.456 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.456 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法topic已经执行完==============
+23:40:14.458 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.458 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: modelMapper，属于com.example.lyc.springboot.demo.config.AppConfig包==============
+23:40:14.458 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.458 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法modelMapper执行完毕，返回参数为：org.modelmapper.ModelMapper@42ef2d41==============
+23:40:14.459 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============对返回参数进行业务上的增强：org.modelmapper.ModelMapper@42ef2d41增强版==============
+23:40:14.459 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.459 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法modelMapper已经执行完==============
+23:40:14.557 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.557 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: filterChain，属于com.example.lyc.springboot.demo.config.SecurityConfig包==============
+23:40:14.557 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.560 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.560 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: registerWebSocketHandlers，属于com.example.lyc.springboot.demo.config.WebSocketConfig包==============
+23:40:14.560 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.560 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法registerWebSocketHandlers执行完毕，但返回参数为 null==============
+23:40:14.561 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.561 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法registerWebSocketHandlers已经执行完==============
+23:40:14.597 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法filterChain执行完毕，返回参数为：DefaultSecurityFilterChain [RequestMatcher=any request, Filters=[org.springframework.security.web.session.DisableEncodeUrlFilter@29f452f6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@326029e3, org.springframework.security.web.context.SecurityContextHolderFilter@52932fa3, org.springframework.security.web.header.HeaderWriterFilter@49e57b0, org.springframework.security.web.authentication.logout.LogoutFilter@2093b362, com.example.lyc.springboot.demo.security.JwtAuthenticationFilter@579d452e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@343acac, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bac4f67, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d63905b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49a5a5bd, org.springframework.security.web.access.ExceptionTranslationFilter@6965ed84, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@410bd8a1]]==============
+23:40:14.598 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============对返回参数进行业务上的增强：DefaultSecurityFilterChain [RequestMatcher=any request, Filters=[org.springframework.security.web.session.DisableEncodeUrlFilter@29f452f6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@326029e3, org.springframework.security.web.context.SecurityContextHolderFilter@52932fa3, org.springframework.security.web.header.HeaderWriterFilter@49e57b0, org.springframework.security.web.authentication.logout.LogoutFilter@2093b362, com.example.lyc.springboot.demo.security.JwtAuthenticationFilter@579d452e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@343acac, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bac4f67, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d63905b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49a5a5bd, org.springframework.security.web.access.ExceptionTranslationFilter@6965ed84, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@410bd8a1]]增强版==============
+23:40:14.598 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.598 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法filterChain已经执行完==============
+23:40:14.611 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.611 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: publicApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包==============
+23:40:14.611 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.611 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法publicApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@7b4f9b78==============
+23:40:14.611 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@7b4f9b78增强版==============
+23:40:14.611 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.612 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法publicApi已经执行完==============
+23:40:14.612 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:14.612 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: privateApi，属于com.example.lyc.springboot.demo.config.SwaggerConfig包==============
+23:40:14.612 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:14.612 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法privateApi执行完毕，返回参数为：org.springdoc.core.models.GroupedOpenApi@723f712a==============
+23:40:14.613 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============对返回参数进行业务上的增强：org.springdoc.core.models.GroupedOpenApi@723f712a增强版==============
+23:40:14.613 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:14.613 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法privateApi已经执行完==============
+23:40:14.733 [restartedMain] INFO  c.c.f.a.s.a.SpringValueProcessor - Monitoring key: spring.mvc.servlet.path, beanName: swaggerWelcome, field: org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc.mvcServletPath
+23:40:15.038 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+23:40:15.074 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Started Application in 3.11 seconds (process running for 3109.556)
+23:40:15.075 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doBefore方法进入了==============
+23:40:15.076 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============即将执行方法为: onApplicationEvent，属于com.example.lyc.springboot.demo.listener.MyListener包==============
+23:40:15.076 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - Not in a request context
+23:40:15.076 [restartedMain] DEBUG c.e.l.s.demo.listener.MyListener - 应用已启动完成
+23:40:15.076 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法onApplicationEvent执行完毕，但返回参数为 null==============
+23:40:15.076 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============doAfter方法进入了==============
+23:40:15.076 [restartedMain] INFO  c.e.l.s.d.handler.LogAspectHandler - ==============方法onApplicationEvent已经执行完==============
+23:40:20.076 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+23:40:25.077 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+23:40:30.083 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+23:40:35.088 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=3, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+23:40:40.093 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=4, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+23:40:45.111 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=5, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+23:40:50.117 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=6, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+23:40:55.120 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=7, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused

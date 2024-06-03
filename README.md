@@ -246,7 +246,7 @@ CREATE TABLE Orders (
 
 ```
 
-配置your_secret_key
+- 配置your_secret_key
 
 src/main/java/com/example/lyc/springboot/demo/util/JwtUtil.java
 
@@ -258,6 +258,19 @@ src/main/java/com/example/lyc/springboot/demo/security/JwtAuthenticationFilter.j
 
 ```java
 private final String secretKey = "your_secret_key";
+```
+
+- 配置token时效性
+- 
+```java
+ public static String generateToken(String username) {
+        return Jwts.builder()
+        .setSubject(username)
+        .setIssuedAt(new Date())
+        .setExpiration(new Date(System.currentTimeMillis() + 1000 * 60 * 60 * 1)) // 1 hours
+        .signWith(SignatureAlgorithm.HS256, SECRET_KEY)
+        .compact();
+        }
 ```
 
 
