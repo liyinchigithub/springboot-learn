@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import com.example.lyc.springboot.demo.service.UserService;
 import com.example.lyc.springboot.demo.serviceImpl.UserServiceImpl;
 import com.example.lyc.springboot.demo.mapper.UserMapper;
-
+import org.springframework.web.client.RestTemplate;
 
 /**
  * AppConfig 类定义了一个 UserService 类型的 Bean。
@@ -51,5 +51,12 @@ public class AppConfig {
     @Bean
     public ModelMapper modelMapper() {
         return new ModelMapper();
+    }
+    /**
+     * 用于RestTemplate
+     * */
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
     }
 }

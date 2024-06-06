@@ -3,7 +3,8 @@
 ## 版本
 * jdk 17
 * Spring Boot 3.1.2
-* Mybatis plus 3.5.3.2
+* Mybatis plus 3.5.3.
+* Mysql 5.7
 
 ## 技术栈
 * Mybatis
@@ -161,13 +162,44 @@ spring:
 生效配置：
 >src/main/resources/application-prod.yml
 
+
+## JDK
+
+- （1）下载
+```shell
+cd /usr/local
+wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
+
+```
+- （2）解压
+```shell
+tar -xzvf jdk-17_linux-x64_bin.tar.gz
+```
+
+-  (3)配置环境变量
+```shell
+cd ~
+vim /etc/profile
+```
+
+```shell
+export JAVA_HOME=/usr/local/jdk-17.0.11
+export JRE_HOME=/usr/local/jdk-17.0.11/jre
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+```
+
+
 ## 启动
 * dev
 ```bash
 mvn spring-boot:run
 ```
 
-##  打jar包
+
+##  部署
+
+### 打jar包
 
 ```bash
 mvn clean package -Dmaven.test.skip=true
@@ -178,7 +210,7 @@ mvn clean package -Dmaven.test.skip=true
 ## 运行jar包
 
 ```bash
-java -jar lyc.springboot.demo.jar
+java -jar lyc.springboot.demo-0.0.1-SNAPSHOT.jar
 ```
 
 
@@ -192,14 +224,11 @@ CREATE TABLE `User` (
   `id` int(100) NOT NULL AUTO_INCREMENT,
   `userName` varchar(100) DEFAULT NULL,
   `password` varchar(100) DEFAULT NULL,
-  `created` DATETIME DEFAULT CURRENT_TIMESTAMP,
-  `isEnalbe` BOOLEAN DEFAULT 1,
+  `created` datetime DEFAULT CURRENT_TIMESTAMP,
+  `isEnalbe` tinyint(1) DEFAULT '1',
+  `wechat_openid` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8
-
-SHOW CREATE TABLE User
-
-drop  table User
+) ENGINE=InnoDB AUTO_INCREMENT=471 DEFAULT CHARSET=utf8
 
 ```
 
@@ -216,6 +245,12 @@ CREATE TABLE Orders (
 );
 
 ```
+
+### 本地mysql数据库的表导出sql文件，并在云服务器上面导入
+
+菜单：数据库 > 工具 > 转存数据库
+
+
 
 # restfull API
 
@@ -609,6 +644,65 @@ public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page
 * 返回数据 
 
 <img width="400" height="400" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/36db82b5-e195-4bf3-a4c7-f3551b30f47f">
+
+
+# 微信授权登录
+
+* 微信公众号接口测试工具
+
+>https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index
+
+* 微信公众平台接口调试工具
+
+>https://mp.weixin.qq.com/debug/
+> 
+> 
+## H5
+
+针对网页应用（H5）的微信授权登录，使用的是微信的网页授权机制
+
+>https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/Wechat_Webpage_Authorization.html
+
+
+### 微信开放平台
+
+>https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index
+
+### WechatService.java
+
+- 在WechatService中，你可能需要构建一个URL来重定向用户到微信的授权页面。 这通常在控制器中完成，如loginController的wechatLogin方法。
+- 如果你需要在WechatService中使用这个URL，可以通过注入同样的方式获取：
+
+```java
+```
+
+### WechatUser.java
+
+```java
+```
+
+### loginController.java
+
+```java
+```
+
+### AppConfig.java
+
+### application-dev.yml
+
+```yaml
+
+```
+
+## 原生APP
+
+
+对于原生APP进行微信授权登录，流程略有不同，主要涉及到以下几点：
+- 1. 集成微信SDK：原生APP需要集成微信的SDK。这包括在你的Android或iOS项目中添加微信提供的库文件，并进行相应的配置。
+- 2. 调用微信登录API：在APP中，你会调用微信SDK提供的登录功能，这通常涉及到调用一个API来启动微信客户端的授权界面。
+- 3. 处理回调：在APP中，你需要处理从微信客户端返回的数据。这通常是通过实现特定的回调接口来完成的。
+- 4. 服务器端验证：无论是网页应用还是原生APP，一旦客户端获得了**授权码（code）**，都需要发送到服务器端。服务器端使用这个授权码去微信的服务器换取**access_token**和**用户信息**。
+
 
 
 
@@ -1583,8 +1677,7 @@ public class InterceptorController {
 
 
 
-## 本地安装redis 
-
+## Docker安装redis
 
 （1）拉镜像
 ```shell
@@ -1693,7 +1786,7 @@ JMS消息两种类型：点对点 和 发布/订阅。
 14. 消息驱动者（Message Driven）：消息驱动者，消息生产者，消息消费者。
 
    
-## 安装
+## 安装ActiveMQ
 
 ### docker 安装
 
@@ -2103,7 +2196,30 @@ total_price DECIMAL(10, 2) NOT NULL,
 ```
 
 
-9. 
+9. Docker配置国内镜像源
+
+- 第一步：新建或编辑daemon.json
+```shell
+
+vi /etc/docker/daemon.json
+```
+
+- 第二步：daemon.json中编辑如下
+```JSON
+{
+"registry-mirrors": ["http://hub-mirror.c.163.com"]
+}
+```
+
+- 第三步：重启docker
+```shell
+systemctl restart docker.service
+```
+
+- 第四步：执行docker info查看是否修改成功
+```shell
+docker info
+```
 
 
 10. 

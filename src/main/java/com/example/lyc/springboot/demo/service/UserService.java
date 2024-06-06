@@ -1,6 +1,7 @@
 package com.example.lyc.springboot.demo.service;
 
 import com.example.lyc.springboot.demo.entity.User;
+import com.example.lyc.springboot.demo.entity.WechatUser;
 import org.apache.ibatis.session.RowBounds;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.data.domain.Page;
@@ -28,4 +29,8 @@ public interface UserService {
     void insertUser(User user);
     // 分页查询
     List<User> getAllUsers(int page, int size, String sortField);
+
+    User findByWechatOpenId(String openId);  // 通过微信OpenId查找用户
+
+    User loginOrCreateWechatUser(WechatUser wechatUser);// 登录或创建微信用户
 }

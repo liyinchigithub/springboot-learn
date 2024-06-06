@@ -20,6 +20,8 @@ import org.springframework.stereotype.Component;
 @Component //  注册到spring容器
 @Schema(name = "User", description = "用户实体类") // swagger 标注
 public class User {
+    @Schema(name = "wechatOpenId", description = "微信用户的唯一标识")
+    private String wechatOpenId; // 微信用户的唯一标识
     @Schema(name = "id", description = "用户id")
     private int id;
     @Schema(name = "userName", description = "用户名")
@@ -27,6 +29,9 @@ public class User {
     @Schema(name = "password", description = "密码")
     private String password;
     private int updates;
+
+    public User(int i, String 李银池, String number, int i1) {
+    }
 
     /* 省略get、set 和 带参构造方法、无参构造函数 */
 

@@ -1,4 +1,8 @@
-
+wechat:
+  appid: 微信应用ID
+  secret: 微信应用密钥
+  redirect:
+    uri: 回调URL
 app:
   id: platform
 
@@ -25,7 +29,7 @@ apollo:
   meta: http://meta.apollo.xxx.cn
   bootstrap:
     # 是否开启 Apollo
-    enabled: true
+    enabled: false
     eagerLoad:
       # 将 Apollo 加载提到初始化日志系统之前，如果设置为false，则配置中心中修改日志信息不会生效
       enabled: true

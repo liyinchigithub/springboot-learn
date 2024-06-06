@@ -14,6 +14,9 @@ import java.util.List;
  *
  * */
 public interface UserMapper {
+
+    User findByWechatOpenId(String openId);  // 用于查找微信用户
+    
     List<User> findAllUsers(); // 返回 list对象
 
     User findUserById(int id);// 返回 类对象

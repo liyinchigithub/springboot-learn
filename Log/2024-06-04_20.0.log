@@ -1,0 +1,21 @@
+21:00:02.486 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=14, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+21:00:07.497 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=15, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+21:00:12.503 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=16, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+21:00:17.511 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=17, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+21:00:22.516 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=18, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+21:00:27.527 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=19, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+21:00:32.549 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=20, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+21:00:38.172 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+21:00:38.172 [http-nio-8088-Acceptor] ERROR org.apache.tomcat.util.net.Acceptor - Socket accept failed
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:521)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:79)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+21:00:38.172 [Thread-43] WARN  o.apache.tomcat.util.net.NioEndpoint - Failed to unlock acceptor for [http-nio-8088] because the local address was not available
+21:00:38.172 [Thread-43] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+21:00:38.175 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+21:00:38.182 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]

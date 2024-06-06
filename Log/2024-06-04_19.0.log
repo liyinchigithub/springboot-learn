@@ -1,0 +1,1150 @@
+20:00:02.588 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:01:21.849 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:01:31.855 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:01:41.894 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:02:04.657 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:04:06.681 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:06:08.688 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:06:21.806 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:06:31.841 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:06:41.891 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:08:10.705 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:10:12.721 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:11:21.876 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:11:31.850 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:11:41.889 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:12:14.729 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:14:16.753 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:16:18.774 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:16:22.787 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:16:31.850 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:16:41.903 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:18:20.796 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:20:22.812 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:21:21.889 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:21:31.859 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:21:41.892 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:22:24.919 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:24:26.990 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:26:21.801 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:26:29.005 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:26:31.833 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:26:41.896 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:28:31.027 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:29:38.005 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:29:38.010 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:29:38.010 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:29:38.206 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 69887 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+20:29:38.210 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+20:29:38.213 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+20:29:39.061 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4b56dd07]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 42 common frames omitted
+20:29:39.073 [restartedMain] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4b56dd07]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1301)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:867)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:855)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:842)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+20:30:33.039 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:31:21.834 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:31:31.836 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:31:41.885 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:32:13.763 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:32:13.763 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:32:13.763 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:32:13.790 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 69887 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+20:32:13.791 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+20:32:13.791 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+20:32:14.286 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@21c11bd1]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 42 common frames omitted
+20:32:14.287 [restartedMain] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@21c11bd1]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1301)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:867)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:855)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:842)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+20:32:35.089 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:34:37.104 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:36:21.804 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:36:31.849 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:36:39.121 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:36:41.887 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:38:41.140 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:40:43.132 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:41:21.782 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:41:31.837 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:41:41.888 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:42:04.829 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:42:04.830 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:42:04.830 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:42:04.847 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 69887 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+20:42:04.847 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+20:42:04.848 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+20:42:05.875 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5ad9b6d3]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 42 common frames omitted
+20:42:05.880 [restartedMain] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5ad9b6d3]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1301)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:867)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:855)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:842)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+20:42:45.145 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:43:14.088 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:43:14.089 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:43:14.089 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:43:14.093 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 69887 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+20:43:14.093 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+20:43:14.093 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+20:43:14.386 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@54da4b06]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 42 common frames omitted
+20:43:14.387 [restartedMain] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@54da4b06]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1301)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:867)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:855)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:842)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+20:43:50.509 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 69887 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+20:43:50.510 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+20:43:50.510 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+20:43:51.008 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@29191a7f]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 42 common frames omitted
+20:43:51.009 [restartedMain] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@29191a7f]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1301)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:867)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:855)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:842)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+20:44:44.542 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:44:44.542 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:44:44.542 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:44:44.551 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 69887 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+20:44:44.551 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+20:44:44.552 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+20:44:44.699 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2f931e]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 42 common frames omitted
+20:44:44.700 [restartedMain] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2f931e]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1301)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:867)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:855)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:842)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+20:44:47.157 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:46:21.828 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:46:31.831 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:46:41.866 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:46:49.173 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:48:51.199 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:50:53.212 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:51:21.808 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:51:31.830 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:51:41.869 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:51:43.818 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:51:43.818 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:51:43.818 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:51:43.835 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 69887 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+20:51:43.836 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+20:51:43.836 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+20:51:44.176 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1757d2e6]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 42 common frames omitted
+20:51:44.184 [restartedMain] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1757d2e6]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1301)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:867)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:855)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:842)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+20:52:55.228 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:54:57.247 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:56:21.920 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:56:31.924 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:56:41.960 [Apollo-RemoteConfigRepository-1] WARN  c.c.f.a.i.AbstractConfigRepository - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:56:59.353 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]
+20:57:01.295 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:57:01.296 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:57:01.296 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:57:01.313 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 69887 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+20:57:01.314 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+20:57:01.315 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+20:57:01.642 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@11532971]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 42 common frames omitted
+20:57:01.645 [restartedMain] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@11532971]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1301)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:867)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:855)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:842)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+20:57:54.142 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 69887 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+20:57:54.142 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+20:57:54.142 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+20:57:54.273 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@707813c6]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 42 common frames omitted
+20:57:54.274 [restartedMain] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@707813c6]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1301)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:867)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:855)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:842)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+20:58:42.698 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace application from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:58:42.698 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace sensitive-config from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:58:42.699 [restartedMain] WARN  c.c.f.apollo.internals.DefaultConfig - Could not load config for namespace message from Apollo, please check whether the configs are released in Apollo! Return default value now!
+20:58:42.702 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - Starting Application using Java 17.0.1 with PID 69887 (/Users/liyinchi/workspace/java/lyc.springboot.demo/target/classes started by liyinchi in /Users/liyinchi/workspace/java/lyc.springboot.demo)
+20:58:42.702 [restartedMain] DEBUG c.e.lyc.springboot.demo.Application - Running with Spring Boot v3.1.2, Spring v6.0.11
+20:58:42.703 [restartedMain] INFO  c.e.lyc.springboot.demo.Application - The following 1 profile is active: "dev"
+20:58:42.896 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@cb3c9b4]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 42 common frames omitted
+20:58:42.896 [restartedMain] WARN  o.s.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.lyc.springboot.demo.config.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@cb3c9b4]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1632)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1301)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:867)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:855)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:842)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.lyc.springboot.demo.Application.main(Application.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/crypto/password/PasswordEncoder
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.crypto.password.PasswordEncoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+20:59:01.370 [Apollo-RemoteConfigLongPollService-1] WARN  c.c.f.a.i.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: platform, cluster: default, namespaces: application+message+sensitive-config, long polling url: null, reason: Get config services failed from http://meta.apollo.xxx.cn/services/config?appId=platform&ip=192.168.31.81 [Cause: Could not complete get operation [Cause: meta.apollo.xxx.cn]]

@@ -8,6 +8,7 @@ app:
 spring:
   profiles:
     active: dev
+    
 
 
 
