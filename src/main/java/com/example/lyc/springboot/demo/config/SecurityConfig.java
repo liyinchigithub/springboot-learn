@@ -31,7 +31,7 @@ public class SecurityConfig {
         http
             .addFilterBefore(new JwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class)// 添加JWT过滤器
             .authorizeRequests(authorize -> authorize
-                .requestMatchers("/", "/home", "/login", "/login/wechat", "/login/wechat/callback", "/login/perform_login","/v1/users/addUser","/wechatLogin.html").permitAll()// 允许未认证访问
+                .requestMatchers("/", "/home", "/login", "/login/wechat", "/login/wechat/callback", "/login/perform_login","/v1/users/addUser","/wechatLogin.html","/login/wechat/verify","/location").permitAll()// 允许未认证访问
                 .anyRequest().authenticated()
             )
             .formLogin(form -> form

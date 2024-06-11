@@ -101,11 +101,13 @@ public class loginController {
             @RequestParam(name = "echostr") String echostr) {
             //  调试输出
             System.out.println("Received verify request for user: " + signature + timestamp + nonce + echostr);
-        if (checkSignature(signature, timestamp, nonce)) {
-            return echostr; // 验证成功，返回echostr
-        } else {
-            return "failure";
-        }
+            if (checkSignature(signature, timestamp, nonce)) {
+                System.err.println("验证成功");
+                return echostr; // 验证成功，返回echostr
+            } else {
+                System.err.println("验证失败");
+                return "failure";
+            }
     }
     // 验证签名
     private boolean checkSignature(String signature, String timestamp, String nonce) {

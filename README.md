@@ -246,6 +246,18 @@ CREATE TABLE Orders (
 
 ```
 
+- user_location
+```roomsql
+CREATE TABLE user_location (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    latitude DECIMAL(9,6),
+    longitude DECIMAL(9,6),
+    address VARCHAR(255),
+    FOREIGN KEY (user_id) REFERENCES User(id)
+);
+```
+
 ### 本地mysql数据库的表导出sql文件，并在云服务器上面导入
 
 菜单：数据库 > 工具 > 转存数据库
@@ -1669,6 +1681,22 @@ public class InterceptorController {
 ```
 <img width="1371" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/880f0142-39fa-47d2-a036-21185d784077">
 
+# Mysql
+
+## Docker安装mysql
+
+（1）拉镜像
+
+```shell
+docker pull mysql:5.7
+```
+
+（2）启动容器
+
+```shell
+docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=lyc123456 mysql
+```
+          
 
 # Redis
 
@@ -2207,13 +2235,14 @@ vi /etc/docker/daemon.json
 - 第二步：daemon.json中编辑如下
 ```JSON
 {
-"registry-mirrors": ["http://hub-mirror.c.163.com"]
+"registry-mirrors": ["http://hub-mirror.c.163.com","https://registry.docker-cn.com","https://docker.mirrors.ustc.edu.cn"]
 }
 ```
 
 - 第三步：重启docker
 ```shell
-systemctl restart docker.service
+sudo systemctl daemon-reload
+sudo systemctl restart docker
 ```
 
 - 第四步：执行docker info查看是否修改成功
