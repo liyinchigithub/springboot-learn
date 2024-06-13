@@ -682,7 +682,27 @@ public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page
 [B站教程视频-uniapp](bilibili.com/video/BV1qv411w7yH)
 
 ### 微信公众号配置
+
 -  公众号设置-功能设置-JS接口安全域名
+
+1.下载验证文本文件，放到/static/底下
+
+2.设置这个静态文件无需鉴权登录即可访问
+
+>src/main/java/com/example/lyc/springboot/demo/config/SecurityConfig.java
+
+```java
+@Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        http
+            .addFilterBefore(new JwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class)// 添加JWT过滤器
+            .authorizeRequests(authorize -> authorize
+                .requestMatchers("/MP_verify_tSDyEHEKTxbBXHMd.txt").permitAll()// 允许未认证访问
+                .anyRequest().authenticated()
+            )
+```
+
+
 -   验证token
 
 ### 接口请求顺序
