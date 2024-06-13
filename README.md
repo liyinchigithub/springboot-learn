@@ -24,7 +24,8 @@
 * Spring Boot Test                测试Spring Boot引用过程序
 * Spring Boot Mail                发送邮件
 * Spring Boot Quartz              定时任务
-* Spring Boot JPA                 Java Persistence API（JPA）访问数据库
+* Spring Boot Mapper
+~~* Spring Boot JPA                 Java Persistence API（JPA）访问数据库~~
 * Spring Boot Data Redis          Redis访问键值对数据
 * Spring Boot Data MongoDB        MongoDB访问文档数据库
 * Spring Boot Data Elasticsearch  Elasticsearch进行全文搜索
@@ -247,15 +248,19 @@ CREATE TABLE Orders (
 ```
 
 - user_location
-```roomsql
-CREATE TABLE user_location (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id INT NOT NULL,
-    latitude DECIMAL(9,6),
-    longitude DECIMAL(9,6),
-    address VARCHAR(255),
-    FOREIGN KEY (user_id) REFERENCES User(id)
-);
+```sql
+CREATE TABLE `user_location` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `latitude` decimal(9,6) DEFAULT NULL,
+  `longitude` decimal(9,6) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`),
+  CONSTRAINT `user_location_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `User` (`id`)
+  ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8
 ```
 
 ### 本地mysql数据库的表导出sql文件，并在云服务器上面导入
@@ -660,25 +665,39 @@ public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page
 
 # 微信授权登录
 
-* 微信公众号接口测试工具
+[微信公众号接口测试工具](https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index)
 
->https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index
+[微信公众平台接口调试工具](https://mp.weixin.qq.com/debug/)
 
-* 微信公众平台接口调试工具
-
->https://mp.weixin.qq.com/debug/
-> 
-> 
 ## H5
 
 针对网页应用（H5）的微信授权登录，使用的是微信的网页授权机制
 
->https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/Wechat_Webpage_Authorization.html
+[微信官方文档-公众号-接入指南](https://developers.weixin.qq.com/doc/offiaccount/Basic_Information/Access_Overview.html)
 
+[网页授权](https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/Wechat_webpage_authorization.html)
 
-### 微信开放平台
+[JS接口安全域名](https://blog.csdn.net/weixin_36989919/article/details/137646488)
 
->https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index
+[B站教程视频-uniapp](bilibili.com/video/BV1qv411w7yH)
+
+### 微信公众号配置
+-  公众号设置-功能设置-JS接口安全域名
+-   验证token
+
+### 接口请求顺序
+
+- 用户点击H5页面的登录按钮
+-  H5页面发送请求到后端接口/login/wechat
+-  /login/wechat接口返回一个重定向的URL，用户点击后会跳转到微信的授权页面，用户同意授权后，会重定向到/login/wechat/callback接口，并携带code参数。
+-  /login/wechat/callback接口接收到code参数后，调用微信的接口，使用code换取access_token和openid，然后将用户信息存储到数据库中，最后返回一个登录成功的响应。
+-   H5页面接收到登录成功的响应后，进行相应的处理，比如跳转到其他页面或显示登录成功的提示信息。
+-   用户在微信的授权页面中点击拒绝授权后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
+-   用户在微信的授权页面中点击取消授权后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
+-    用户在微信的授权页面中点击返回后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
+-    用户在微信的授权页面中点击其他页面后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
+-    用户在微信的授权页面中点击其他操作后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
+
 
 ### WechatService.java
 
@@ -705,6 +724,48 @@ public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page
 ```yaml
 
 ```
+
+遇到问题1： “Scope 参数错误或没有 Scope 权限，错误码：10005”
+
+解决办法：
+
+- 1：使用的是订阅号，订阅号没有权限使用网页授权，详细可参考接口权限：https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Explanation_of_interface_privileges.html
+- 2：需要已认证的服务号
+- 3：网页授权回调域名填写错误
+- 4：Scope参数顺序不对
+- 5：服务号不支持扫码登录，要网站应用才支持：https://developers.weixin.qq.com/doc/oplatform/Website_App/WeChat_Login/Wechat_Login.html
+- 6：snsapi_userinfo的接口权限被封
+
+关于网页授权的两种scope的区别说明
+- 以snsapi_base为scope发起的网页授权，是用来获取进入页面的用户的openid的，并且是静默授权并自动跳转到回调页的。用户感知的就是直接进入了回调页（往往是业务页面）
+- 以snsapi_userinfo为scope发起的网页授权，是用来获取用户的基本信息的。但这种授权**需要用户手动同意**，并且由于用户同意过，所以**无须关注**，就可在授权后获取该用户的基本信息。
+- 
+用户管理类接口中的“获取用户基本信息接口”，是在用户和公众号产生消息交互或关注后事件推送后，才能根据用户OpenID来获取用户基本信息。这个接口，包括其他微信接口，都是需要该用户（即openid）关注了公众号后，才能调用成功的。
+
+- 参考（微信H5网页授权）：https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/Wechat_webpage_authorization.html
+- 参考：https://developers.weixin.qq.com/community/develop/doc/000ea06c4acc586aa92c42e1657809?_at=1718284485467
+
+
+
+遇到问题2：微信公众号一侧提交URL、Token、EncodingAESKey，但提示“系统发生错误，请稍后重试”
+
+解决办法：
+
+- 1. URL不可访问：确保你的Spring Boot应用部署在一个公网可访问的服务器上，并且可以通过微信公众号配置的URL地址直接访问到你的接口
+- 2. Token验证失败：在你的接口中，确保对微信发送的Token验证请求进行正确的签名验证。检查你的签名验证逻辑是否正确，包括对signature、timestamp和nonce的处理。
+- 3. EncodingAESKey配置错误：如果你启用了消息加解密功能，确保在微信公众号配置中填写的EncodingAESKey与你应用中的加解密逻辑一致。
+- 4. 服务器响应格式不正确：在接收到微信的验证请求时，确保你的接口返回的响应格式符合微信的要求，即只返回echostr参数的值。
+- 5. 网络问题：有时候网络连接不稳定或延迟可能导致微信公众号无法正确访问你的接口。确保你的服务器网络连接正常。
+
+### 网页扫码登录
+
+[B站教程视频 ](https://www.bilibili.com/video/BV1K34y1R79Q)
+
+[B站教程视频-黑马程序员](https://www.bilibili.com/video/BV1vh4y187an)
+
+## 微信小程序登录
+
+[B站教程视频](bilibili.com/video/BV1744y1y7iv)
 
 ## 原生APP
 

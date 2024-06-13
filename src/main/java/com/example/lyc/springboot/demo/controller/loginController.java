@@ -18,7 +18,8 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.env.Environment;
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -31,6 +32,14 @@ public class loginController {
     private final WechatService wechatService;
     @Autowired
     private UserService userService;
+    @Autowired
+    private Environment env;
+
+    @Value("${wechat.appid}")
+    private String appid;// 从application-dev.yml 获取微信小程序的appid
+
+    @Value("${wechat.redirect.uri}")
+    private String redirectUri;// 从application-dev.yml 获取微信小程序的回调地址
 
     public loginController(WechatService wechatService) {
         this.wechatService = wechatService;
@@ -69,11 +78,14 @@ public class loginController {
     // H5微信登录
     @GetMapping("/wechat")
     public ModelAndView wechatLogin() {
+        // String appid = env.getProperty("wechat.appid");// 从application.properties获取appid
+        // String redirectUri = env.getProperty("wechat.redirect.uri");// 
+        // 构建微信登录URL
         String url = "https://open.weixin.qq.com/connect/qrconnect?appid=" + 
-                     "${wechat.appid}" + 
-                     "&redirect_uri=" + 
-                     "${wechat.redirect.uri}" + 
-                     "&response_type=code&scope=snsapi_login&state=STATE#wechat_redirect";
+        appid +
+        "&redirect_uri=" + 
+        redirectUri +
+        "&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect";
         // 这里应该是重定向到微信的授权页面，具体URL根据实际情况填写
         return new ModelAndView("redirect:" + url);
     }
@@ -100,9 +112,13 @@ public class loginController {
             @RequestParam(name = "nonce") String nonce,
             @RequestParam(name = "echostr") String echostr) {
             //  调试输出
-            System.out.println("Received verify request for user: " + signature + timestamp + nonce + echostr);
+            System.out.println("signature: " + signature );
+            System.out.println("timestamp: " + timestamp );
+            System.out.println("nonce: " + nonce );
+            System.out.println("echostr: " + echostr );
             if (checkSignature(signature, timestamp, nonce)) {
                 System.err.println("验证成功");
+                // return "success";
                 return echostr; // 验证成功，返回echostr
             } else {
                 System.err.println("验证失败");
