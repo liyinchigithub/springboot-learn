@@ -685,9 +685,14 @@ public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page
 
 -  公众号设置-功能设置-JS接口安全域名
 
+<img width="800" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/52c972f2-1409-47b3-8144-f055b62af67f">
+
+
 1.下载验证文本文件，放到/static/底下
 
 2.设置这个静态文件无需鉴权登录即可访问
+
+<img width="836" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/17e485c3-6cee-41f5-99d4-cb06ea24cbe1">
 
 >src/main/java/com/example/lyc/springboot/demo/config/SecurityConfig.java
 
