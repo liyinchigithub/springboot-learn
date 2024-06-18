@@ -665,6 +665,10 @@ public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page
 
 # 微信授权登录
 
+<img width="322" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/b3271b56-bf02-4051-929a-a83e14be5354">
+
+
+
 [微信公众号接口测试工具](https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index)
 
 [微信公众平台接口调试工具](https://mp.weixin.qq.com/debug/)
