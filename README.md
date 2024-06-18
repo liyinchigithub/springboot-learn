@@ -2487,7 +2487,10 @@ docker info
 ```
 
 
-10. 
+10. 微信公众平台，微信授权登录报错{"errcode":40125,"errmsg":"invalid appsecret, rid: 6671ab61-0dd17ae3-718c1ccd"}
 
+- 问题原因：appid和appsecret不匹配
+
+参考：https://developers.weixin.qq.com/community/develop/doc/0000886514c7987cbf40d2b846b000?highLine=invalid%2520appsecret
 
 11. 
