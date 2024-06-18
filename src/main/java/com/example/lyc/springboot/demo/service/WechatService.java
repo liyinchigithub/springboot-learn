@@ -6,7 +6,11 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
-// 微信服务类
+
+/**
+ * 微信服务类
+ * 用于获取微信用户信息
+ * */ 
 @Service
 public class WechatService {
     @Value("${wechat.appid}")
@@ -26,15 +30,19 @@ public class WechatService {
     // 实现根据access_token获取用户信息的逻辑
 
     // 通用方法获取access_token
+    // 微信服务类中的方法
     public AccessTokenResponse getAccessToken(String code, String grantType) {
         String url = "https://api.weixin.qq.com/sns/oauth2/access_token";
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(url)
             .queryParam("appid", appId)
             .queryParam("secret", secret)
             .queryParam("code", code)
-            .queryParam("grant_type", grantType); // "authorization_code" for H5, "client_credential" for APP
-    
-        return restTemplate.getForObject(builder.toUriString(), AccessTokenResponse.class);
+            .queryParam("grant_type", grantType);
+
+        String response = restTemplate.getForObject(builder.toUriString(), String.class);
+        System.out.println("微信API响应: " + response);
+        // 这里可以添加解析逻辑或进一步的错误处理
+        return null; // 修改为适当的处理逻辑
     }
 
     // 获取用户信息

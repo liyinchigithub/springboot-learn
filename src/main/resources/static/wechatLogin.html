@@ -8,7 +8,9 @@
 </head>
 <body>
     <h1>Wechat Login Test</h1>
-    <button onclick="location.href='/login/wechat'">Login with Wechat</button>
+    <!-- <button style="width: 350px; height: 50px;align-items: center;" onclick="location.href='/login/wechat'">Login with Wechat</button> -->
+   <button onclick=window.location.href=`https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx9457298e075e2fee&redirect_uri=https://3z5753f148.vicp.fun/login/wechat/callback&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect`>Login with Wechat</button>
+
 </body>
 </html>
 <!-- wechatLogin.html 页面本身不需要包含请求参数 code 和 state。

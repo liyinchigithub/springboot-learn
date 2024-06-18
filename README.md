@@ -669,9 +669,7 @@ public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page
 
 [微信公众平台接口调试工具](https://mp.weixin.qq.com/debug/)
 
-## H5
-
-针对网页应用（H5）的微信授权登录，使用的是微信的网页授权机制
+## H5 针对网页应用的微信授权登录，使用的是微信的网页授权机制
 
 [微信官方文档-公众号-接入指南](https://developers.weixin.qq.com/doc/offiaccount/Basic_Information/Access_Overview.html)
 
@@ -686,7 +684,6 @@ public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page
 -  公众号设置-功能设置-JS接口安全域名
 
 <img width="800" alt="image" src="https://github.com/liyinchigithub/springboot-learn/assets/19643260/52c972f2-1409-47b3-8144-f055b62af67f">
-
 
 1.下载验证文本文件，放到/static/底下
 
@@ -713,15 +710,15 @@ public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page
 ### 接口请求顺序
 
 - 用户点击H5页面的登录按钮
--  H5页面发送请求到后端接口/login/wechat
--  /login/wechat接口返回一个重定向的URL，用户点击后会跳转到微信的授权页面，用户同意授权后，会重定向到/login/wechat/callback接口，并携带code参数。
--  /login/wechat/callback接口接收到code参数后，调用微信的接口，使用code换取access_token和openid，然后将用户信息存储到数据库中，最后返回一个登录成功的响应。
--   H5页面接收到登录成功的响应后，进行相应的处理，比如跳转到其他页面或显示登录成功的提示信息。
--   用户在微信的授权页面中点击拒绝授权后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
--   用户在微信的授权页面中点击取消授权后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
--    用户在微信的授权页面中点击返回后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
--    用户在微信的授权页面中点击其他页面后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
--    用户在微信的授权页面中点击其他操作后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
+-  (1) H5页面发送请求到后端接口/login/wechat
+-  (2) /login/wechat接口返回一个重定向的URL，用户点击后会跳转到微信的授权页面，**用户同意授权**后，会**重定向**到/login/wechat/callback接口，并携带code参数。
+-  (3) /login/wechat/callback接口接收到code参数后，调用微信的接口，**使用code换取access_token和openid**，然后将用户信息存储到数据库中，最后返回一个登录成功的响应。
+-  (4) H5页面接收到登录成功的响应后，进行相应的处理，比如跳转到其他页面或显示登录成功的提示信息。
+-  (5) 用户在微信的授权页面中点击拒绝授权后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
+-  (6) 用户在微信的授权页面中点击取消授权后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
+-  (7) 用户在微信的授权页面中点击返回后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
+-  (8) 用户在微信的授权页面中点击其他页面后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
+-  (9) 用户在微信的授权页面中点击其他操作后，H5页面会接收到一个错误提示，可以根据错误提示进行相应的处理。
 
 
 ### WechatService.java
@@ -781,6 +778,159 @@ public BaseResponse<List<UserDTO>> getAllUsersPagedSorted(@RequestParam int page
 - 3. EncodingAESKey配置错误：如果你启用了消息加解密功能，确保在微信公众号配置中填写的EncodingAESKey与你应用中的加解密逻辑一致。
 - 4. 服务器响应格式不正确：在接收到微信的验证请求时，确保你的接口返回的响应格式符合微信的要求，即只返回echostr参数的值。
 - 5. 网络问题：有时候网络连接不稳定或延迟可能导致微信公众号无法正确访问你的接口。确保你的服务器网络连接正常。
+
+
+#### JSSDK
+
+微信JS-SDK 主要用于在微信内的网页上调用微信的功能，如:获取**用户地理位置**、**微信支付、分享**等。
+如果你需要在你的H5页面中使用这些功能，或者需要通过微信网页直接获取用户信息而不是重定向，那么你应该引入和配置JS-SDK。
+
+如果你的目的是让用户点击按钮后通过重定向到微信授权页面进行登录，那么不需要引入微信JS-SDK。
+这种情况下，用户的登录流程是完全由后端处理的，前端只负责触发重定向。
+
+* 引入JS-SDK:
+
+1. 在你的HTML页面中，添加以下脚本标签来引入微信JS-SDK。
+
+```html
+   <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+```
+
+2. 配置JS-SDK:
+
+你需要后端提供JS-SDK的配置信息，包括appId, timestamp, nonceStr, signature等。 这些信息需要通过调用微信的接口获得。
+
+配置示例如下：
+
+```jshelllanguage
+   wx.config({
+       debug: true, // 开启调试模式
+       appId: '你的AppID', // 必填，公众号的唯一标识
+       timestamp: '生成签名的时间戳', // 必填，生成签名的时间戳
+       nonceStr: '生成签名的随机串', // 必填，生成签名的随机串
+       signature: '签名', // 必填，签名
+       jsApiList: ['checkJsApi', 'onMenuShareTimeline', 'onMenuShareAppMessage'] // 必填，需要使用的JS接口列表
+   });
+```
+
+3. 发起微信登录请求:
+
+使用JS-SDK来处理登录，可以使用wx.login方法来发起微信登录请求。
+
+```jshelllanguage
+   wx.login({
+       success: function(res) {
+           if (res.code) {
+               // 使用返回的code去后端换取access_token等信息
+           } else {
+               console.log('登录失败！' + res.errMsg);
+           }
+       }
+   });
+```
+
+4. 使用jssdk
+
+```html
+<script>
+wx.ready(function() {
+    // 获取地理位置
+    wx.getLocation({
+        type: 'wgs84',
+        success: function (res) {
+            var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+            var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+            var speed = res.speed; // 速度，以米/每秒计
+            var accuracy = res.accuracy; // 位置精度
+            alert('Latitude: ' + latitude + '\nLongitude: ' + longitude);
+        }
+    });
+
+    // 配置分享给朋友的信息
+    wx.updateAppMessageShareData({ 
+        title: '分享标题', // 分享标题
+        desc: '分享描述', // 分享描述
+        link: 'https://yourwebsite.com', // 分享链接
+        imgUrl: 'https://yourwebsite.com/image.jpg', // 分享图标
+        success: function () {
+          // 设置成功
+          alert('已分享');
+        }
+    });
+
+    // 配置分享到朋友圈的信息
+    wx.updateTimelineShareData({ 
+        title: '分享标题', // 分享标题
+        link: 'https://yourwebsite.com', // 分享链接
+        imgUrl: 'https://yourwebsite.com/image.jpg', // 分享图标
+        success: function () {
+          // 设置成功
+          alert('已分享到朋友圈');
+        }
+    });
+});
+</script>
+```
+5. 使用wx.getUserInfo方法来获取用户信息。
+
+```jshelllanguage
+wx.getUserInfo({
+          success: function(res) {
+          var userInfo = res.userInfo;
+          // 在这里可以对用户信息进行处理
+      },
+      fail: function(res) {
+          // 获取用户信息失败的处理
+      }
+  });
+```
+
+6. 使用wx.login方法来获取用户的code。
+
+```jshelllanguage
+wx.login({
+      success: function(res) {
+          if (res.code) {
+              // 可以使用code去换取用户的openid和session_key
+          } else {
+                        console.log('登录失败！' + res.errMsg)
+          }
+      },
+      fail: function(res) {
+          console.log(res);
+      }
+  });
+```
+
+7. 使用wx.request方法来向服务器发送请求。
+
+```jshelllanguage
+wx.request({
+      url: 'https://yourwebsite.com/api', // 服务器接口地址
+      data: {
+          code: res.code // 用户的code
+      },
+      method: 'POST',
+      header: {
+                  
+              }
+      }
+}
+```
+
+7. 错误处理
+
+```html
+<script>
+wx.error(function(res){
+    // config信息验证失败会执行error函数，如签名过期导致验证失败
+    alert("Error: " + res.errMsg);
+});
+</script>
+```
+
+
+
 
 ### 网页扫码登录
 

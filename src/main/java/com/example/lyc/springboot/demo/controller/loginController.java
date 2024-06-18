@@ -22,7 +22,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import java.util.Arrays;
 import java.util.Collections;
-
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 @Controller
 @RequestMapping("/login")
 public class loginController {
@@ -78,34 +79,58 @@ public class loginController {
     // H5微信登录
     @GetMapping("/wechat")
     public ModelAndView wechatLogin() {
-        // String appid = env.getProperty("wechat.appid");// 从application.properties获取appid
-        // String redirectUri = env.getProperty("wechat.redirect.uri");// 
-        // 构建微信登录URL
-        String url = "https://open.weixin.qq.com/connect/qrconnect?appid=" + 
-        appid +
-        "&redirect_uri=" + 
-        redirectUri +
-        "&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect";
-        // 这里应该是重定向到微信的授权页面，具体URL根据实际情况填写
-        return new ModelAndView("redirect:" + url);
+//        // String appid = env.getProperty("wechat.appid");// 从application.properties获取appid
+//        // String redirectUri = env.getProperty("wechat.redirect.uri");//
+//        // 构建微信登录URL
+//        String url = "https://open.weixin.qq.com/connect/qrconnect?appid=" +
+//        appid +
+//        "&redirect_uri=" +
+//        redirectUri +
+//        "&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect";
+//        // 这里应该是重定向到微信的授权页面，具体URL根据实际情况填写
+//        return new ModelAndView("redirect:" + url);
+        try {
+            // String appid = env.getProperty("wechat.appid");// 从application.properties获取appid
+            // String redirectUri = env.getProperty("wechat.redirect.uri");//
+            // 构建微信登录URL
+            // 对redirectUri进行URL编码
+            String encodedRedirectUri = URLEncoder.encode(redirectUri, StandardCharsets.UTF_8.toString());
+            String url = "https://open.weixin.qq.com/connect/qrconnect?appid=" +
+                    appid +
+                    "&redirect_uri=" +
+                    encodedRedirectUri +
+                    "&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect";
+            // 这里应该是重定向到微信的授权页面，具体URL根据实际情况填写
+            return new ModelAndView("redirect:" + url);
+        } catch (Exception e) {
+            // 处理编码异常
+            e.printStackTrace();
+            return new ModelAndView("error"); // 或者返回一个错误页面
+        }
+
+
     }
 
     // H5微信回调
     @GetMapping("/wechat/callback")
     public String wechatCallback(@RequestParam String code, @RequestParam String state) {
-       // 调用服务获取access_token
-       WechatService.AccessTokenResponse tokenResponse = wechatService.getAccessToken(code, state);
-       String accessToken = tokenResponse.getAccessToken();
-       String openid = tokenResponse.getOpenid();
-       // 使用access_token获取用户信息
-       WechatUser wechatUser = wechatService.getUserInfo(accessToken, openid);
-       User user = userService.loginOrCreateWechatUser(wechatUser);
-       // 根据业务逻辑处理用户信息，例如创建用户、生成JWT等
-       return "userProfile"; // 或者重定向到其他页面
-    }
+        // 调用服务获取access_token
+        WechatService.AccessTokenResponse tokenResponse = wechatService.getAccessToken(code, "authorization_code");
+        if (tokenResponse == null || tokenResponse.getAccessToken() == null) {
+            return "error"; // 或者重定向到错误页面
+        }
+        String accessToken = tokenResponse.getAccessToken();
+        String openid = tokenResponse.getOpenid();
+        // 使用access_token获取用户信息
+        WechatUser wechatUser = wechatService.getUserInfo(accessToken, openid);
+        User user = userService.loginOrCreateWechatUser(wechatUser);
+        // 根据业务逻辑处理用户信息，例如创建用户、生成JWT等
+        return "userProfile"; // 或者重定向到其他页面
+     }
 
     // 验证微信回调
     @GetMapping("/wechat/verify")
+    @ResponseBody  // 添加这个注解
     public String verifyWechatToken(
             @RequestParam(name = "signature") String signature,
             @RequestParam(name = "timestamp") String timestamp,
