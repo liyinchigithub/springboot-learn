@@ -20,8 +20,9 @@ import org.springframework.stereotype.Component;
 @Component //  注册到spring容器
 @Schema(name = "User", description = "用户实体类") // swagger 标注
 public class User {
+    // 下面参数要和UserMapper.xml一致
     @Schema(name = "wechatOpenId", description = "微信用户的唯一标识")
-    private String wechatOpenId; // 微信用户的唯一标识
+    private String wechatOpenId; // 微信用户的唯一标识，数据库定义wechat_openid、请求接口是openid、User类和UserMapper.xml是wechatOpenId
     @Schema(name = "id", description = "用户id")
     private int id;
     @Schema(name = "userName", description = "用户名")

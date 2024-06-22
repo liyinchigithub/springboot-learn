@@ -1,6 +1,6 @@
 wechat:
-  appid:  # 微信应用ID
-  secret:  # 微信应用密钥
+  appid:   # 微信应用ID
+  secret:   # 微信应用密钥
   redirect:
     uri:  https://3z5753f148.vicp.fun/login/wechat/callback # 回调URL
 app:

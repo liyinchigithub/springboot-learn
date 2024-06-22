@@ -2493,13 +2493,152 @@ docker info
 
 - 问题原因：appid和appsecret不匹配
 
-参考：https://developers.weixin.qq.com/community/develop/doc/0000886514c7987cbf40d2b846b000?highLine=invalid%2520appsecret
+参考：https://developers.weixUserin.qq.com/community/develop/doc/0000886514c7987cbf40d2b846b000?highLine=invalid%2520appsecret
 
 
-11. 
+11. Nginx反向代理
+
+>https://www.cnblogs.com/lujunan/p/12447275.html?tt_from=weixin&utm_source=weixin&utm_medium=toutiao_ios&utm_campaign=client_share&wxshare_count=1
 
 
-12.
+
+12. 返回内容类型不一致
+
+从微信API获取用户信息时，返回的内容类型是 text/plain，而 RestTemplate 没有适当的 HttpMessageConverter 来处理这种类型，导致无法将响应转换为 WechatUser 类型的对象。
+
+解决方法：
+- 添加相应的 HttpMessageConverter 来处理 text/plain 类型的响应。
+- 或者，修改微信API的返回内容类型为 application/json，以使 RestTemplate 可以正确处理响应。
+
+要解决这个问题，你需要确保 RestTemplate 能够处理 text/plain 类型的响应，并能将其转换为所需的对象。这通常涉及到添加一个自定义的 HttpMessageConverter，它能够将 text/plain 类型的响应解析为 JSON，然后再将 JSON 转换为对象。
 
 
-13.
+
+13. **返回内容类型**是统一在哪里定义的？比如有text、xml、json不同格式是不是要分开定义？
+
+在 Spring Framework 中，返回内容类型通常是通过 HttpMessageConverter 接口的实现来定义的，这些转换器负责在 HTTP 请求和响应之间
+转换数据。每种数据格式（如 JSON, XML, 文本等）通常都有对应的转换器来处理。Spring 自动配置了一些默认的转换器，但你也可以自定义或添加新的转换器来支持更多的媒体类型。
+
+* 默认的 HttpMessageConverter 实现
+Spring 提供了以下一些默认的 HttpMessageConverter 实现：
+- ByteArrayHttpMessageConverter —— 处理字节流。
+- StringHttpMessageConverter —— 处理字符串。
+- MappingJackson2HttpMessageConverter —— 处理 JSON（使用 Jackson 库）。
+- MappingJackson2XmlHttpMessageConverter —— 处理 XML（使用 Jackson 的 XML 扩展）。
+- Jaxb2RootElementHttpMessageConverter —— 处理 XML（使用 JAXB）。
+
+* 配置多种内容类型
+如果你需要处理不同的内容类型，你可以向 RestTemplate 的转换器列表中添加多个转换器。每个转换器可以设置支持的媒体类型。例如，如果你需要同时处理 JSON 和 XML 响应，你可以这样配置：
+
+```java
+@Bean
+public RestTemplate restTemplate() {
+    RestTemplate restTemplate = new RestTemplate();
+
+    // 获取默认的转换器列表
+    List<HttpMessageConverter<?>> messageConverters = new ArrayList<>(restTemplate.getMessageConverters());
+
+    // 配置JSON转换器
+    MappingJackson2HttpMessageConverter jsonConverter = new MappingJackson2HttpMessageConverter();
+    jsonConverter.setSupportedMediaTypes(Arrays.asList(MediaType.APPLICATION_JSON, MediaType.TEXT_PLAIN));
+    messageConverters.add(jsonConverter);
+
+    // 配置XML转换器
+    Jaxb2RootElementHttpMessageConverter xmlConverter = new Jaxb2RootElementHttpMessageConverter();
+    xmlConverter.setSupportedMediaTypes(Arrays.asList(MediaType.APPLICATION_XML));
+    messageConverters.add(xmlConverter);
+
+    // 设置自定义的转换器列表
+    restTemplate.setMessageConverters(messageConverters);
+
+    return restTemplate;
+}
+```
+
+在这个例子中，**MappingJackson2HttpMessageConverter 被配置为处理 JSON 和纯文本（text/plain）**，而 **Jaxb2RootElementHttpMessageConverter 被配置为处理 XML**。这样，RestTemplate 就可以根据**响应的 Content-Type 头部**来选择合适的转换器进行数据转换。
+
+* 总结
+
+通过适当配置 HttpMessageConverter，你可以灵活地处理各种不同的内容类型。如果有特殊需求，例如处理非标准的媒体类型或自定义数据格式，你也可以实现自己的 HttpMessageConverter。
+
+14. 返回数据类型Thymeleaf模版、json
+
+（1）使用 Thymeleaf 作为模板引擎
+
+- ① 创建 Thymeleaf 模板文件
+在你的 Spring Boot 项目中，通常模板文件位于 src/main/resources/templates 目录下。
+
+创建一个名为 userProfile.html 的文件：
+
+```html
+<!-- src/main/resources/templates/userProfile.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>User Profile</h1>
+    <div>
+        <p>Username: <span th:text="${user.userName}"></span></p>
+        <p>WeChat OpenID: <span th:text="${user.wechatOpenId}"></span></p>
+        <!-- 添加更多用户信息 -->
+    </div>
+</body>
+</html>
+```
+
+- ② 修改控制器方法
+
+确保你的控制器方法返回的是视图名称，并且向模型中添加了必要的数据。
+
+```java
+@GetMapping("/userProfile")
+public String userProfile(Model model) {
+    // 从数据库或其他地方获取用户信息
+    User user = userService.getUserById(1); // 示例方法，实际情况可能需要根据用户ID或OpenID查询
+    model.addAttribute("user", user);
+    return "userProfile";
+}
+```
+
+（2） 使用json
+
+```java
+// H5微信回调
+    @GetMapping("/wechat/callback")
+    public ResponseEntity<?> wechatCallback(@RequestParam String code, @RequestParam String state) {
+        // 调用服务获取access_token
+        WechatService.AccessTokenResponse tokenResponse = wechatService.getAccessToken(code, "authorization_code");
+        
+        // 当方法返回类型是json时，可以直接返回
+        if (tokenResponse == null || tokenResponse.getAccessToken() == null) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Failed to retrieve access token");
+        }
+
+        String accessToken = tokenResponse.getAccessToken();
+        String openid = tokenResponse.getOpenid();
+        System.out.println("AccessToken: " + accessToken);
+        System.out.println("OpenID: " + openid);
+        
+        // 使用access_token获取用户信息
+        WechatUser wechatUser = wechatService.getUserInfo(accessToken, openid);
+        
+        // 当方法返回类型是json时，可以直接返回
+        if (wechatUser == null) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found");
+        }
+        // 根据业务逻辑处理用户信息，例如创建用户、生成JWT等
+        wechatUser.setOpenId(openid); // 确保设置了openid
+        User user = userService.loginOrCreateWechatUser(wechatUser);// 检查或创建用户
+
+        // 返回用户信息的 JSON
+        return ResponseEntity.ok(user);
+    }
+```
+
+15.
+
+
+16.

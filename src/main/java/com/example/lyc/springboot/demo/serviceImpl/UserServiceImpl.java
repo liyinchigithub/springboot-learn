@@ -4,6 +4,7 @@ import com.example.lyc.springboot.demo.event.MyEvent;
 import com.example.lyc.springboot.demo.service.UserService;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.ibatis.session.RowBounds;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
@@ -126,12 +127,28 @@ public class UserServiceImpl implements UserService {
         User user = userMapper.findByWechatOpenId(wechatUser.getOpenId());
         if (user == null) {
             user = new User();
+            System.out.println("创建微信用户");
+            log.info("wechatUser.getOpenId()："+wechatUser.getOpenId());
+            // 设置其他必要属性，例如用户名等
             user.setWechatOpenId(wechatUser.getOpenId());
-            // 设置其他属性
+            // 随机字母+数字
+            String randomString = RandomStringUtils.randomAlphanumeric(10);
+            user.setUserName(randomString); // 示例：设置默认用户名，实际应用中应根据实际情况设置
+            user.setPassword("123456"); // 示例：设置默认密码，实际应用中应根据实际情况设置
             userMapper.insertUser(user);
+            // 确保新插入的用户ID被设置
+            user = userMapper.findByWechatOpenId(wechatUser.getOpenId());
+            // 判断是否插入成功
+            if (user == null) {
+                throw new RuntimeException("创建微信用户失败");
+            }
+            // 调试输出
+            System.out.println("创建微信用户成功");
+        } else {
+            System.out.println("已有微信用户，不创建，登录微信用户");
         }
-            return user;
-        }
+        return user;
+    }
 
     /**
      * 发布事件

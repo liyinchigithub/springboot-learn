@@ -1,5 +1,14 @@
 package com.example.lyc.springboot.demo.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class WechatUser {
     private String openId; // 用户的唯一标识
     private String nickname; // 用户昵称
@@ -10,59 +19,25 @@ public class WechatUser {
     private String avatarUrl; // 用户头像
 
     // Getters and Setters
-    public String getOpenId() {
-        return openId;
-    }
-
-    public void setOpenId(String openId) {
-        this.openId = openId;
-    }
-
-    public String getNickname() {
-        return nickname;
-    }
-
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
-    public String getProvince() {
-        return province;
-    }
-
-    public void setProvince(String province) {
-        this.province = province;
-    }
-
-    public String getAvatarUrl() {
-        return avatarUrl;
-    }
-
-    public void setAvatarUrl(String avatarUrl) {
-        this.avatarUrl = avatarUrl;
+    @Override
+    public String toString() {
+        log.info("WechatUser{" +
+               "openId='" + openId + '\'' +
+               ", nickname='" + nickname + '\'' +
+               ", gender='" + gender + '\'' +
+               ", city='" + city + '\'' +
+               ", country='" + country + '\'' +
+               ", province='" + province + '\'' +
+               ", avatarUrl='" + avatarUrl + '\'' +
+               '}');
+        return "WechatUser{" +
+               "openId='" + openId + '\'' +
+               ", nickname='" + nickname + '\'' +
+               ", gender='" + gender + '\'' +
+               ", city='" + city + '\'' +
+               ", country='" + country + '\'' +
+               ", province='" + province + '\'' +
+               ", avatarUrl='" + avatarUrl + '\'' +
+               '}';
     }
 }

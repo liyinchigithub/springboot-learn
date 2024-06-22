@@ -24,6 +24,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.Map;
+
 @Controller
 @RequestMapping("/login")
 public class loginController {
@@ -113,20 +116,54 @@ public class loginController {
 
     // H5微信回调
     @GetMapping("/wechat/callback")
-    public String wechatCallback(@RequestParam String code, @RequestParam String state) {
+    // 方法返回类型可以是String、json、ResponseEntity
+    public ResponseEntity<?> wechatCallback(@RequestParam String code, @RequestParam String state) {
         // 调用服务获取access_token
         WechatService.AccessTokenResponse tokenResponse = wechatService.getAccessToken(code, "authorization_code");
+        
+        // 当方法返回类型是String时，可以直接返回
+        // if (tokenResponse == null || tokenResponse.getAccessToken() == null) {
+        //     return "error"; // 或者重定向到错误页面
+        // }
+
+        // 当方法返回类型是json时，可以直接返回
         if (tokenResponse == null || tokenResponse.getAccessToken() == null) {
-            return "error"; // 或者重定向到错误页面
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Failed to retrieve access token");
         }
+
         String accessToken = tokenResponse.getAccessToken();
         String openid = tokenResponse.getOpenid();
+        System.out.println("AccessToken: " + accessToken);
+        System.out.println("OpenID: " + openid);
+        
         // 使用access_token获取用户信息
         WechatUser wechatUser = wechatService.getUserInfo(accessToken, openid);
-        User user = userService.loginOrCreateWechatUser(wechatUser);
+        
+        // 当方法返回类型是String时，可以直接返回
+        // if (wechatUser == null) {
+        //     System.out.println("未能获取微信用户信息");
+        //     return "error";
+        // }
+        
+        // 当方法返回类型是json时，可以直接返回
+        if (wechatUser == null) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found");
+        }
         // 根据业务逻辑处理用户信息，例如创建用户、生成JWT等
-        return "userProfile"; // 或者重定向到其他页面
-     }
+        wechatUser.setOpenId(openid); // 确保设置了openid
+        User user = userService.loginOrCreateWechatUser(wechatUser);// 检查或创建用户
+
+        // 当方法返回类型是String时，可以直接返回
+        // return "userProfile"; // 或者重定向到其他页面
+
+       // 创建一个包含用户和微信用户信息的响应对象
+        Map<String, Object> response = new HashMap<>();
+        response.put("user", user);
+        response.put("wechatUser", wechatUser);
+
+        // 返回包含用户信息和微信用户信息的 JSON
+        return ResponseEntity.ok(response);
+    }
 
     // 验证微信回调
     @GetMapping("/wechat/verify")
