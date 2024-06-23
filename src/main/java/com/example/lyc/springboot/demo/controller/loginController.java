@@ -119,7 +119,7 @@ public class loginController {
     // 方法返回类型可以是String、json、ResponseEntity
     public ResponseEntity<?> wechatCallback(@RequestParam String code, @RequestParam String state) {
         // 调用服务获取access_token
-        WechatService.AccessTokenResponse tokenResponse = wechatService.getAccessToken(code, "authorization_code");
+        // WechatService.AccessTokenResponse tokenResponse = wechatService.getAccessToken(code, "authorization_code");
         
         // 当方法返回类型是String时，可以直接返回
         // if (tokenResponse == null || tokenResponse.getAccessToken() == null) {
@@ -127,17 +127,17 @@ public class loginController {
         // }
 
         // 当方法返回类型是json时，可以直接返回
-        if (tokenResponse == null || tokenResponse.getAccessToken() == null) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Failed to retrieve access token");
-        }
+        // if (tokenResponse == null || tokenResponse.getAccessToken() == null) {
+        //     return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Failed to retrieve access token");
+        // }
 
-        String accessToken = tokenResponse.getAccessToken();
-        String openid = tokenResponse.getOpenid();
-        System.out.println("AccessToken: " + accessToken);
-        System.out.println("OpenID: " + openid);
+        // String accessToken = tokenResponse.getAccessToken();
+        // String openid = tokenResponse.getOpenid();
+        // System.out.println("AccessToken: " + accessToken);
+        // System.out.println("OpenID: " + openid);
         
         // 使用access_token获取用户信息
-        WechatUser wechatUser = wechatService.getUserInfo(accessToken, openid);
+        // WechatUser wechatUser = wechatService.getUserInfo(accessToken, openid);
         
         // 当方法返回类型是String时，可以直接返回
         // if (wechatUser == null) {
@@ -145,12 +145,19 @@ public class loginController {
         //     return "error";
         // }
         
+        // 首先确保 accessToken 是有效的
+        WechatService.AccessTokenResponse tokenResponse = wechatService.ensureValidAccessToken(code);
+
+        // 使用有效的 accessToken 和 openid 获取用户信息
+        WechatUser wechatUser = wechatService.getUserInfo(tokenResponse.getAccessToken(), tokenResponse.getOpenid());
+
         // 当方法返回类型是json时，可以直接返回
         if (wechatUser == null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found");
         }
+        
         // 根据业务逻辑处理用户信息，例如创建用户、生成JWT等
-        wechatUser.setOpenId(openid); // 确保设置了openid
+        wechatUser.setOpenId(tokenResponse.getOpenid()); // 确保设置了openid
         User user = userService.loginOrCreateWechatUser(wechatUser);// 检查或创建用户
 
         // 当方法返回类型是String时，可以直接返回
